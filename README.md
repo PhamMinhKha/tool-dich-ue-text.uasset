@@ -126,8 +126,41 @@ DichGame/
 └── README.md
 ```
 
+## Dịch tự động bằng Google Gemini AI
+
+### Cài đặt thư viện
+```bash
+pip3 install -r requirements.txt
+```
+
+### Cài đặt API Key
+```bash
+# Cách 1: Biến môi trường (khuyến nghị)
+export GEMINI_API_KEY='your-api-key-here'
+
+# Cách 2: Truyền trực tiếp
+python3 auto_translator.py translate file.json --api-key your-api-key-here
+```
+
+### Dịch một file JSON
+```bash
+python3 auto_translator.py translate extract/GDSSystemText_texts.json
+```
+
+### Dịch tất cả file trong folder extract
+```bash
+python3 auto_translator.py batch
+```
+
+### Tính năng của Auto Translator
+- **🤖 AI Translation**: Sử dụng Google Gemini Pro để dịch tự nhiên
+- **📚 Dictionary**: Ưu tiên sử dụng từ điển `tudien.json`
+- **💾 Smart Cache**: Lưu cache để tránh dịch lại
+- **📊 Progress Tracking**: Hiển thị tiến trình và thống kê
+- **⚡ Rate Limiting**: Tự động delay để tránh vượt giới hạn API
+
 ### Demo nhanh
-Chạy demo để xem cách dịch:
+Chạy demo để xem cách dịch thủ công:
 ```bash
 python3 demo_translation.py
 ```
