@@ -80,7 +80,7 @@ class AutoTranslator:
         """Cấu hình Gemini model với API key hiện tại"""
         current_key = self.api_keys[self.current_key_index]
         genai.configure(api_key=current_key)
-        self.model = genai.GenerativeModel('gemini-1.5-flash')
+        self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
         print(f"🔑 Sử dụng API key #{self.current_key_index + 1}/{len(self.api_keys)}")
     
     def switch_to_next_key(self) -> bool:
@@ -125,6 +125,14 @@ class AutoTranslator:
             except Exception as e:
                 print(f"⚠️  Lỗi khi đọc từ điển: {e}")
         return {}
+    
+    def save_dictionary(self):
+        """Lưu từ điển ra file tudien.json"""
+        try:
+            with open(self.dictionary_file, 'w', encoding='utf-8') as f:
+                json.dump(self.dictionary, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"⚠️  Lỗi khi lưu từ điển: {e}")
     
     def add_command_tags_to_dictionary(self):
         """Thêm các command tags vào từ điển để đảm bảo chúng không bị dịch"""
@@ -254,7 +262,7 @@ class AutoTranslator:
         """Dịch text bằng Google Gemini với bối cảnh game và multiple API keys (xoay vòng)"""
         import time
         
-        max_cycles = 2  # Số vòng xoay tối đa
+        max_cycles = 5  # Số vòng xoay tối đa
         keys_per_cycle = len(self.api_keys)
         total_attempts = 0
         max_total_attempts = max_cycles * keys_per_cycle
