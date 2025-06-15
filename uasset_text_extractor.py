@@ -256,11 +256,11 @@ class UAssetTextExtractor:
                 self.size_offset_position = struct.unpack('<I', self.original_data[0x20:0x24])[0]
                 print(f"📍 Size offset position: {self.size_offset_position} (0x{self.size_offset_position:X})")
                 
-                # Đọc kích thước gốc tại vị trí được chỉ định (tăng thêm 8)
-                actual_size_position = self.size_offset_position + 8
-                if self.size_offset_position > 0 and actual_size_position + 4 <= len(self.original_data):
-                    self.original_file_size = struct.unpack('<I', self.original_data[actual_size_position:actual_size_position+4])[0]
-                    print(f"📏 Original file size: {self.original_file_size} bytes (đọc từ offset 0x{actual_size_position:X} = 0x{self.size_offset_position:X} + 8)")
+                if self.size_offset_position > 0 and self.size_offset_position < len(self.original_data):
+                    # Tính kích thước từ size_offset_position đến cuối file, trừ thêm 104
+                    self.original_file_size = len(self.original_data) - self.size_offset_position - 104
+                    print(f"📏 Original file size: {self.original_file_size} bytes (tính từ offset 0x{self.size_offset_position:X} đến cuối file, trừ 104)")
+                    print(f"📏 Công thức: {len(self.original_data)} - {self.size_offset_position} - 104 = {self.original_file_size}")
                     return True
                 else:
                     print(f"⚠️ Size offset position không hợp lệ: {self.size_offset_position} (file size: {len(self.original_data)})")
@@ -270,32 +270,65 @@ class UAssetTextExtractor:
             self.size_offset_position = 0
         return False
     
-    def _calculate_new_file_size(self, new_data: bytearray) -> int:
-        """Tính toán kích thước file mới theo công thức: len(new_data) - 4 byte cuối (C1 83 2A 9E) - 100"""
+    def _insert_data_at_position(self, data: bytearray, position: int, new_data: bytes, old_length: int) -> tuple[bytearray, int]:
+        """Thay thế dữ liệu tại vị trí cụ thể với dynamic resizing
+        Returns: (updated_data, size_change)
+        """
         try:
-            # Kiểm tra 4 byte cuối có phải là C1 83 2A 9E không
-            if len(new_data) >= 4:
-                last_4_bytes = new_data[-4:]
-                expected_bytes = bytes([0xC1, 0x83, 0x2A, 0x9E])
-                
-                if last_4_bytes == expected_bytes:
-                    new_size = len(new_data) - 4 - 100
-                    print(f"📐 Tính toán kích thước mới: {len(new_data)} - 4 - 100 = {new_size}")
-                    return new_size
-                else:
-                    print(f"⚠️ 4 byte cuối không phải C1 83 2A 9E: {last_4_bytes.hex().upper()}")
+            new_length = len(new_data)
+            size_change = new_length - old_length
             
-            # Fallback: chỉ trừ 100
-            new_size = len(new_data) - 100
-            print(f"📐 Tính toán kích thước mới (fallback): {len(new_data)} - 100 = {new_size}")
-            return new_size
+            print(f"🔄 Thay thế tại 0x{position:X}: {old_length} -> {new_length} bytes (thay đổi: {size_change:+d})")
+            
+            # Bước 1: Xóa toàn bộ vùng cũ
+            del data[position:position + old_length]
+            print(f"🗑️ Đã xóa {old_length} bytes tại vị trí 0x{position:X}")
+            
+            # Bước 2: Chèn dữ liệu mới vào vị trí đó
+            data[position:position] = new_data
+            print(f"✏️ Đã chèn {new_length} bytes tại vị trí 0x{position:X}")
+            
+            return data, size_change
+            
+        except Exception as e:
+            print(f"❌ Lỗi khi thay thế dữ liệu: {e}")
+            import traceback
+            traceback.print_exc()
+            return data, 0
+    
+    def _calculate_new_file_size(self, new_data: bytearray, size_offset_position: int = None) -> int:
+        """Tính toán kích thước file mới từ size_offset_position đến cuối file, trừ thêm 104"""
+        try:
+            if size_offset_position is not None and size_offset_position > 0:
+                # Tính từ size_offset_position đến cuối file, trừ thêm 104
+                new_size = len(new_data) - size_offset_position - 104
+                print(f"📐 Tính toán kích thước mới từ offset 0x{size_offset_position:X}: {len(new_data)} - {size_offset_position} - 104 = {new_size}")
+                return new_size
+            else:
+                # Fallback: tính theo cách cũ
+                # Kiểm tra 4 byte cuối có phải là C1 83 2A 9E không
+                if len(new_data) >= 4:
+                    last_4_bytes = new_data[-4:]
+                    expected_bytes = bytes([0xC1, 0x83, 0x2A, 0x9E])
+                    
+                    if last_4_bytes == expected_bytes:
+                        new_size = len(new_data) - 4 - 100
+                        print(f"📐 Tính toán kích thước mới (fallback): {len(new_data)} - 4 - 100 = {new_size}")
+                        return new_size
+                    else:
+                        print(f"⚠️ 4 byte cuối không phải C1 83 2A 9E: {last_4_bytes.hex().upper()}")
+                
+                # Fallback cuối cùng: chỉ trừ 100
+                new_size = len(new_data) - 100
+                print(f"📐 Tính toán kích thước mới (fallback): {len(new_data)} - 100 = {new_size}")
+                return new_size
             
         except Exception as e:
             print(f"❌ Lỗi khi tính toán kích thước mới: {e}")
             return len(new_data)
 
     def rebuild_uasset(self, json_data: Dict, output_file: str):
-        """Tái tạo file .uasset với text đã chỉnh sửa, cập nhật đúng len và size tổng cho UTF-8/UTF-16"""
+        """Tái tạo file .uasset với text đã chỉnh sửa, cập nhật đúng len và size tổng cho UTF-8/UTF-16 với dynamic resizing"""
         try:
             # Bắt đầu với dữ liệu gốc
             new_data = bytearray(self.original_data)
@@ -305,47 +338,101 @@ class UAssetTextExtractor:
             original_file_size = file_info.get('original_file_size', self.original_file_size)
             size_offset_position = file_info.get('size_offset_position', self.size_offset_position)
             
-            for entry in json_data.get('text_entries', []):
+            # Theo dõi tổng thay đổi kích thước để cập nhật các offset sau
+            total_size_change = 0
+            processed_entries = []
+            
+            # Sắp xếp entries theo position để xử lý từ cuối lên đầu (tránh ảnh hưởng offset)
+            sorted_entries = sorted(json_data.get('text_entries', []), key=lambda x: x['position'], reverse=True)
+            
+            for entry in sorted_entries:
                 original_text = entry['original_text']
                 translated_text = entry['translated_text']
                 position = entry['position']
                 length = entry['length']
                 key = entry['key']
+                
                 if original_text == translated_text:
                     continue
+                    
+                print(f"\n🔄 Xử lý entry tại 0x{position:X}: '{original_text}' -> '{translated_text}'")
+                
                 if key.startswith('utf8_entry'):
                     # <u32 len><string + 1>
                     new_bytes = translated_text.encode('utf-8') + b'\x00'
                     new_len = len(new_bytes)
-                    # Ghi lại len mới
+                    # length đã bao gồm cả null terminator, vậy old_text_length = length
+                    old_text_length = length
+                    
+                    # Cập nhật length field
                     new_data[position:position+4] = struct.pack('<i', new_len)
-                    # Ghi lại text mới
-                    new_data[position+4:position+4+new_len] = new_bytes
+                    
+                    # Sử dụng dynamic resizing cho text data
+                    new_data, size_change = self._insert_data_at_position(
+                        new_data, position + 4, new_bytes, old_text_length
+                    )
+                    total_size_change += size_change
+                    
                 elif key.startswith('utf16_entry'):
                     # <u32 len^0xFF><(string + 1)/2>
                     new_bytes = translated_text.encode('utf-16-le') + b'\x00\x00'
                     new_len = len(new_bytes) // 2
-                    # Ghi lại len mới (âm, little-endian)
+                    # length đã bao gồm cả null terminator, vậy old_text_length = length
+                    old_text_length = length
+                    
+                    # Cập nhật length field (âm, little-endian)
                     new_data[position:position+4] = struct.pack('<i', -new_len)
-                    # Ghi lại text mới
-                    new_data[position+4:position+4+len(new_bytes)] = new_bytes
+                    
+                    # Sử dụng dynamic resizing cho text data
+                    new_data, size_change = self._insert_data_at_position(
+                        new_data, position + 4, new_bytes, old_text_length
+                    )
+                    total_size_change += size_change
+                
+                processed_entries.append({
+                    'position': position,
+                    'old_text': original_text,
+                    'new_text': translated_text,
+                    'size_change': size_change if 'size_change' in locals() else 0
+                })
             
-            # Cập nhật kích thước file mới
+            print(f"\n📊 Tổng kết thay đổi kích thước: {total_size_change} bytes")
+            print(f"📏 Kích thước file: {len(self.original_data)} -> {len(new_data)} bytes")
+            
+            # Cập nhật kích thước file mới với dynamic sizing
             if size_offset_position > 0:
                 # Tính vị trí thực tế để ghi kích thước (offset + 8)
                 actual_size_position = size_offset_position + 8
                 if actual_size_position + 4 <= len(new_data):
-                    new_file_size = self._calculate_new_file_size(new_data)
+                    # Tính vị trí bắt đầu tính toán kích thước (actual_size_position + 4)
+                    start_calc_position = actual_size_position + 4
+                    new_file_size = self._calculate_new_file_size(new_data, start_calc_position)
                     new_data[actual_size_position:actual_size_position+4] = struct.pack('<I', new_file_size)
                     print(f"📝 Đã cập nhật kích thước file tại offset 0x{actual_size_position:X} (0x{size_offset_position:X} + 8): {original_file_size} -> {new_file_size}")
+                    print(f"📏 Tính kích thước từ vị trí: 0x{start_calc_position:X}")
+                    print(f"🔄 Thay đổi tổng cộng: {total_size_change} bytes")
                 else:
                     print(f"⚠️ Vị trí ghi kích thước không hợp lệ: 0x{actual_size_position:X} vượt quá kích thước file")
             
+            # Ghi file output với kích thước mới
             with open(output_file, 'wb') as f:
                 f.write(new_data)
-            print(f"Đã tạo file mới: {output_file}")
+            
+            print(f"\n✅ Đã tạo file mới: {output_file}")
+            print(f"📈 Kích thước thay đổi: {len(self.original_data)} -> {len(new_data)} bytes ({total_size_change:+d})")
+            
+            # Hiển thị thống kê chi tiết
+            if processed_entries:
+                print(f"\n📋 Chi tiết {len(processed_entries)} entries đã xử lý:")
+                for i, entry in enumerate(processed_entries[:5], 1):  # Chỉ hiển thị 5 entries đầu
+                    print(f"  {i}. 0x{entry['position']:X}: '{entry['old_text'][:20]}...' -> '{entry['new_text'][:20]}...' ({entry['size_change']:+d} bytes)")
+                if len(processed_entries) > 5:
+                    print(f"  ... và {len(processed_entries) - 5} entries khác")
+                    
         except Exception as e:
-            print(f"Lỗi khi tái tạo file .uasset: {e}")
+            print(f"❌ Lỗi khi tái tạo file .uasset: {e}")
+            import traceback
+            traceback.print_exc()
 
 def batch_extract_all():
     """Trích xuất tất cả file .uasset trong folder hiện tại và folder 'original' ra folder 'extract'"""
