@@ -41,6 +41,9 @@ class AutoTranslator:
         self.cache = self.load_cache()
         self.dictionary = self.load_dictionary()
         
+        # Khởi tạo bảo vệ command tags
+        self.initialize_command_tag_protection()
+        
         # Thống kê
         self.stats = {
             'total': 0,
@@ -123,6 +126,56 @@ class AutoTranslator:
                 print(f"⚠️  Lỗi khi đọc từ điển: {e}")
         return {}
     
+    def add_command_tags_to_dictionary(self):
+        """Thêm các command tags vào từ điển để đảm bảo chúng không bị dịch"""
+        import re
+        
+        # Danh sách các command tags phổ biến
+        common_cmd_tags = [
+            "<CMD_MENU_ENTER>", "<CMD_MENU_BACK>", "<CMD_MENU_EXIT>",
+            "<CMD_MENU_SELECT>", "<CMD_MENU_CANCEL>", "<CMD_MENU_CONFIRM>",
+            "<CMD_ATTACK>", "<CMD_DEFEND>", "<CMD_MOVE>", "<CMD_JUMP>",
+            "<CMD_INTERACT>", "<CMD_USE>", "<CMD_INVENTORY>", "<CMD_MAP>",
+            "<CMD_PAUSE>", "<CMD_SAVE>", "<CMD_LOAD>", "<CMD_SETTINGS>"
+        ]
+        
+        # Tìm thêm command tags từ cache hiện tại
+        cmd_pattern = r'<CMD_[^>]+>'
+        found_tags = set()
+        
+        for text in self.cache.keys():
+            tags = re.findall(cmd_pattern, text)
+            found_tags.update(tags)
+        
+        # Kết hợp tất cả command tags
+        all_cmd_tags = set(common_cmd_tags) | found_tags
+        
+        # Thêm vào từ điển (giữ nguyên)
+        added_count = 0
+        for tag in all_cmd_tags:
+            tag_lower = tag.lower()
+            if tag_lower not in self.dictionary:
+                self.dictionary[tag_lower] = tag  # Giữ nguyên
+                added_count += 1
+        
+        if added_count > 0:
+            self.save_dictionary()
+            print(f"📝 Đã thêm {added_count} command tags vào từ điển")
+        
+        return added_count
+    
+    def initialize_command_tag_protection(self):
+        """Khởi tạo bảo vệ command tags: thêm vào từ điển và làm sạch cache"""
+        print("🛡️ Khởi tạo bảo vệ command tags...")
+        
+        # Thêm command tags vào từ điển
+        self.add_command_tags_to_dictionary()
+        
+        # Làm sạch cache
+        self.clean_command_tags_from_cache()
+        
+        print("✅ Hoàn thành khởi tạo bảo vệ command tags")
+    
     def get_translation_from_dictionary(self, text: str) -> Optional[str]:
         """Kiểm tra xem text có trong từ điển không"""
         text_lower = text.lower().strip()
@@ -132,6 +185,70 @@ class AutoTranslator:
         """Lấy bản dịch từ cache"""
         return self.cache.get(text)
     
+    def clean_command_tags_from_cache(self):
+        """Làm sạch cache, loại bỏ các command tags đã bị dịch sai"""
+        import re
+        
+        cmd_pattern = r'<CMD_[^>]+>'
+        cleaned_count = 0
+        
+        # Tạo danh sách các key cần xóa
+        keys_to_remove = []
+        
+        for original_text, translated_text in self.cache.items():
+            # Kiểm tra nếu text gốc chứa command tags
+            original_cmds = re.findall(cmd_pattern, original_text)
+            
+            if original_cmds:
+                # Kiểm tra nếu bản dịch không chứa command tags (đã bị dịch sai)
+                translated_cmds = re.findall(cmd_pattern, translated_text)
+                
+                if len(original_cmds) != len(translated_cmds) or set(original_cmds) != set(translated_cmds):
+                    keys_to_remove.append(original_text)
+                    cleaned_count += 1
+                    print(f"🧹 Xóa cache sai: '{original_text}' -> '{translated_text}'")
+        
+        # Xóa các entries sai
+        for key in keys_to_remove:
+            del self.cache[key]
+        
+        if cleaned_count > 0:
+            self.save_cache()
+            print(f"✅ Đã làm sạch {cleaned_count} entries trong cache")
+        else:
+            print("✅ Cache đã sạch, không có command tags bị dịch sai")
+        
+        return cleaned_count
+    
+
+    def validate_command_tags(self, original: str, translated: str) -> str:
+        """Kiểm tra và khôi phục command tags nếu bị dịch nhầm"""
+        import re
+        
+        # Tìm tất cả command tags trong text gốc
+        cmd_pattern = r'<CMD_[^>]+>'
+        original_cmds = re.findall(cmd_pattern, original)
+        
+        # Nếu có command tags trong text gốc
+        if original_cmds:
+            for cmd in original_cmds:
+                if cmd not in translated:
+                    print(f"⚠️  Phát hiện command tag bị mất hoặc dịch: {cmd}")
+                    # Tìm và thay thế các phiên bản đã dịch
+                    # Ví dụ: nếu <CMD_MENU_ENTER> bị dịch thành "Vào menu"
+                    # thì ta cần khôi phục lại
+                    if "menu" in translated.lower() and "CMD_MENU" in cmd:
+                        # Thay thế các từ có thể là bản dịch của command
+                        translated = re.sub(r'[Vv]ào menu|[Ee]nter menu|[Mm]enu enter', cmd, translated)
+                    elif "back" in translated.lower() and "CMD_MENU_BACK" in cmd:
+                        translated = re.sub(r'[Tt]rở lại|[Bb]ack|[Qq]uay lại', cmd, translated)
+                    elif "jump" in translated.lower() and "CMD_JUMP" in cmd:
+                        translated = re.sub(r'[Nn]hảy|[Jj]ump', cmd, translated)
+                    else:
+                        # Nếu không tìm thấy, thêm command tag vào cuối
+                        translated = f"{translated} {cmd}"
+        
+        return translated
 
     def translate_with_gemini(self, text: str) -> str:
         """Dịch text bằng Google Gemini với bối cảnh game và multiple API keys (xoay vòng)"""
@@ -151,15 +268,26 @@ Hãy dịch đoạn text sau sang tiếng Việt một cách tự nhiên và ph�
 
 Text: "{text}"
 
-Yêu cầu:
+Yêu cầu QUAN TRỌNG:
 - Dịch chính xác và tự nhiên cho game
 - Giữ nguyên ý nghĩa gốc
 - Sử dụng thuật ngữ game phù hợp
-- KHÔNG ĐƯỢC dịch nội dung bên trong dấu ngoặc vuông [...] - giữ nguyên hoàn toàn
-- Giữ nguyên các ký hiệu đặc biệt như [CGUIDE_INVALID], [C], [撤去/てっきょ] nếu có
+- **TUYỆT ĐỐI KHÔNG ĐƯỢC dịch bất kỳ nội dung nào bên trong:**
+  * Dấu ngoặc vuông [...] - giữ nguyên hoàn toàn
+  * Dấu ngoặc nhọn <...> - giữ nguyên hoàn toàn
+  * Các command tags như <CMD_MENU_ENTER>, <CMD_MENU_BACK>, <CMD_JUMP>, <CMD_BTL_ATTACK>, v.v.
+- Giữ nguyên hoàn toàn các ký hiệu đặc biệt và command tags
 - Chỉ trả về bản dịch, không giải thích
 - Nếu text chứa ký tự Nhật Bản, hãy dịch phần có thể dịch được
-- Ví dụ: "Hello [WORLD]" -> "Xin chào [WORLD]" (không dịch WORLD)
+
+Ví dụ CHÍNH XÁC:
+- "Press <CMD_MENU_ENTER> to continue" -> "Nhấn <CMD_MENU_ENTER> để tiếp tục"
+- "<CMD_MENU_BACK>" -> "<CMD_MENU_BACK>" (KHÔNG dịch thành "Trở lại")
+- "[CGUIDE_INVALID]<CMD_MENU_BACK>[C]" -> "[CGUIDE_INVALID]<CMD_MENU_BACK>[C]"
+- "Hello [WORLD]" -> "Xin chào [WORLD]"
+- "Jump with <CMD_JUMP>" -> "Nhảy bằng <CMD_JUMP>"
+
+LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy trả về CHÍNH XÁC như vậy, KHÔNG dịch.
 """
                 
                 response = self.model.generate_content(prompt)
@@ -168,6 +296,9 @@ Yêu cầu:
                 # Loại bỏ dấu ngoặc kép nếu có
                 if translation.startswith('"') and translation.endswith('"'):
                     translation = translation[1:-1]
+                
+                # Validate và khôi phục command tags nếu cần
+                translation = self.validate_command_tags(text, translation)
                 
                 return translation
                 
