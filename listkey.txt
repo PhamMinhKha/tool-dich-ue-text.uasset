@@ -1,0 +1,23 @@
+# Danh sách API Keys cho Google Gemini
+# Mỗi dòng là một API key
+# Chương trình sẽ tự động chuyển sang key khác khi gặp rate limit
+# 
+# Cách sử dụng:
+# 1. Thêm các API key của bạn vào file này (mỗi key một dòng)
+# 2. Xóa dấu # ở đầu dòng key
+# 3. Lưu file
+#
+# Ví dụ:
+# AIzaSyABC123...
+# AIzaSyDEF456...
+# AIzaSyGHI789...
+
+# Thêm API keys của bạn ở đây:
+AIzaSyDKbUNE3NnrgN68mVdXLcm8pSnsCmxKN3Q
+AIzaSyDSfON3trnljjAhSeqOFP4CM1L1k-x4uNk
+AIzaSyBJxb8TwVyJEkMs-ElaqSTN4kJxbrfdq6M
+AIzaSyCE1w9NTbP1eOGysnFCsM6qwe8x-1IntbI
+AIzaSyCUpgLWoHm9fEzLkKNMuB58-RQPGgx0AGU
+AIzaSyBmSMvv4PitWEij3523l06IVn8rRaocpaw
+AIzaSyAMSES6eTkITBNJQnMXVCNMHDO3uLnmpug
+AIzaSyCT7zFU1KOzIZTOPot6jB-aNkORsG1iJRU

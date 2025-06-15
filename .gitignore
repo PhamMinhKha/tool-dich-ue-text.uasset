@@ -1,2 +1,3 @@
 *.uasset
 extract
+__pycache__
