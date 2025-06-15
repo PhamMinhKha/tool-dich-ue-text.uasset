@@ -12,15 +12,29 @@ import argparse
 from typing import Dict, List, Optional
 import google.generativeai as genai
 from datetime import datetime
+try:
+    import openai
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
+    print("⚠️ OpenAI library không có. Cài đặt: pip install openai")
 
 class AutoTranslator:
-    def __init__(self, api_key: str = None):
+    def __init__(self, api_key: str = None, ai_engine: str = "gemini"):
         """
         Khởi tạo Auto Translator
         
         Args:
-            api_key: Google Gemini API key. Nếu không có, sẽ đọc từ listkey.txt hoặc biến môi trường
+            api_key: API key cho AI engine được chọn
+            ai_engine: Loại AI engine ("gemini" hoặc "chatgpt")
         """
+        self.ai_engine = ai_engine.lower()
+        
+        if self.ai_engine not in ["gemini", "chatgpt"]:
+            raise ValueError("ai_engine phải là 'gemini' hoặc 'chatgpt'")
+        
+        if self.ai_engine == "chatgpt" and not OPENAI_AVAILABLE:
+            raise ValueError("OpenAI library chưa được cài đặt. Chạy: pip install openai")
         # Load danh sách API keys
         self.api_keys = self.load_api_keys()
         self.current_key_index = 0
@@ -30,10 +44,11 @@ class AutoTranslator:
             self.api_keys.insert(0, api_key)
         
         if not self.api_keys:
-            raise ValueError("Cần có API key. Thêm vào file listkey.txt hoặc đặt biến môi trường GEMINI_API_KEY")
+            env_var = "OPENAI_API_KEY" if self.ai_engine == "chatgpt" else "GEMINI_API_KEY"
+            raise ValueError(f"Cần có API key. Thêm vào file listkey.txt hoặc đặt biến môi trường {env_var}")
         
-        # Cấu hình Gemini với key đầu tiên
-        self.setup_gemini_model()
+        # Cấu hình AI model với key đầu tiên
+        self.setup_ai_model()
         
         # Cache và từ điển
         self.cache_file = "translation_cache.json"
@@ -70,31 +85,42 @@ class AutoTranslator:
                 print(f"⚠️  Không thể đọc listkey.txt: {e}")
         
         # Thêm từ biến môi trường nếu có
-        env_key = os.getenv('GEMINI_API_KEY')
+        env_var = "OPENAI_API_KEY" if self.ai_engine == "chatgpt" else "GEMINI_API_KEY"
+        env_key = os.getenv(env_var)
         if env_key and env_key not in keys:
             keys.append(env_key)
             
         return keys
     
-    def setup_gemini_model(self):
-        """Cấu hình Gemini model với API key hiện tại"""
+    def setup_ai_model(self):
+        """Cấu hình AI model với API key hiện tại"""
         current_key = self.api_keys[self.current_key_index]
-        genai.configure(api_key=current_key)
-        self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
-        print(f"🔑 Sử dụng API key #{self.current_key_index + 1}/{len(self.api_keys)}")
+        
+        if self.ai_engine == "gemini":
+            genai.configure(api_key=current_key)
+            self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
+            print(f"🤖 Gemini - Sử dụng API key #{self.current_key_index + 1}/{len(self.api_keys)}")
+        elif self.ai_engine == "chatgpt":
+            openai.api_key = current_key
+            self.model_name = "gpt-3.5-turbo"
+            print(f"🤖 ChatGPT - Sử dụng API key #{self.current_key_index + 1}/{len(self.api_keys)}")
+    
+    def setup_gemini_model(self):
+        """Backward compatibility - redirect to setup_ai_model"""
+        self.setup_ai_model()
     
     def switch_to_next_key(self) -> bool:
         """Chuyển sang API key tiếp theo. Trả về True nếu còn key khả dụng, False nếu đã hết danh sách"""
         self.current_key_index += 1
         if self.current_key_index < len(self.api_keys):
-            self.setup_gemini_model()
+            self.setup_ai_model()
             return True
         return False
     
     def reset_to_first_key(self):
         """Reset về key đầu tiên để bắt đầu vòng mới"""
         self.current_key_index = 0
-        self.setup_gemini_model()
+        self.setup_ai_model()
     
     def load_cache(self) -> Dict[str, str]:
         """Tải cache từ file"""
@@ -262,7 +288,7 @@ class AutoTranslator:
         """Dịch text bằng Google Gemini với bối cảnh game và multiple API keys (xoay vòng)"""
         import time
         
-        max_cycles = 5  # Số vòng xoay tối đa
+        max_cycles = 1000005  # Số vòng xoay tối đa
         keys_per_cycle = len(self.api_keys)
         total_attempts = 0
         max_total_attempts = max_cycles * keys_per_cycle
@@ -338,6 +364,93 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
         print(f"❌ Đã thử {max_cycles} vòng với tất cả {len(self.api_keys)} API keys. Bỏ qua từ: '{text}'")
         return text  # Trả về text gốc nếu không thể dịch
     
+    def translate_with_chatgpt(self, text: str) -> str:
+        """Dịch text bằng ChatGPT GPT-3.5-turbo với multiple API keys (xoay vòng)"""
+        import time
+        
+        max_cycles = 5  # Số vòng xoay tối đa
+        keys_per_cycle = len(self.api_keys)
+        total_attempts = 0
+        max_total_attempts = max_cycles * keys_per_cycle
+        
+        original_key_index = self.current_key_index  # Lưu vị trí ban đầu
+        
+        while total_attempts < max_total_attempts:
+            try:
+                prompt = f"""Hãy dịch đoạn text sau sang tiếng Việt một cách tự nhiên và phù hợp với ngữ cảnh game:
+
+Text: "{text}"
+
+Yêu cầu QUAN TRỌNG:
+- Dịch chính xác và tự nhiên cho game
+- Giữ nguyên ý nghĩa gốc
+- Sử dụng thuật ngữ game phù hợp
+- **TUYỆT ĐỐI KHÔNG ĐƯỢC dịch bất kỳ nội dung nào bên trong:**
+  * Dấu ngoặc vuông [...] - giữ nguyên hoàn toàn
+  * Dấu ngoặc nhọn <...> - giữ nguyên hoàn toàn
+  * Các command tags như <CMD_MENU_ENTER>, <CMD_MENU_BACK>, <CMD_JUMP>, <CMD_BTL_ATTACK>, v.v.
+- Giữ nguyên hoàn toàn các ký hiệu đặc biệt và command tags
+- Chỉ trả về bản dịch, không giải thích
+- Nếu text chứa ký tự Nhật Bản, hãy dịch phần có thể dịch được
+
+Ví dụ CHÍNH XÁC:
+- "Press <CMD_MENU_ENTER> to continue" -> "Nhấn <CMD_MENU_ENTER> để tiếp tục"
+- "<CMD_MENU_BACK>" -> "<CMD_MENU_BACK>" (KHÔNG dịch thành "Trở lại")
+- "[CGUIDE_INVALID]<CMD_MENU_BACK>[C]" -> "[CGUIDE_INVALID]<CMD_MENU_BACK>[C]"
+- "Hello [WORLD]" -> "Xin chào [WORLD]"
+- "Jump with <CMD_JUMP>" -> "Nhảy bằng <CMD_JUMP>"
+
+LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy trả về CHÍNH XÁC như vậy, KHÔNG dịch."""
+                
+                response = openai.ChatCompletion.create(
+                    model=self.model_name,
+                    messages=[
+                        {"role": "system", "content": "Bạn là một chuyên gia dịch thuật game, chuyên dịch từ tiếng Anh sang tiếng Việt."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    max_tokens=500,
+                    temperature=0.3
+                )
+                
+                translation = response.choices[0].message.content.strip()
+                
+                # Loại bỏ dấu ngoặc kép nếu có
+                if translation.startswith('"') and translation.endswith('"'):
+                    translation = translation[1:-1]
+                
+                # Validate và khôi phục command tags nếu cần
+                translation = self.validate_command_tags(text, translation)
+                
+                return translation
+                
+            except Exception as e:
+                error_str = str(e).lower()
+                
+                # Kiểm tra nếu là lỗi rate limit
+                if "rate limit" in error_str or "quota" in error_str or "429" in error_str or "too many requests" in error_str:
+                    total_attempts += 1
+                    cycle_num = (total_attempts - 1) // keys_per_cycle + 1
+                    
+                    print(f"⚠️  Rate limit với key #{self.current_key_index + 1}. Chuyển ngay lập tức... (Vòng {cycle_num}, Lần {total_attempts}/{max_total_attempts})")
+                    
+                    # Chuyển sang key tiếp theo ngay lập tức
+                    if not self.switch_to_next_key():
+                        # Đã hết keys, quay về key đầu tiên để bắt đầu vòng mới
+                        self.reset_to_first_key()
+                        print(f"🔄 Bắt đầu vòng {cycle_num + 1}, quay về key #1")
+                    
+                    # Đợi 1 giây trước khi thử key mới
+                    time.sleep(1)
+                    continue
+                else:
+                    # Lỗi khác, không retry
+                    print(f"❌ Lỗi khi dịch '{text}': {e}")
+                    return text
+        
+        # Nếu đã thử hết tất cả keys trong tất cả vòng
+        print(f"❌ Đã thử {max_cycles} vòng với tất cả {len(self.api_keys)} API keys. Bỏ qua từ: '{text}'")
+        return text  # Trả về text gốc nếu không thể dịch
+    
     def translate_text(self, text: str) -> tuple[str, str]:
         """
         Dịch một đoạn text
@@ -360,14 +473,19 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
         if cached_translation:
             return cached_translation, 'cache'
         
-        # 3. Dịch bằng Gemini
-        translation = self.translate_with_gemini(text)
+        # 3. Dịch bằng AI engine được chọn
+        if self.ai_engine == "gemini":
+            translation = self.translate_with_gemini(text)
+        elif self.ai_engine == "chatgpt":
+            translation = self.translate_with_chatgpt(text)
+        else:
+            translation = text  # Fallback
         
         # Lưu vào cache ngay lập tức
         self.cache[text] = translation
         self.save_cache()  # Lưu cache ngay sau khi dịch từng từ
         
-        return translation, 'gemini'
+        return translation, self.ai_engine
     
     def translate_json_file(self, input_file: str, output_file: str = None):
         """Dịch một file JSON từ extract folder"""
@@ -439,7 +557,7 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
             print(f"{icon} [{i:3d}/{total_entries}] ({progress:5.1f}%) {source:10s} | {display_text}")
             
             # Delay để tránh rate limit
-            if source == 'gemini':
+            if source in ['gemini', 'chatgpt']:
                 time.sleep(0.5)  # 0.5 giây delay cho mỗi request
         
         # Lưu file đã dịch
@@ -510,7 +628,7 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
         print("="*60)
         print(f"⏱️  Thời gian: {elapsed_time:.1f} giây")
         print(f"📝 Tổng số text: {self.stats['total']}")
-        print(f"🤖 Dịch bằng Gemini: {self.stats['translated']}")
+        print(f"🤖 Dịch bằng {self.ai_engine.upper()}: {self.stats['translated']}")
         print(f"💾 Lấy từ cache: {self.stats['cached']}")
         print(f"📚 Lấy từ từ điển: {self.stats['dictionary']}")
         print(f"⏭️  Bỏ qua: {self.stats['skipped']}")
@@ -522,17 +640,19 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
         print("="*60)
 
 def main():
-    parser = argparse.ArgumentParser(description='Auto Translator using Google Gemini API')
+    parser = argparse.ArgumentParser(description='Auto Translator using Google Gemini API or ChatGPT API')
     parser.add_argument('action', choices=['translate', 'batch'], 
                        help='Hành động: translate (dịch 1 file) hoặc batch (dịch tất cả)')
     parser.add_argument('input_file', nargs='?', help='File JSON cần dịch (cho action translate)')
     parser.add_argument('-o', '--output', help='File đầu ra')
-    parser.add_argument('--api-key', help='Google Gemini API key')
+    parser.add_argument('--api-key', help='API key cho AI engine được chọn')
+    parser.add_argument('--ai-engine', choices=['gemini', 'chatgpt'], default='gemini',
+                       help='AI engine để dịch: gemini (mặc định) hoặc chatgpt')
     
     args = parser.parse_args()
     
     try:
-        translator = AutoTranslator(api_key=args.api_key)
+        translator = AutoTranslator(api_key=args.api_key, ai_engine=args.ai_engine)
         
         if args.action == 'translate':
             if not args.input_file:
@@ -547,8 +667,9 @@ def main():
     except ValueError as e:
         print(f"❌ {e}")
         print("\n💡 Hướng dẫn cài đặt API key:")
-        print("   export GEMINI_API_KEY='your-api-key-here'")
-        print("   hoặc dùng --api-key your-api-key-here")
+        print("   Cho Gemini: export GEMINI_API_KEY='your-gemini-key-here'")
+        print("   Cho ChatGPT: export OPENAI_API_KEY='your-openai-key-here'")
+        print("   hoặc dùng --api-key your-api-key-here --ai-engine [gemini|chatgpt]")
     except Exception as e:
         print(f"❌ Lỗi: {e}")
 

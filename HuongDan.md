@@ -2,7 +2,11 @@
 
 ## 📋 Tổng Quan
 
-`auto_translator.py` là công cụ dịch tự động các file JSON đã extract từ game sang tiếng Việt sử dụng Google Gemini API. Chương trình hỗ trợ dịch từng file hoặc dịch hàng loạt với hệ thống cache và từ điển thông minh.
+`auto_translator.py` là công cụ dịch tự động các file JSON đã extract từ game sang tiếng Việt sử dụng Google Gemini API hoặc ChatGPT API. Chương trình hỗ trợ dịch từng file hoặc dịch hàng loạt với hệ thống cache và từ điển thông minh.
+
+### 🤖 AI Engines Hỗ Trợ
+- **Google Gemini** (mặc định): Sử dụng Gemini Pro model
+- **ChatGPT**: Sử dụng GPT-3.5-turbo model
 
 ## 🔧 Cài Đặt Ban Đầu
 
@@ -11,7 +15,14 @@
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Lấy API Key từ Google AI Studio
+**Thư viện cần thiết:**
+- `google-generativeai`: Cho Gemini API
+- `openai`: Cho ChatGPT API (tùy chọn)
+- Các thư viện khác: `json`, `os`, `time`, `argparse`
+
+### 2️⃣ Lấy API Key
+
+#### 🔹 Google Gemini API Key
 
 #### Phương pháp 1: Sử dụng nhiều API Keys (Khuyến nghị) 🚀
 1. Truy cập [Google AI Studio](https://makersuite.google.com/app/apikey)
@@ -29,13 +40,31 @@ pip install -r requirements.txt
 - Tạo API key mới
 - Copy API key
 
+#### 🔹 ChatGPT API Key
+1. Truy cập [OpenAI Platform](https://platform.openai.com/api-keys)
+2. Đăng nhập hoặc tạo tài khoản OpenAI
+3. Tạo API key mới
+4. Copy API key
+5. **Lưu ý**: Cần có credit trong tài khoản OpenAI để sử dụng API
+
 ### 3️⃣ Cài đặt API Key
+
+#### Cho Google Gemini:
 ```bash
 # Windows
-set GEMINI_API_KEY=your-api-key-here
+set GEMINI_API_KEY=your-gemini-key-here
 
 # Linux/Mac
-export GEMINI_API_KEY=your-api-key-here
+export GEMINI_API_KEY=your-gemini-key-here
+```
+
+#### Cho ChatGPT:
+```bash
+# Windows
+set OPENAI_API_KEY=your-openai-key-here
+
+# Linux/Mac
+export OPENAI_API_KEY=your-openai-key-here
 ```
 
 ⚠️ **Lưu ý bảo mật**: Nên sử dụng biến môi trường thay vì hardcode API key trong code.
@@ -44,23 +73,54 @@ export GEMINI_API_KEY=your-api-key-here
 
 ### Dịch tất cả file trong folder extract/
 ```bash
+# Sử dụng Gemini (mặc định)
 python auto_translator.py batch
+
+# Sử dụng ChatGPT
+python auto_translator.py batch --ai-engine chatgpt
 ```
 
 ### Dịch một file cụ thể
 ```bash
+# Với Gemini
 python auto_translator.py translate extract/GDSSystemText.json
+
+# Với ChatGPT
+python auto_translator.py translate extract/GDSSystemText.json --ai-engine chatgpt
 ```
 
 ### Chỉ định file đầu ra
 ```bash
-python auto_translator.py translate extract/GDSSystemText.json -o my_translation.json
+python auto_translator.py translate extract/GDSSystemText.json -o my_translation.json --ai-engine chatgpt
 ```
 
 ### Sử dụng API key tùy chỉnh
 ```bash
-python auto_translator.py batch --api-key your-api-key-here
+# Với Gemini
+python auto_translator.py batch --api-key your-gemini-key-here
+
+# Với ChatGPT
+python auto_translator.py batch --api-key your-openai-key-here --ai-engine chatgpt
 ```
+
+### 🆕 Tham số AI Engine
+- `--ai-engine gemini`: Sử dụng Google Gemini (mặc định)
+- `--ai-engine chatgpt`: Sử dụng ChatGPT GPT-3.5-turbo
+
+### 🔄 So Sánh AI Engines
+
+| Tiêu chí | Google Gemini | ChatGPT |
+|----------|---------------|----------|
+| **Miễn phí** | ✅ Có quota miễn phí | ❌ Cần trả phí |
+| **Tốc độ** | ⚡ Nhanh | ⚡ Nhanh |
+| **Chất lượng dịch** | 🎯 Tốt | 🎯 Rất tốt |
+| **Hỗ trợ tiếng Việt** | ✅ Tốt | ✅ Rất tốt |
+| **Rate limit** | 60 requests/phút | Tùy plan |
+| **Setup** | Dễ | Cần credit |
+
+**Khuyến nghị**: 
+- Dùng **Gemini** cho dự án cá nhân (miễn phí)
+- Dùng **ChatGPT** cho chất lượng dịch cao hơn (có phí)
 
 ## 📚 Hệ Thống Từ Điển và Cache
 
@@ -132,7 +192,7 @@ python uasset_text_extractor.py import translated/GDSSystemText_vietnamese.json
 
 Chương trình hiển thị thông tin chi tiết:
 - 📝 **Tổng số text**: Số lượng text cần dịch
-- 🤖 **Dịch bằng Gemini**: Text dịch mới qua API
+- 🤖 **Dịch bằng AI**: Text dịch mới qua API (hiển thị engine: GEMINI hoặc CHATGPT)
 - 💾 **Lấy từ cache**: Text đã dịch trước đó
 - 📚 **Lấy từ từ điển**: Text có sẵn trong tudien.json
 - ⏭️ **Bỏ qua**: Text rỗng hoặc không hợp lệ
@@ -171,8 +231,11 @@ Chương trình hiển thị thông tin chi tiết:
 ```python
 from auto_translator import AutoTranslator
 
-# Khởi tạo với API key
-translator = AutoTranslator(api_key="your-api-key")
+# Khởi tạo với Gemini (mặc định)
+translator = AutoTranslator(api_key="your-gemini-key")
+
+# Khởi tạo với ChatGPT
+translator = AutoTranslator(api_key="your-openai-key", ai_engine="chatgpt")
 
 # Dịch một file
 translator.translate_json_file(
@@ -189,6 +252,7 @@ print(f"Dịch: {text} (từ {source})")
 
 # Kiểm tra thống kê
 print(f"Đã dịch: {translator.stats['translated']} text")
+print(f"Engine: {translator.ai_engine}")
 ```
 
 ## 🔍 Demo và Kiểm Tra
@@ -217,8 +281,9 @@ Demo sẽ kiểm tra:
 ### Lỗi API Key
 ```
 ❌ Cần có GEMINI_API_KEY
+❌ Cần có OPENAI_API_KEY
 ```
-**Giải pháp**: Cài đặt biến môi trường hoặc truyền API key
+**Giải pháp**: Cài đặt biến môi trường phù hợp với AI engine hoặc truyền API key
 
 ### Lỗi không tìm thấy file
 ```
@@ -229,8 +294,9 @@ Demo sẽ kiểm tra:
 ### Lỗi thư viện
 ```
 ❌ google-generativeai: Chưa cài đặt
+❌ openai: Chưa cài đặt
 ```
-**Giải pháp**: `pip install -r requirements.txt`
+**Giải pháp**: `pip install -r requirements.txt` hoặc `pip install openai` cho ChatGPT
 
 ### Lỗi rate limit
 ```
@@ -290,8 +356,10 @@ Auto Translator là công cụ mạnh mẽ để dịch game với:
 - ✅ Thống kê chi tiết
 - ✅ Xử lý lỗi tốt
 - ✅ Dễ sử dụng và tùy chỉnh
+- 🆕 **Hỗ trợ 2 AI engines**: Google Gemini và ChatGPT
+- 🆕 **Linh hoạt**: Chọn engine phù hợp với nhu cầu và ngân sách
 
-**Sẵn sàng dịch game của bạn!** 🎮
+**Sẵn sàng dịch game của bạn với AI tốt nhất!** 🎮🤖
 
 ---
 
