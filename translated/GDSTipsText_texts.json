@@ -1,0 +1,3800 @@
+{
+  "file_info": {
+    "original_file": "original\\GDSTipsText.uasset",
+    "file_size": 83784,
+    "total_entries": 421,
+    "original_file_size": 83456,
+    "size_offset_position": 224
+  },
+  "text_entries": [
+    {
+      "id": 0,
+      "key": "utf8_entry_0",
+      "original_text": "Edward",
+      "translated_text": "Edward",
+      "language": "english",
+      "position": 392,
+      "length": 7
+    },
+    {
+      "id": 1,
+      "key": "utf16_entry_1",
+      "original_text": "Édouard",
+      "translated_text": "Édouard",
+      "language": "french",
+      "position": 403,
+      "length": 16
+    },
+    {
+      "id": 2,
+      "key": "utf8_entry_2",
+      "original_text": "Eduardo",
+      "translated_text": "Eduardo",
+      "language": "english",
+      "position": 445,
+      "length": 8
+    },
+    {
+      "id": 3,
+      "key": "utf8_entry_3",
+      "original_text": "Trip",
+      "translated_text": "Trip",
+      "language": "english",
+      "position": 535,
+      "length": 5
+    },
+    {
+      "id": 4,
+      "key": "utf8_entry_4",
+      "original_text": "Merlebleu",
+      "translated_text": "Merlebleu",
+      "language": "english",
+      "position": 544,
+      "length": 10
+    },
+    {
+      "id": 5,
+      "key": "utf8_entry_5",
+      "original_text": "Tripp",
+      "translated_text": "Tripp",
+      "language": "english",
+      "position": 566,
+      "length": 6
+    },
+    {
+      "id": 6,
+      "key": "utf8_entry_6",
+      "original_text": "Perico",
+      "translated_text": "Perico",
+      "language": "english",
+      "position": 576,
+      "length": 7
+    },
+    {
+      "id": 7,
+      "key": "utf8_entry_7",
+      "original_text": "Cooke",
+      "translated_text": "Cooke",
+      "language": "english",
+      "position": 655,
+      "length": 6
+    },
+    {
+      "id": 8,
+      "key": "utf8_entry_8",
+      "original_text": "Cook",
+      "translated_text": "Nấu",
+      "language": "english",
+      "position": 665,
+      "length": 5
+    },
+    {
+      "id": 9,
+      "key": "utf8_entry_9",
+      "original_text": "Lombo",
+      "translated_text": "Lombo",
+      "language": "english",
+      "position": 674,
+      "length": 6
+    },
+    {
+      "id": 10,
+      "key": "utf8_entry_10",
+      "original_text": "Qook",
+      "translated_text": "Qook",
+      "language": "english",
+      "position": 684,
+      "length": 5
+    },
+    {
+      "id": 11,
+      "key": "utf8_entry_11",
+      "original_text": "Colm",
+      "translated_text": "Colm",
+      "language": "english",
+      "position": 768,
+      "length": 5
+    },
+    {
+      "id": 12,
+      "key": "utf8_entry_12",
+      "original_text": "Glouton",
+      "translated_text": "Glouton",
+      "language": "english",
+      "position": 777,
+      "length": 8
+    },
+    {
+      "id": 13,
+      "key": "utf8_entry_13",
+      "original_text": "Pucci",
+      "translated_text": "Pucci",
+      "language": "english",
+      "position": 789,
+      "length": 6
+    },
+    {
+      "id": 14,
+      "key": "utf8_entry_14",
+      "original_text": "Kuller",
+      "translated_text": "Kuller",
+      "language": "english",
+      "position": 799,
+      "length": 7
+    },
+    {
+      "id": 15,
+      "key": "utf16_entry_15",
+      "original_text": "Colón",
+      "translated_text": "Colón",
+      "language": "italian",
+      "position": 810,
+      "length": 12
+    },
+    {
+      "id": 16,
+      "key": "utf8_entry_16",
+      "original_text": "Marco",
+      "translated_text": "Marco",
+      "language": "english",
+      "position": 894,
+      "length": 6
+    },
+    {
+      "id": 17,
+      "key": "utf8_entry_17",
+      "original_text": "Maolo",
+      "translated_text": "Maolo",
+      "language": "english",
+      "position": 922,
+      "length": 6
+    },
+    {
+      "id": 18,
+      "key": "utf8_entry_18",
+      "original_text": "Polo",
+      "translated_text": "Polo",
+      "language": "english",
+      "position": 1010,
+      "length": 5
+    },
+    {
+      "id": 19,
+      "key": "utf8_entry_19",
+      "original_text": "Copolo",
+      "translated_text": "Copolo",
+      "language": "english",
+      "position": 1028,
+      "length": 7
+    },
+    {
+      "id": 20,
+      "key": "utf8_entry_20",
+      "original_text": "Paolo",
+      "translated_text": "Paolo",
+      "language": "english",
+      "position": 1039,
+      "length": 6
+    },
+    {
+      "id": 21,
+      "key": "utf8_entry_21",
+      "original_text": "Boyle",
+      "translated_text": "Boyle",
+      "language": "english",
+      "position": 1126,
+      "length": 6
+    },
+    {
+      "id": 22,
+      "key": "utf8_entry_22",
+      "original_text": "Bosco",
+      "translated_text": "Bosco",
+      "language": "english",
+      "position": 1136,
+      "length": 6
+    },
+    {
+      "id": 23,
+      "key": "utf8_entry_23",
+      "original_text": "Tello",
+      "translated_text": "Tello",
+      "language": "english",
+      "position": 1146,
+      "length": 6
+    },
+    {
+      "id": 24,
+      "key": "utf8_entry_24",
+      "original_text": "Reveria",
+      "translated_text": "Reveria",
+      "language": "english",
+      "position": 1256,
+      "length": 8
+    },
+    {
+      "id": 25,
+      "key": "utf16_entry_25",
+      "original_text": "Rêveria",
+      "translated_text": "Rêveria",
+      "language": "french",
+      "position": 1268,
+      "length": 16
+    },
+    {
+      "id": 26,
+      "key": "utf8_entry_26",
+      "original_text": "Eternia Village",
+      "translated_text": "Làng Eternia",
+      "language": "english",
+      "position": 1414,
+      "length": 16
+    },
+    {
+      "id": 27,
+      "key": "utf8_entry_27",
+      "original_text": "Pendulum",
+      "translated_text": "Pendulum",
+      "language": "english",
+      "position": 1434,
+      "length": 9
+    },
+    {
+      "id": 28,
+      "key": "utf8_entry_28",
+      "original_text": "Villaggio Suonotempo",
+      "translated_text": "Làng Suonotempo",
+      "language": "english",
+      "position": 1447,
+      "length": 21
+    },
+    {
+      "id": 29,
+      "key": "utf8_entry_29",
+      "original_text": "Ticksingen",
+      "translated_text": "Ticksingen",
+      "language": "english",
+      "position": 1472,
+      "length": 11
+    },
+    {
+      "id": 30,
+      "key": "utf8_entry_30",
+      "original_text": "Aldea Tictac",
+      "translated_text": "Làng Tictac",
+      "language": "english",
+      "position": 1487,
+      "length": 13
+    },
+    {
+      "id": 31,
+      "key": "utf8_entry_31",
+      "original_text": "Lives",
+      "translated_text": "Mạng Sống",
+      "language": "english",
+      "position": 1586,
+      "length": 6
+    },
+    {
+      "id": 32,
+      "key": "utf16_entry_32",
+      "original_text": "Carrières",
+      "translated_text": "Sự Nghiệp",
+      "language": "french",
+      "position": 1596,
+      "length": 20
+    },
+    {
+      "id": 33,
+      "key": "utf8_entry_33",
+      "original_text": "I mestieri",
+      "translated_text": "I mestieri",
+      "language": "english",
+      "position": 1620,
+      "length": 11
+    },
+    {
+      "id": 34,
+      "key": "utf8_entry_34",
+      "original_text": "Leben",
+      "translated_text": "Sống",
+      "language": "english",
+      "position": 1635,
+      "length": 6
+    },
+    {
+      "id": 35,
+      "key": "utf8_entry_35",
+      "original_text": "Oficio",
+      "translated_text": "Văn phòng",
+      "language": "english",
+      "position": 1645,
+      "length": 7
+    },
+    {
+      "id": 36,
+      "key": "utf8_entry_36",
+      "original_text": "Life Masters",
+      "translated_text": "Bậc thầy Sinh mệnh",
+      "language": "english",
+      "position": 1734,
+      "length": 13
+    },
+    {
+      "id": 37,
+      "key": "utf16_entry_37",
+      "original_text": "Maître de carrière",
+      "translated_text": "Bậc thầy nghề nghiệp",
+      "language": "french",
+      "position": 1751,
+      "length": 38
+    },
+    {
+      "id": 38,
+      "key": "utf8_entry_38",
+      "original_text": "I Maestri",
+      "translated_text": "I Maestri",
+      "language": "english",
+      "position": 1793,
+      "length": 10
+    },
+    {
+      "id": 39,
+      "key": "utf8_entry_39",
+      "original_text": "Lebensmeister",
+      "translated_text": "Lebensmeister",
+      "language": "english",
+      "position": 1807,
+      "length": 14
+    },
+    {
+      "id": 40,
+      "key": "utf8_entry_40",
+      "original_text": "Mentores y mentoras",
+      "translated_text": "Cố vấn và người hướng dẫn",
+      "language": "english",
+      "position": 1825,
+      "length": 20
+    },
+    {
+      "id": 41,
+      "key": "utf8_entry_41",
+      "original_text": "Mysteria Kingdom",
+      "translated_text": "Vương quốc Mysteria",
+      "language": "english",
+      "position": 1957,
+      "length": 17
+    },
+    {
+      "id": 42,
+      "key": "utf16_entry_42",
+      "original_text": "Royaume de Mystéria",
+      "translated_text": "Vương quốc Mystéria",
+      "language": "french",
+      "position": 1978,
+      "length": 40
+    },
+    {
+      "id": 43,
+      "key": "utf8_entry_43",
+      "original_text": "Mistenia",
+      "translated_text": "Mistenia",
+      "language": "english",
+      "position": 2022,
+      "length": 9
+    },
+    {
+      "id": 44,
+      "key": "utf16_entry_44",
+      "original_text": "Königsstadt Mythnia",
+      "translated_text": "Königsstadt Mythnia",
+      "language": "german",
+      "position": 2035,
+      "length": 40
+    },
+    {
+      "id": 45,
+      "key": "utf8_entry_45",
+      "original_text": "El Reino de Mistenia",
+      "translated_text": "Vương quốc Mistenia",
+      "language": "spanish",
+      "position": 2079,
+      "length": 21
+    },
+    {
+      "id": 46,
+      "key": "utf8_entry_46",
+      "original_text": "Goddess Celestia",
+      "translated_text": "Nữ thần Celestia",
+      "language": "english",
+      "position": 2220,
+      "length": 17
+    },
+    {
+      "id": 47,
+      "key": "utf16_entry_47",
+      "original_text": "Déesse Célestia",
+      "translated_text": "Déesse Célestia",
+      "language": "french",
+      "position": 2241,
+      "length": 32
+    },
+    {
+      "id": 48,
+      "key": "utf8_entry_48",
+      "original_text": "Celestia",
+      "translated_text": "Celestia",
+      "language": "english",
+      "position": 2277,
+      "length": 9
+    },
+    {
+      "id": 49,
+      "key": "utf8_entry_49",
+      "original_text": "Diosa Celestia",
+      "translated_text": "Nữ Thần Celestia",
+      "language": "english",
+      "position": 2303,
+      "length": 15
+    },
+    {
+      "id": 50,
+      "key": "utf8_entry_50",
+      "original_text": "Strangelings",
+      "translated_text": "Kẻ Lạ Lùng",
+      "language": "english",
+      "position": 2414,
+      "length": 13
+    },
+    {
+      "id": 51,
+      "key": "utf16_entry_51",
+      "original_text": "Curiosités",
+      "translated_text": "Đồ hiếm",
+      "language": "french",
+      "position": 2431,
+      "length": 22
+    },
+    {
+      "id": 52,
+      "key": "utf8_entry_52",
+      "original_text": "Gli strambini",
+      "translated_text": "Gli strambini",
+      "language": "italian",
+      "position": 2457,
+      "length": 14
+    },
+    {
+      "id": 53,
+      "key": "utf8_entry_53",
+      "original_text": "Ulklinge",
+      "translated_text": "Ulklinge",
+      "language": "english",
+      "position": 2475,
+      "length": 9
+    },
+    {
+      "id": 54,
+      "key": "utf8_entry_54",
+      "original_text": "Cambiaformas",
+      "translated_text": "Biến Hình",
+      "language": "english",
+      "position": 2488,
+      "length": 13
+    },
+    {
+      "id": 55,
+      "key": "utf8_entry_55",
+      "original_text": "Faraway Island",
+      "translated_text": "Đảo Xa Xôi",
+      "language": "english",
+      "position": 2595,
+      "length": 15
+    },
+    {
+      "id": 56,
+      "key": "utf16_entry_56",
+      "original_text": "Île Vernalia",
+      "translated_text": "Đảo Vernalia",
+      "language": "french",
+      "position": 2614,
+      "length": 26
+    },
+    {
+      "id": 57,
+      "key": "utf8_entry_57",
+      "original_text": "Isola Remota",
+      "translated_text": "Đảo Xa Xôi",
+      "language": "english",
+      "position": 2644,
+      "length": 13
+    },
+    {
+      "id": 58,
+      "key": "utf8_entry_58",
+      "original_text": "Harcana",
+      "translated_text": "Harcana",
+      "language": "english",
+      "position": 2661,
+      "length": 8
+    },
+    {
+      "id": 59,
+      "key": "utf8_entry_59",
+      "original_text": "Isla Floralia",
+      "translated_text": "Đảo Floralia",
+      "language": "english",
+      "position": 2673,
+      "length": 14
+    },
+    {
+      "id": 60,
+      "key": "utf8_entry_60",
+      "original_text": "The Dragonkin's Journey",
+      "translated_text": "Hành trình của Long Nhân",
+      "language": "english",
+      "position": 2821,
+      "length": 24
+    },
+    {
+      "id": 61,
+      "key": "utf16_entry_61",
+      "original_text": "La grande aventure du héros et du dragon",
+      "translated_text": "Cuộc phiêu lưu vĩ đại của anh hùng và rồng",
+      "language": "french",
+      "position": 2849,
+      "length": 82
+    },
+    {
+      "id": 62,
+      "key": "utf8_entry_62",
+      "original_text": "L'avventura del drago e dell'eroe",
+      "translated_text": "Cuộc phiêu lưu của Rồng và Anh hùng",
+      "language": "spanish",
+      "position": 2935,
+      "length": 34
+    },
+    {
+      "id": 63,
+      "key": "utf8_entry_63",
+      "original_text": "Die Abenteuer des Drachen und des Helden",
+      "translated_text": "Cuộc Phiêu Lưu Của Rồng Và Anh Hùng",
+      "language": "german",
+      "position": 2973,
+      "length": 41
+    },
+    {
+      "id": 64,
+      "key": "utf16_entry_64",
+      "original_text": "La épica del héroe y el dragón",
+      "translated_text": "Sử thi anh hùng và rồng",
+      "language": "spanish",
+      "position": 3018,
+      "length": 62
+    },
+    {
+      "id": 65,
+      "key": "utf8_entry_65",
+      "original_text": "Tropica Isles",
+      "translated_text": "Đảo nhiệt đới Tropica",
+      "language": "english",
+      "position": 3214,
+      "length": 14
+    },
+    {
+      "id": 66,
+      "key": "utf16_entry_66",
+      "original_text": "Archipel des Tropaïennes",
+      "translated_text": "Quần đảo Tropaïennes",
+      "language": "french",
+      "position": 3232,
+      "length": 50
+    },
+    {
+      "id": 67,
+      "key": "utf8_entry_67",
+      "original_text": "Arcipelago Tropiano",
+      "translated_text": "Quần đảo Tropiano",
+      "language": "english",
+      "position": 3286,
+      "length": 20
+    },
+    {
+      "id": 68,
+      "key": "utf8_entry_68",
+      "original_text": "Tropiana-Inselkette",
+      "translated_text": "Quần đảo Tropiana",
+      "language": "english",
+      "position": 3310,
+      "length": 20
+    },
+    {
+      "id": 69,
+      "key": "utf16_entry_69",
+      "original_text": "Archipiélago Tropiwái",
+      "translated_text": "Quần đảo Tropiwái",
+      "language": "french",
+      "position": 3334,
+      "length": 44
+    },
+    {
+      "id": 70,
+      "key": "utf8_entry_70",
+      "original_text": "Swolean Island",
+      "translated_text": "Đảo Swolean",
+      "language": "english",
+      "position": 3484,
+      "length": 15
+    },
+    {
+      "id": 71,
+      "key": "utf16_entry_71",
+      "original_text": "Île Musculère",
+      "translated_text": "Đảo Cơ Bắp",
+      "language": "french",
+      "position": 3503,
+      "length": 28
+    },
+    {
+      "id": 72,
+      "key": "utf8_entry_72",
+      "original_text": "Isola Palestrina",
+      "translated_text": "Đảo Palestrina",
+      "language": "english",
+      "position": 3535,
+      "length": 17
+    },
+    {
+      "id": 73,
+      "key": "utf8_entry_73",
+      "original_text": "Kratonia",
+      "translated_text": "Kratonia",
+      "language": "english",
+      "position": 3556,
+      "length": 9
+    },
+    {
+      "id": 74,
+      "key": "utf8_entry_74",
+      "original_text": "Isla Muscularia",
+      "translated_text": "Đảo Cơ Bắp",
+      "language": "english",
+      "position": 3569,
+      "length": 16
+    },
+    {
+      "id": 75,
+      "key": "utf8_entry_75",
+      "original_text": "Climbing Ledges",
+      "translated_text": "Leo mép vực",
+      "language": "english",
+      "position": 3679,
+      "length": 16
+    },
+    {
+      "id": 76,
+      "key": "utf8_entry_76",
+      "original_text": "Escalade",
+      "translated_text": "Escalade",
+      "language": "english",
+      "position": 3699,
+      "length": 9
+    },
+    {
+      "id": 77,
+      "key": "utf8_entry_77",
+      "original_text": "Le rupi",
+      "translated_text": "Le rupi",
+      "language": "french",
+      "position": 3712,
+      "length": 8
+    },
+    {
+      "id": 78,
+      "key": "utf16_entry_78",
+      "original_text": "Hänge erklimmen",
+      "translated_text": "Trèo lên vách đá",
+      "language": "german",
+      "position": 3724,
+      "length": 32
+    },
+    {
+      "id": 79,
+      "key": "utf8_entry_79",
+      "original_text": "Superar los riscos",
+      "translated_text": "Vượt qua những vách đá",
+      "language": "spanish",
+      "position": 3760,
+      "length": 19
+    },
+    {
+      "id": 80,
+      "key": "utf8_entry_80",
+      "original_text": "Combo Attacks",
+      "translated_text": "Đòn Đánh Liên Hoàn",
+      "language": "english",
+      "position": 3891,
+      "length": 14
+    },
+    {
+      "id": 81,
+      "key": "utf16_entry_81",
+      "original_text": "Enchaînements",
+      "translated_text": "Chuỗi chiêu",
+      "language": "french",
+      "position": 3909,
+      "length": 28
+    },
+    {
+      "id": 82,
+      "key": "utf8_entry_82",
+      "original_text": "Gli attacchi a catena",
+      "translated_text": "Các đòn tấn công chuỗi",
+      "language": "italian",
+      "position": 3941,
+      "length": 22
+    },
+    {
+      "id": 83,
+      "key": "utf8_entry_83",
+      "original_text": "Angriffsfolgen",
+      "translated_text": "Hiệu ứng Tấn Công",
+      "language": "english",
+      "position": 3967,
+      "length": 15
+    },
+    {
+      "id": 84,
+      "key": "utf8_entry_84",
+      "original_text": "Ataques consecutivos",
+      "translated_text": "Đòn đánh liên tiếp",
+      "language": "english",
+      "position": 3986,
+      "length": 21
+    },
+    {
+      "id": 85,
+      "key": "utf8_entry_85",
+      "original_text": "Dodge and Counter",
+      "translated_text": "né và phản công",
+      "language": "english",
+      "position": 4115,
+      "length": 18
+    },
+    {
+      "id": 86,
+      "key": "utf8_entry_86",
+      "original_text": "Esquives",
+      "translated_text": "né",
+      "language": "english",
+      "position": 4137,
+      "length": 9
+    },
+    {
+      "id": 87,
+      "key": "utf8_entry_87",
+      "original_text": "Gli attacchi in schivata",
+      "translated_text": "Các đòn đánh né",
+      "language": "italian",
+      "position": 4150,
+      "length": 25
+    },
+    {
+      "id": 88,
+      "key": "utf8_entry_88",
+      "original_text": "Konterangriffe",
+      "translated_text": "Phản công",
+      "language": "english",
+      "position": 4179,
+      "length": 15
+    },
+    {
+      "id": 89,
+      "key": "utf8_entry_89",
+      "original_text": "Ataques de finta",
+      "translated_text": "Đòn đánh lừa",
+      "language": "english",
+      "position": 4198,
+      "length": 17
+    },
+    {
+      "id": 90,
+      "key": "utf8_entry_90",
+      "original_text": "Sweet Spot",
+      "translated_text": "Điểm ngọt ngào",
+      "language": "english",
+      "position": 4311,
+      "length": 11
+    },
+    {
+      "id": 91,
+      "key": "utf8_entry_91",
+      "original_text": "Zones de rupture",
+      "translated_text": "Vùng đứt gãy",
+      "language": "english",
+      "position": 4326,
+      "length": 17
+    },
+    {
+      "id": 92,
+      "key": "utf8_entry_92",
+      "original_text": "Il punto giusto",
+      "translated_text": "Điểm Giao Tranh",
+      "language": "italian",
+      "position": 4347,
+      "length": 16
+    },
+    {
+      "id": 93,
+      "key": "utf8_entry_93",
+      "original_text": "Schwachstellen",
+      "translated_text": "Điểm yếu",
+      "language": "english",
+      "position": 4367,
+      "length": 15
+    },
+    {
+      "id": 94,
+      "key": "utf16_entry_94",
+      "original_text": "Punto débil",
+      "translated_text": "Điểm yếu",
+      "language": "french",
+      "position": 4386,
+      "length": 24
+    },
+    {
+      "id": 95,
+      "key": "utf8_entry_95",
+      "original_text": "Fishing Line",
+      "translated_text": "Dây câu",
+      "language": "english",
+      "position": 4530,
+      "length": 13
+    },
+    {
+      "id": 96,
+      "key": "utf16_entry_96",
+      "original_text": "Ligne de pêche",
+      "translated_text": "Ligne de pêche",
+      "language": "french",
+      "position": 4547,
+      "length": 30
+    },
+    {
+      "id": 97,
+      "key": "utf8_entry_97",
+      "original_text": "La lenza",
+      "translated_text": "La lenza",
+      "language": "french",
+      "position": 4581,
+      "length": 9
+    },
+    {
+      "id": 98,
+      "key": "utf8_entry_98",
+      "original_text": "Angelschnur",
+      "translated_text": "Dây câu",
+      "language": "english",
+      "position": 4594,
+      "length": 12
+    },
+    {
+      "id": 99,
+      "key": "utf8_entry_99",
+      "original_text": "Sedal de pesca",
+      "translated_text": "Dây câu",
+      "language": "english",
+      "position": 4610,
+      "length": 15
+    },
+    {
+      "id": 100,
+      "key": "utf8_entry_100",
+      "original_text": "La borsa",
+      "translated_text": "La borsa",
+      "language": "french",
+      "position": 4717,
+      "length": 9
+    },
+    {
+      "id": 101,
+      "key": "utf8_entry_101",
+      "original_text": "Tasche",
+      "translated_text": "Túi",
+      "language": "english",
+      "position": 4730,
+      "length": 7
+    },
+    {
+      "id": 102,
+      "key": "utf8_entry_102",
+      "original_text": "Mochila",
+      "translated_text": "Mochila",
+      "language": "english",
+      "position": 4741,
+      "length": 8
+    },
+    {
+      "id": 103,
+      "key": "utf8_entry_103",
+      "original_text": "Day and Night",
+      "translated_text": "Ngày và Đêm",
+      "language": "english",
+      "position": 4841,
+      "length": 14
+    },
+    {
+      "id": 104,
+      "key": "utf8_entry_104",
+      "original_text": "Jour et nuit",
+      "translated_text": "Ngày và đêm",
+      "language": "french",
+      "position": 4859,
+      "length": 13
+    },
+    {
+      "id": 105,
+      "key": "utf8_entry_105",
+      "original_text": "Giorno e notte",
+      "translated_text": "Ngày và đêm",
+      "language": "english",
+      "position": 4876,
+      "length": 15
+    },
+    {
+      "id": 106,
+      "key": "utf8_entry_106",
+      "original_text": "Tag und Nacht",
+      "translated_text": "Ngày và Đêm",
+      "language": "german",
+      "position": 4895,
+      "length": 14
+    },
+    {
+      "id": 107,
+      "key": "utf16_entry_107",
+      "original_text": "Día y noche",
+      "translated_text": "Ngày và đêm",
+      "language": "italian",
+      "position": 4913,
+      "length": 24
+    },
+    {
+      "id": 108,
+      "key": "utf8_entry_108",
+      "original_text": "Item Quality",
+      "translated_text": "Chất Lượng Vật Phẩm",
+      "language": "english",
+      "position": 5039,
+      "length": 13
+    },
+    {
+      "id": 109,
+      "key": "utf16_entry_109",
+      "original_text": "Qualité des objets",
+      "translated_text": "Chất lượng vật phẩm",
+      "language": "french",
+      "position": 5056,
+      "length": 38
+    },
+    {
+      "id": 110,
+      "key": "utf16_entry_110",
+      "original_text": "Qualità degli oggetti",
+      "translated_text": "Chất lượng vật phẩm",
+      "language": "italian",
+      "position": 5098,
+      "length": 44
+    },
+    {
+      "id": 111,
+      "key": "utf16_entry_111",
+      "original_text": "Gegenstände und ihre Qualität",
+      "translated_text": "Vật phẩm và Phẩm chất của chúng",
+      "language": "german",
+      "position": 5146,
+      "length": 60
+    },
+    {
+      "id": 112,
+      "key": "utf8_entry_112",
+      "original_text": "Calidad de un objeto",
+      "translated_text": "Chất lượng vật phẩm",
+      "language": "english",
+      "position": 5210,
+      "length": 21
+    },
+    {
+      "id": 113,
+      "key": "utf8_entry_113",
+      "original_text": "Lip Flowers",
+      "translated_text": "Lip Flowers",
+      "language": "english",
+      "position": 5333,
+      "length": 12
+    },
+    {
+      "id": 114,
+      "key": "utf8_entry_114",
+      "original_text": "Lyson",
+      "translated_text": "Lyson",
+      "language": "english",
+      "position": 5349,
+      "length": 6
+    },
+    {
+      "id": 115,
+      "key": "utf8_entry_115",
+      "original_text": "Labbrosvaldo e Labbrangela",
+      "translated_text": "Labbrosvaldo e Labbrangela",
+      "language": "english",
+      "position": 5359,
+      "length": 27
+    },
+    {
+      "id": 116,
+      "key": "utf8_entry_116",
+      "original_text": "Lui und Leo Lippe",
+      "translated_text": "Lui und Leo Lippe",
+      "language": "german",
+      "position": 5390,
+      "length": 18
+    },
+    {
+      "id": 117,
+      "key": "utf8_entry_117",
+      "original_text": "Giratriz y Girabuz",
+      "translated_text": "Giratriz y Girabuz",
+      "language": "english",
+      "position": 5412,
+      "length": 19
+    },
+    {
+      "id": 118,
+      "key": "utf8_entry_118",
+      "original_text": "Celestia's Gift",
+      "translated_text": "Món Quà của Celestia",
+      "language": "english",
+      "position": 5517,
+      "length": 16
+    },
+    {
+      "id": 119,
+      "key": "utf8_entry_119",
+      "original_text": "Mandragonnes",
+      "translated_text": "Mandragonnes",
+      "language": "english",
+      "position": 5537,
+      "length": 13
+    },
+    {
+      "id": 120,
+      "key": "utf8_entry_120",
+      "original_text": "I fiori divini",
+      "translated_text": "I fiori divini",
+      "language": "english",
+      "position": 5554,
+      "length": 15
+    },
+    {
+      "id": 121,
+      "key": "utf16_entry_121",
+      "original_text": "Göttinnenmieren",
+      "translated_text": "Göttinnenmieren",
+      "language": "german",
+      "position": 5573,
+      "length": 32
+    },
+    {
+      "id": 122,
+      "key": "utf8_entry_122",
+      "original_text": "Hierbasacra",
+      "translated_text": "Hierbasacra",
+      "language": "english",
+      "position": 5609,
+      "length": 12
+    },
+    {
+      "id": 123,
+      "key": "utf8_entry_123",
+      "original_text": "Gathering/Crafting Life Buddies",
+      "translated_text": "Thu thập/Chế tạo Đồng đội Sống",
+      "language": "english",
+      "position": 5761,
+      "length": 32
+    },
+    {
+      "id": 124,
+      "key": "utf16_entry_124",
+      "original_text": "Acolyte de création ou de récolte",
+      "translated_text": "Đệ tử sáng tạo hoặc thu hoạch",
+      "language": "french",
+      "position": 5797,
+      "length": 68
+    },
+    {
+      "id": 125,
+      "key": "utf8_entry_125",
+      "original_text": "I costruttori e i raccoglitori",
+      "translated_text": "I costruttori e i raccoglitori",
+      "language": "english",
+      "position": 5869,
+      "length": 31
+    },
+    {
+      "id": 126,
+      "key": "utf16_entry_126",
+      "original_text": "Verbündete mit Sammler- & Fertigungsleben",
+      "translated_text": "Đồng minh có [Sammler- & Fertigungsleben]",
+      "language": "german",
+      "position": 5904,
+      "length": 84
+    },
+    {
+      "id": 127,
+      "key": "utf16_entry_127",
+      "original_text": "Compañeros recolectores y artesanos",
+      "translated_text": "Hỡi các đồng đội thợ thủ công và người thu thập!",
+      "language": "spanish",
+      "position": 5992,
+      "length": 72
+    },
+    {
+      "id": 128,
+      "key": "utf8_entry_128",
+      "original_text": "Your Buddy's Level",
+      "translated_text": "Cấp độ của Đồng đội",
+      "language": "english",
+      "position": 6234,
+      "length": 19
+    },
+    {
+      "id": 129,
+      "key": "utf16_entry_129",
+      "original_text": "Niveau des alliés",
+      "translated_text": "Cấp độ đồng minh",
+      "language": "french",
+      "position": 6257,
+      "length": 36
+    },
+    {
+      "id": 130,
+      "key": "utf8_entry_130",
+      "original_text": "Il livello dei compagni",
+      "translated_text": "Cấp độ đồng đội",
+      "language": "italian",
+      "position": 6297,
+      "length": 24
+    },
+    {
+      "id": 131,
+      "key": "utf16_entry_131",
+      "original_text": "Stufen von Verbündeten",
+      "translated_text": "Cấp độ của Đồng minh",
+      "language": "german",
+      "position": 6325,
+      "length": 46
+    },
+    {
+      "id": 132,
+      "key": "utf16_entry_132",
+      "original_text": "Nivel de tus compañeros",
+      "translated_text": "Cấp độ của đồng đội",
+      "language": "spanish",
+      "position": 6375,
+      "length": 48
+    },
+    {
+      "id": 133,
+      "key": "utf8_entry_133",
+      "original_text": "Socializing",
+      "translated_text": "Giao tiếp",
+      "language": "english",
+      "position": 6549,
+      "length": 12
+    },
+    {
+      "id": 134,
+      "key": "utf16_entry_134",
+      "original_text": "Relation avec les alliés",
+      "translated_text": "Quan hệ với đồng minh",
+      "language": "french",
+      "position": 6565,
+      "length": 50
+    },
+    {
+      "id": 135,
+      "key": "utf8_entry_135",
+      "original_text": "Amicizia",
+      "translated_text": "Amicizia",
+      "language": "english",
+      "position": 6619,
+      "length": 9
+    },
+    {
+      "id": 136,
+      "key": "utf16_entry_136",
+      "original_text": "Freundschaft mit Verbündeten",
+      "translated_text": "Tình bạn với Đồng minh",
+      "language": "german",
+      "position": 6632,
+      "length": 58
+    },
+    {
+      "id": 137,
+      "key": "utf16_entry_137",
+      "original_text": "Intercambio con tus compañeros",
+      "translated_text": "Trao đổi với đồng đội",
+      "language": "italian",
+      "position": 6694,
+      "length": 62
+    },
+    {
+      "id": 138,
+      "key": "utf8_entry_138",
+      "original_text": "Treasure Grove",
+      "translated_text": "Vùng Đất Kho Báu",
+      "language": "english",
+      "position": 6860,
+      "length": 15
+    },
+    {
+      "id": 139,
+      "key": "utf16_entry_139",
+      "original_text": "Les dédaléarbres",
+      "translated_text": "Les dédaléarbres",
+      "language": "french",
+      "position": 6879,
+      "length": 34
+    },
+    {
+      "id": 140,
+      "key": "utf8_entry_140",
+      "original_text": "Alberinto",
+      "translated_text": "Mê cung",
+      "language": "english",
+      "position": 6917,
+      "length": 10
+    },
+    {
+      "id": 141,
+      "key": "utf16_entry_141",
+      "original_text": "Irrbäume",
+      "translated_text": "Irrbäume",
+      "language": "german",
+      "position": 6931,
+      "length": 18
+    },
+    {
+      "id": 142,
+      "key": "utf8_entry_142",
+      "original_text": "Azarinto",
+      "translated_text": "Azarinto",
+      "language": "english",
+      "position": 6953,
+      "length": 9
+    },
+    {
+      "id": 143,
+      "key": "utf8_entry_143",
+      "original_text": "Plushling Cafe",
+      "translated_text": "Quán Cafe Plushling",
+      "language": "english",
+      "position": 7062,
+      "length": 15
+    },
+    {
+      "id": 144,
+      "key": "utf16_entry_144",
+      "original_text": "Café Mascotton",
+      "translated_text": "Quán cà phê Mascotton",
+      "language": "french",
+      "position": 7081,
+      "length": 30
+    },
+    {
+      "id": 145,
+      "key": "utf8_entry_145",
+      "original_text": "Bar Nimbo",
+      "translated_text": "Quán Bar Nimbo",
+      "language": "english",
+      "position": 7115,
+      "length": 10
+    },
+    {
+      "id": 146,
+      "key": "utf8_entry_146",
+      "original_text": "Knufflingsstube",
+      "translated_text": "Nhà Knufflings",
+      "language": "english",
+      "position": 7129,
+      "length": 16
+    },
+    {
+      "id": 147,
+      "key": "utf16_entry_147",
+      "original_text": "Peluchetería",
+      "translated_text": "Cửa hàng thú bông",
+      "language": "italian",
+      "position": 7149,
+      "length": 26
+    },
+    {
+      "id": 148,
+      "key": "utf8_entry_148",
+      "original_text": "Near-Dodge",
+      "translated_text": "Near-Dodge",
+      "language": "english",
+      "position": 7291,
+      "length": 11
+    },
+    {
+      "id": 149,
+      "key": "utf8_entry_149",
+      "original_text": "Esquive parfaite",
+      "translated_text": "Esquive parfaite",
+      "language": "english",
+      "position": 7306,
+      "length": 17
+    },
+    {
+      "id": 150,
+      "key": "utf8_entry_150",
+      "original_text": "Schivata precisa",
+      "translated_text": "né chuẩn xác",
+      "language": "english",
+      "position": 7327,
+      "length": 17
+    },
+    {
+      "id": 151,
+      "key": "utf8_entry_151",
+      "original_text": "Perfektes Ausweichen",
+      "translated_text": "Miễn né hoàn hảo",
+      "language": "english",
+      "position": 7348,
+      "length": 21
+    },
+    {
+      "id": 152,
+      "key": "utf8_entry_152",
+      "original_text": "Finta por los pelos",
+      "translated_text": "Finta por los pelos",
+      "language": "spanish",
+      "position": 7373,
+      "length": 20
+    },
+    {
+      "id": 153,
+      "key": "utf8_entry_153",
+      "original_text": "Perfect Guard",
+      "translated_text": "Phòng thủ hoàn hảo",
+      "language": "english",
+      "position": 7491,
+      "length": 14
+    },
+    {
+      "id": 154,
+      "key": "utf8_entry_154",
+      "original_text": "Garde parfaite",
+      "translated_text": "Garde parfaite",
+      "language": "english",
+      "position": 7509,
+      "length": 15
+    },
+    {
+      "id": 155,
+      "key": "utf8_entry_155",
+      "original_text": "Parata perfetta",
+      "translated_text": "Parata perfetta",
+      "language": "english",
+      "position": 7528,
+      "length": 16
+    },
+    {
+      "id": 156,
+      "key": "utf8_entry_156",
+      "original_text": "Perfektes Verteidigen",
+      "translated_text": "Phòng thủ hoàn hảo",
+      "language": "english",
+      "position": 7548,
+      "length": 22
+    },
+    {
+      "id": 157,
+      "key": "utf8_entry_157",
+      "original_text": "Guardia perfecta",
+      "translated_text": "Guardia perfecta",
+      "language": "english",
+      "position": 7574,
+      "length": 17
+    },
+    {
+      "id": 158,
+      "key": "utf8_entry_158",
+      "original_text": "When Enemies Are Too Tough",
+      "translated_text": "Khi gặp địch quá mạnh",
+      "language": "english",
+      "position": 7721,
+      "length": 27
+    },
+    {
+      "id": 159,
+      "key": "utf8_entry_159",
+      "original_text": "Quand l'ennemi semble redoutable",
+      "translated_text": "Khi kẻ địch có vẻ đáng gờm",
+      "language": "english",
+      "position": 7752,
+      "length": 33
+    },
+    {
+      "id": 160,
+      "key": "utf8_entry_160",
+      "original_text": "Se un nemico sembra potente",
+      "translated_text": "Nếu kẻ địch có vẻ mạnh",
+      "language": "english",
+      "position": 7789,
+      "length": 28
+    },
+    {
+      "id": 161,
+      "key": "utf8_entry_161",
+      "original_text": "Wenn ein Gegner zu stark ist",
+      "translated_text": "Nếu một kẻ địch quá mạnh",
+      "language": "german",
+      "position": 7821,
+      "length": 29
+    },
+    {
+      "id": 162,
+      "key": "utf8_entry_162",
+      "original_text": "Cuando des con un enemigo muy fuerte...",
+      "translated_text": "Khi gặp kẻ địch mạnh...",
+      "language": "spanish",
+      "position": 7854,
+      "length": 40
+    },
+    {
+      "id": 163,
+      "key": "utf8_entry_163",
+      "original_text": "Ginormosia",
+      "translated_text": "Ginormosia",
+      "language": "english",
+      "position": 8040,
+      "length": 11
+    },
+    {
+      "id": 164,
+      "key": "utf8_entry_164",
+      "original_text": "Giganterrarium",
+      "translated_text": "Cự Thú Cung",
+      "language": "english",
+      "position": 8055,
+      "length": 15
+    },
+    {
+      "id": 165,
+      "key": "utf8_entry_165",
+      "original_text": "Continente Moltogrande",
+      "translated_text": "Lục địa Moltogrande",
+      "language": "english",
+      "position": 8074,
+      "length": 23
+    },
+    {
+      "id": 166,
+      "key": "utf8_entry_166",
+      "original_text": "Gigantien",
+      "translated_text": "Người khổng lồ",
+      "language": "english",
+      "position": 8101,
+      "length": 10
+    },
+    {
+      "id": 167,
+      "key": "utf8_entry_167",
+      "original_text": "Continente de Mogollones",
+      "translated_text": "Lục địa Mogollones",
+      "language": "english",
+      "position": 8115,
+      "length": 25
+    },
+    {
+      "id": 168,
+      "key": "utf8_entry_168",
+      "original_text": "Teleportation Gate",
+      "translated_text": "Cổng Dịch Chuyển",
+      "language": "english",
+      "position": 8238,
+      "length": 19
+    },
+    {
+      "id": 169,
+      "key": "utf8_entry_169",
+      "original_text": "Omniportail",
+      "translated_text": "Cổng Siêu Không Gian",
+      "language": "english",
+      "position": 8261,
+      "length": 12
+    },
+    {
+      "id": 170,
+      "key": "utf8_entry_170",
+      "original_text": "Portale universale",
+      "translated_text": "Cổng dịch chuyển toàn năng",
+      "language": "english",
+      "position": 8277,
+      "length": 19
+    },
+    {
+      "id": 171,
+      "key": "utf16_entry_171",
+      "original_text": "Tor nach Überall",
+      "translated_text": "Cổng đến Überall",
+      "language": "german",
+      "position": 8300,
+      "length": 34
+    },
+    {
+      "id": 172,
+      "key": "utf8_entry_172",
+      "original_text": "Puertas viajeras",
+      "translated_text": "Cửa dịch chuyển",
+      "language": "english",
+      "position": 8338,
+      "length": 17
+    },
+    {
+      "id": 173,
+      "key": "utf8_entry_173",
+      "original_text": "Area Challenge",
+      "translated_text": "Thử thách Vùng",
+      "language": "english",
+      "position": 8453,
+      "length": 15
+    },
+    {
+      "id": 174,
+      "key": "utf16_entry_174",
+      "original_text": "Défi de zone",
+      "translated_text": "Thử thách Vùng",
+      "language": "french",
+      "position": 8472,
+      "length": 26
+    },
+    {
+      "id": 175,
+      "key": "utf8_entry_175",
+      "original_text": "Sfide dell'area",
+      "translated_text": "Thử thách khu vực",
+      "language": "english",
+      "position": 8502,
+      "length": 16
+    },
+    {
+      "id": 176,
+      "key": "utf8_entry_176",
+      "original_text": "Gebietsherausforderungen",
+      "translated_text": "Thử thách Vùng",
+      "language": "english",
+      "position": 8522,
+      "length": 25
+    },
+    {
+      "id": 177,
+      "key": "utf16_entry_177",
+      "original_text": "Zonas de desafíos",
+      "translated_text": "Khu vực Thử Thách",
+      "language": "italian",
+      "position": 8551,
+      "length": 36
+    },
+    {
+      "id": 178,
+      "key": "utf8_entry_178",
+      "original_text": "Evershop",
+      "translated_text": "Siêu thị Evershop",
+      "language": "english",
+      "position": 8699,
+      "length": 9
+    },
+    {
+      "id": 179,
+      "key": "utf8_entry_179",
+      "original_text": "Boutique en libre service",
+      "translated_text": "Cửa hàng tự phục vụ",
+      "language": "english",
+      "position": 8712,
+      "length": 26
+    },
+    {
+      "id": 180,
+      "key": "utf16_entry_180",
+      "original_text": "Bancarella faidaté",
+      "translated_text": "Gian hàng may mắn",
+      "language": "french",
+      "position": 8742,
+      "length": 38
+    },
+    {
+      "id": 181,
+      "key": "utf16_entry_181",
+      "original_text": "SB-Stände",
+      "translated_text": "SB-Stände",
+      "language": "german",
+      "position": 8784,
+      "length": 20
+    },
+    {
+      "id": 182,
+      "key": "utf8_entry_182",
+      "original_text": "Venta autoservicio",
+      "translated_text": "Bán hàng tự phục vụ",
+      "language": "english",
+      "position": 8808,
+      "length": 19
+    },
+    {
+      "id": 183,
+      "key": "utf8_entry_183",
+      "original_text": "Merchant",
+      "translated_text": "Thương nhân",
+      "language": "english",
+      "position": 8941,
+      "length": 9
+    },
+    {
+      "id": 184,
+      "key": "utf16_entry_184",
+      "original_text": "Commerçants",
+      "translated_text": "Thương nhân",
+      "language": "french",
+      "position": 8954,
+      "length": 24
+    },
+    {
+      "id": 185,
+      "key": "utf8_entry_185",
+      "original_text": "Mercante",
+      "translated_text": "Thương nhân",
+      "language": "english",
+      "position": 8982,
+      "length": 9
+    },
+    {
+      "id": 186,
+      "key": "utf16_entry_186",
+      "original_text": "Ziehende Händler",
+      "translated_text": "Thương nhân lữ hành",
+      "language": "german",
+      "position": 8995,
+      "length": 34
+    },
+    {
+      "id": 187,
+      "key": "utf8_entry_187",
+      "original_text": "Mercader",
+      "translated_text": "Thương nhân",
+      "language": "english",
+      "position": 9033,
+      "length": 9
+    },
+    {
+      "id": 188,
+      "key": "utf8_entry_188",
+      "original_text": "Hagram",
+      "translated_text": "Hagram",
+      "language": "english",
+      "position": 9126,
+      "length": 7
+    },
+    {
+      "id": 189,
+      "key": "utf8_entry_189",
+      "original_text": "Lengrenage",
+      "translated_text": "Lengrenage",
+      "language": "english",
+      "position": 9137,
+      "length": 11
+    },
+    {
+      "id": 190,
+      "key": "utf8_entry_190",
+      "original_text": "Granag",
+      "translated_text": "Granag",
+      "language": "english",
+      "position": 9152,
+      "length": 7
+    },
+    {
+      "id": 191,
+      "key": "utf8_entry_191",
+      "original_text": "Radrian",
+      "translated_text": "Radrian",
+      "language": "english",
+      "position": 9163,
+      "length": 8
+    },
+    {
+      "id": 192,
+      "key": "utf8_entry_192",
+      "original_text": "Granaje",
+      "translated_text": "Granaje",
+      "language": "english",
+      "position": 9175,
+      "length": 8
+    },
+    {
+      "id": 193,
+      "key": "utf8_entry_193",
+      "original_text": "An archeologist studying the history of Reveria. His sharp mind has an insatiable hunger for the unknown. He has a knack for reading people, too.",
+      "translated_text": "Một nhà khảo cổ đang nghiên cứu lịch sử của Reveria. Trí tuệ sắc bén của ông ta luôn khao khát những điều bí ẩn. Ông ta còn rất giỏi đọc người khác nữa.",
+      "language": "english",
+      "position": 9551,
+      "length": 146
+    },
+    {
+      "id": 194,
+      "key": "utf16_entry_194",
+      "original_text": "Cet archéologue passionné étudie l'histoire de Rêveria. Vif d'esprit, avide d'inconnu, il a toujours une longueur d'avance sur les autres.",
+      "translated_text": "Nhà khảo cổ học đầy nhiệt huyết này nghiên cứu về lịch sử của Rêveria. Óc phán đoán nhanh nhạy, khao khát khám phá, ông ta luôn đi trước người khác một bước.",
+      "language": "french",
+      "position": 9701,
+      "length": 278
+    },
+    {
+      "id": 195,
+      "key": "utf16_entry_195",
+      "original_text": "Un archeologo esperto della storia di Reveria.\r\nCurioso e intelligente, ama la scoperta\r\ned è sempre un passo davanti a tutti gli altri.",
+      "translated_text": "Một nhà khảo cổ học am hiểu về lịch sử của Reveria.\nTò mò và thông minh, yêu thích khám phá\nvà luôn đi trước mọi người một bước.",
+      "language": "italian",
+      "position": 9983,
+      "length": 274
+    },
+    {
+      "id": 196,
+      "key": "utf16_entry_196",
+      "original_text": "Ein Archäologe, der die Geschichte Reverias erforscht. Seine Neugier kennt keine Grenzen. Clever und gut darin, andere zu durchschauen.",
+      "translated_text": "Một nhà khảo cổ học, người khám phá lịch sử của Reveria. Sự tò mò của ông ta là vô tận. Thông minh và giỏi trong việc nhìn thấu người khác.",
+      "language": "german",
+      "position": 10261,
+      "length": 272
+    },
+    {
+      "id": 197,
+      "key": "utf16_entry_197",
+      "original_text": "Arqueólogo que estudia la historia antigua de Reveria. De curiosidad sin fondo, le llama lo desconocido. Es sagaz y se adelanta a los demás.",
+      "translated_text": "Nhà khảo cổ học nghiên cứu về lịch sử cổ đại của Reveria. Với trí tò mò vô tận, anh ta luôn bị thu hút bởi những điều bí ẩn. Anh ta rất tháo vát và luôn đi trước mọi người.",
+      "language": "french",
+      "position": 10537,
+      "length": 282
+    },
+    {
+      "id": 198,
+      "key": "utf16_entry_198",
+      "original_text": "Edward's blue pet bird and—according to Trip—his number one pupil.",
+      "translated_text": "Con chim cảnh màu xanh của Edward và—theo lời Trip—học trò cưng số một của hắn.",
+      "language": "english",
+      "position": 11365,
+      "length": 134
+    },
+    {
+      "id": 199,
+      "key": "utf16_entry_199",
+      "original_text": "L'oiseau de compagnie d'Édouard se considère comme son meilleur disciple.",
+      "translated_text": "Chim cưng của Édouard tự nhận mình là đệ tử giỏi nhất của hắn.",
+      "language": "french",
+      "position": 11503,
+      "length": 148
+    },
+    {
+      "id": 200,
+      "key": "utf16_entry_200",
+      "original_text": "Un uccello blu che accompagna Edward.\r\nÈ convinto di essere un assistente archeologo.",
+      "translated_text": "Một con chim xanh đi cùng Edward.\nNó tin rằng mình là trợ lý nhà khảo cổ học.",
+      "language": "italian",
+      "position": 11655,
+      "length": 172
+    },
+    {
+      "id": 201,
+      "key": "utf16_entry_201",
+      "original_text": "Ein blauer Vogel, den Edward als Haustier hält. Er hält sich anscheinend für Edwards besten Schüler.",
+      "translated_text": "Một con chim xanh, con Edward nuôi làm thú cưng. Nó có vẻ như tự nhận mình là học trò giỏi nhất của Edward.",
+      "language": "german",
+      "position": 11831,
+      "length": 202
+    },
+    {
+      "id": 202,
+      "key": "utf16_entry_202",
+      "original_text": "El fiel acompañante aviar de Eduardo. Se autodenomina como el mejor aprendiz del arqueólogo.",
+      "translated_text": "Người bạn đồng hành đáng tin cậy của Eduardo. Tự xưng là học trò giỏi nhất của nhà khảo cổ học.",
+      "language": "spanish",
+      "position": 12037,
+      "length": 186
+    },
+    {
+      "id": 203,
+      "key": "utf8_entry_203",
+      "original_text": "A Plushling and member of Edward's expedition team. Meticulous and observant, he dreams of discovering mountains of treasure.",
+      "translated_text": "Một thành viên của đội thám hiểm Edward và là một Plushling. Cẩn thận và tinh ý, anh ta mơ ước được khám phá những ngọn núi kho báu.",
+      "language": "english",
+      "position": 12691,
+      "length": 126
+    },
+    {
+      "id": 204,
+      "key": "utf16_entry_204",
+      "original_text": "Ce Mascotton, membre de l'équipe de recherche, aime le travail bien fait. Il rêve de découvrir un trésor colossal.",
+      "translated_text": "Thằng Mascotton này, thành viên đội nghiên cứu, thích mọi thứ phải hoàn hảo. Hắn ta mơ ước tìm được kho báu khổng lồ.",
+      "language": "french",
+      "position": 12821,
+      "length": 230
+    },
+    {
+      "id": 205,
+      "key": "utf16_entry_205",
+      "original_text": "Un nimbo, membro dell'Equipe esplorativa di Edward. È molto puntiglioso e sempre attento ai dettagli. Sogna di scoprire un enorme tesoro.",
+      "translated_text": "Un nimbo, thành viên của Đội Khám phá của Edward. Anh ta rất chi tiết và luôn chú ý đến các chi tiết. Ước mơ của anh là khám phá một kho báu khổng lồ.",
+      "language": "italian",
+      "position": 13055,
+      "length": 276
+    },
+    {
+      "id": 206,
+      "key": "utf16_entry_206",
+      "original_text": "Ein Knuffling und Mitglied des Edward-Forscherteams. Gewissenhaft und etwas pedantisch. Träumt davon, einen Berg von Schätzen zu finden.",
+      "translated_text": "Một Knuffling và là thành viên của đội thám hiểm Edward. Tận tâm và hơi kỹ tính. Luôn mơ ước tìm thấy một kho báu chất thành núi.",
+      "language": "german",
+      "position": 13335,
+      "length": 274
+    },
+    {
+      "id": 207,
+      "key": "utf16_entry_207",
+      "original_text": "Peluche integrante del Cuerpo de Exploración de Eduardo. Es muy minucioso y detallista. Su sueño es encontrar un tesoro perdido.",
+      "translated_text": "Thú bông thuộc Đội Thám Hiểm của Eduardo. Cậu ta rất tỉ mỉ và chi tiết. Ước mơ của cậu là tìm thấy kho báu thất lạc.",
+      "language": "spanish",
+      "position": 13613,
+      "length": 258
+    },
+    {
+      "id": 208,
+      "key": "utf8_entry_208",
+      "original_text": "A Plushling and member of Edward's expedition team. A big foodie who knows how to cook, he joined the group in search of golden donuts.",
+      "translated_text": "Một Plushling và là thành viên của đội thám hiểm của Edward. Một tay sành ăn chính hiệu, biết nấu ăn, anh ta gia nhập nhóm để tìm kiếm những chiếc bánh donut vàng.",
+      "language": "english",
+      "position": 14457,
+      "length": 136
+    },
+    {
+      "id": 209,
+      "key": "utf16_entry_209",
+      "original_text": "Ce Mascotton, membre de l'équipe de recherche, aime autant manger que cuisiner. Il a rejoint Édouard pour trouver des donuts en or.",
+      "translated_text": "Chú Mascott này, thành viên của đội nghiên cứu, thích ăn cũng như thích nấu ăn. Anh ta đã tham gia cùng Édouard để tìm bánh donut vàng.",
+      "language": "french",
+      "position": 14597,
+      "length": 264
+    },
+    {
+      "id": 210,
+      "key": "utf16_entry_210",
+      "original_text": "Un nimbo, membro dell'Equipe esplorativa di Edward. È un ghiottone ed è anche molto bravo a cucinare. Sogna di scoprire una ciambella d'oro.",
+      "translated_text": "Un nimbo, membro dell'Equipe esplorativa di Edward. È un ghiottone ed è anche molto bravo a cucinare. Sogna di scoprire una ciambella d'oro.",
+      "language": "italian",
+      "position": 14865,
+      "length": 282
+    },
+    {
+      "id": 211,
+      "key": "utf8_entry_211",
+      "original_text": "Ein Knuffling und Mitglied des Edward-Forscherteams. Liebt Essen und ist ein talentierter Koch. Trat dem Team bei, um einen goldenen Donut zu finden.",
+      "translated_text": "Một Knuffling, thành viên của đội thám hiểm Edward. Yêu thích đồ ăn và là một đầu bếp tài năng. Gia nhập đội để tìm chiếc bánh Donut vàng.",
+      "language": "german",
+      "position": 15151,
+      "length": 150
+    },
+    {
+      "id": 212,
+      "key": "utf16_entry_212",
+      "original_text": "Peluche integrante del Cuerpo de Exploración de Eduardo. Le encantan tanto la comida como cocinar. Se unió al cuerpo para encontrar dónuts dorados.",
+      "translated_text": "Búp bê nhồi bông thành viên Đội Trinh Sát của Eduardo. Cậu ấy yêu thích cả đồ ăn và nấu nướng. Gia nhập đội để tìm bánh donut vàng.",
+      "language": "spanish",
+      "position": 15305,
+      "length": 296
+    },
+    {
+      "id": 213,
+      "key": "utf8_entry_213",
+      "original_text": "A Plushling and member of Edward's expedition team. Hoards all the treasure he finds in his backpack. Polo's older twin brother.",
+      "translated_text": "Một thành viên của đội thám hiểm Edward và cũng là một Plushling. Gã giữ khư khư mọi kho báu tìm được trong ba lô. Anh song sinh lớn tuổi hơn của Polo.",
+      "language": "english",
+      "position": 16153,
+      "length": 129
+    },
+    {
+      "id": 214,
+      "key": "utf16_entry_214",
+      "original_text": "Ce Mascotton, membre de l'équipe de recherche, aime remplir son sac de tous ses « trésors ». C'est le frère jumeau de Polo.",
+      "translated_text": "Thành viên Mascotton này của đội nghiên cứu thích nhét đầy túi bằng tất cả \"báu vật\" của mình. Nó là anh em sinh đôi của Polo.",
+      "language": "french",
+      "position": 16286,
+      "length": 248
+    },
+    {
+      "id": 215,
+      "key": "utf16_entry_215",
+      "original_text": "Un nimbo, membro dell'Equipe esplorativa di Edward. Nel suo enorme zaino ha una collezione di tesori. Copolo è il suo fratello gemello.",
+      "translated_text": "Một thành viên của Đội thám hiểm Edward, Nimbo. Anh ta có một bộ sưu tập kho báu trong chiếc ba lô khổng lồ của mình. Copolo là anh em sinh đôi của anh.",
+      "language": "italian",
+      "position": 16538,
+      "length": 272
+    },
+    {
+      "id": 216,
+      "key": "utf16_entry_216",
+      "original_text": "Ein Knuffling und Mitglied des Edward-Forscherteams. In seinem riesigen Rucksack sammelt er Schätze. Paolos älterer Zwillingsbruder.",
+      "translated_text": "Một Knuffling và là thành viên của đội thám hiểm Edward. Anh ta thu thập kho báu trong chiếc ba lô khổng lồ của mình. Anh trai song sinh lớn hơn của Paolo.",
+      "language": "german",
+      "position": 16814,
+      "length": 266
+    },
+    {
+      "id": 217,
+      "key": "utf16_entry_217",
+      "original_text": "Peluche integrante del Cuerpo de Exploración de Eduardo. Carga con una mochila enorme repleta de sus tesoros personales. Gemelo mayor de Polo.",
+      "translated_text": "Gấu bông thuộc Đội Trinh Sát của Eduardo. Mang theo chiếc ba lô khổng lồ chứa đầy kho báu cá nhân. Anh lớn của Polo.",
+      "language": "italian",
+      "position": 17084,
+      "length": 286
+    },
+    {
+      "id": 218,
+      "key": "utf8_entry_218",
+      "original_text": "A Plushling and member of Edward's expedition team. Has a knack for picking out objects of value. Marco's younger twin brother.",
+      "translated_text": "Một Plushling và là thành viên đội thám hiểm của Edward. Có biệt tài tìm ra những vật phẩm giá trị. Em trai song sinh của Marco.",
+      "language": "english",
+      "position": 17916,
+      "length": 128
+    },
+    {
+      "id": 219,
+      "key": "utf16_entry_219",
+      "original_text": "Ce Mascotton, membre de l'équipe de recherche, a l'œil pour tout ce qui a de la valeur. C'est le frère jumeau de Marco.",
+      "translated_text": "Ce Mascotton, membre de l'équipe de recherche, a l'œil pour tout ce qui a de la valeur. C'est le frère jumeau de Marco.",
+      "language": "french",
+      "position": 18048,
+      "length": 240
+    },
+    {
+      "id": 220,
+      "key": "utf16_entry_220",
+      "original_text": "Un nimbo, membro dell'Equipe esplorativa di Edward. La sua specialità è valutare i tesori. Mar è il suo fratello gemello.",
+      "translated_text": "Un nimbo, membro dell'Equipe esplorativa di Edward. La sua specialità è valutare i tesori. Mar è il suo fratello gemello.",
+      "language": "french",
+      "position": 18292,
+      "length": 244
+    },
+    {
+      "id": 221,
+      "key": "utf16_entry_221",
+      "original_text": "Ein Knuffling und Mitglied des Edward-Forscherteams. Erkennt auf einen Blick den Wert von Schätzen. Maolos jüngerer Zwillingsbruder.",
+      "translated_text": "Một Knuffling và thành viên của đội thám hiểm Edward. Nhìn phát biết ngay giá trị của bảo vật. Em trai song sinh của Maolo.",
+      "language": "german",
+      "position": 18540,
+      "length": 266
+    },
+    {
+      "id": 222,
+      "key": "utf16_entry_222",
+      "original_text": "Peluche integrante del Cuerpo de Exploración de Eduardo. Tiene un olfato estupendo para encontrar toda clase de tesoros. Gemelo menor de Marco.",
+      "translated_text": "Thú nhồi bông thuộc Đội Thám Hiểm của Eduardo. Có khứu giác siêu hạng để tìm mọi loại kho báu. Em trai sinh đôi của Marco.",
+      "language": "spanish",
+      "position": 18810,
+      "length": 288
+    },
+    {
+      "id": 223,
+      "key": "utf8_entry_223",
+      "original_text": "An old sea captain Plushling who is happy to lend his boat to Edward. He is in fact a former pirate, unfazed by even the fiercest of storms.",
+      "translated_text": "Một thuyền trưởng già Plushling rất vui khi cho Edward mượn thuyền. Hắn vốn là cướp biển, chẳng ngại cả những cơn bão dữ dội nhất.",
+      "language": "english",
+      "position": 19614,
+      "length": 141
+    },
+    {
+      "id": 224,
+      "key": "utf16_entry_224",
+      "original_text": "Ce capitaine Mascotton aguerri prête généreusement son bateau à Édouard. C'était autrefois un pirate qui bravait les dangers de la mer.",
+      "translated_text": "Thuyền trưởng Mascotton dày dạn kinh nghiệm này hào phóng cho Édouard mượn tàu. Hắn từng là một tên cướp biển, vượt qua mọi hiểm nguy trên biển cả.",
+      "language": "french",
+      "position": 19759,
+      "length": 272
+    },
+    {
+      "id": 225,
+      "key": "utf8_entry_225",
+      "original_text": "Un nimbo, esperto capitano e navigatore.\r\nPresta sempre la sua nave a Edward quando serve. Un ex-pirata, ama il mare e sprezza il pericolo.",
+      "translated_text": "Một Nimbo, thuyền trưởng dày dạn kinh nghiệm và là một nhà hàng hải tài ba.\nLuôn cho Edward mượn tàu khi cần. Một cựu hải tặc, yêu biển và coi thường hiểm nguy.",
+      "language": "italian",
+      "position": 20035,
+      "length": 140
+    },
+    {
+      "id": 226,
+      "key": "utf16_entry_226",
+      "original_text": "Furchtloser Knufflingskapitän. Stellt Edward jederzeit sein Schiff zur Verfügung. Nur die Wenigsten wissen, dass er einst Pirat war.",
+      "translated_text": "Thuyền trưởng Knufflings gan dạ. Luôn sẵn sàng cung cấp tàu cho Edward. Ít ai biết rằng ông từng là cướp biển.",
+      "language": "german",
+      "position": 20179,
+      "length": 266
+    },
+    {
+      "id": 227,
+      "key": "utf16_entry_227",
+      "original_text": "El veterano capitán de los peluches. Le presta a Eduardo su barco siempre que este se lo pide. En su día fue pirata y se conoce los mares al dedillo.",
+      "translated_text": "Lão thuyền trưởng gấu bông. Ông luôn cho Eduardo mượn tàu mỗi khi cậu ta cần. Hồi còn trẻ, ông từng là cướp biển và thuộc lòng mọi ngóc ngách của biển khơi.",
+      "language": "spanish",
+      "position": 20449,
+      "length": 300
+    },
+    {
+      "id": 228,
+      "key": "utf8_entry_228",
+      "original_text": "A strange and delightful world full of adventure, where everyone chooses a Life and works together in harmony.",
+      "translated_text": "Một thế giới kỳ lạ và thú vị đầy những cuộc phiêu lưu, nơi mọi người chọn một Nghề nghiệp và cùng nhau làm việc trong hòa hợp.",
+      "language": "english",
+      "position": 21279,
+      "length": 111
+    },
+    {
+      "id": 229,
+      "key": "utf16_entry_229",
+      "original_text": "Dans cette étrange contrée riche en aventures, les habitants vivent paisiblement en menant leurs carrières.",
+      "translated_text": "Trong vùng đất kỳ lạ đầy phiêu lưu này, cư dân sống yên bình và theo đuổi sự nghiệp của họ.",
+      "language": "french",
+      "position": 21394,
+      "length": 216
+    },
+    {
+      "id": 230,
+      "key": "utf8_entry_230",
+      "original_text": "Un mondo misterioso e pieno di avventure.\r\nI suoi abitanti vivono in pace e allegria,\r\nognuno impegnato con il proprio mestiere.",
+      "translated_text": "Một thế giới bí ẩn và đầy những cuộc phiêu lưu.\nCư dân nơi đây sống trong hòa bình và vui vẻ,\nmỗi người đều bận rộn với công việc của mình.",
+      "language": "italian",
+      "position": 21614,
+      "length": 129
+    },
+    {
+      "id": 231,
+      "key": "utf8_entry_231",
+      "original_text": "Eine magische und friedliche Welt voller Abenteuer. Die Bewohner gehen hier munter ihren unterschiedlichen Leben nach.",
+      "translated_text": "Một thế giới phép thuật và thanh bình, tràn ngập những cuộc phiêu lưu. Cư dân nơi đây vui vẻ với cuộc sống muôn màu của họ.",
+      "language": "german",
+      "position": 21747,
+      "length": 119
+    },
+    {
+      "id": 232,
+      "key": "utf16_entry_232",
+      "original_text": "Un pacífico mundo de lo más particular y repleto de aventuras. En él, la gente vive con entusiasmo mientras desempeñan toda clase de oficios.",
+      "translated_text": "Một thế giới thanh bình, độc đáo và tràn ngập những cuộc phiêu lưu. Nơi đây, mọi người sống vui vẻ và nhiệt tình với đủ mọi ngành nghề.",
+      "language": "italian",
+      "position": 21870,
+      "length": 284
+    },
+    {
+      "id": 233,
+      "key": "utf8_entry_233",
+      "original_text": "A small village in the Kingdom of Mysteria. This idyllic settlement is home to many Life Masters.",
+      "translated_text": "Một ngôi làng nhỏ bé trong Vương quốc Mysteria. Nơi an bình này là nhà của rất nhiều Bậc thầy Sinh mệnh.",
+      "language": "english",
+      "position": 22634,
+      "length": 98
+    },
+    {
+      "id": 234,
+      "key": "utf16_entry_234",
+      "original_text": "Ce petit village est niché au cœur du royaume de Mystéria. De nombreux Maîtres de carrière y ont élu domicile.",
+      "translated_text": "Ngôi làng nhỏ bé này nép mình ở trung tâm vương quốc Mysteria. Rất nhiều Bậc thầy nghề nghiệp đã chọn nơi đây làm nhà.",
+      "language": "french",
+      "position": 22736,
+      "length": 222
+    },
+    {
+      "id": 235,
+      "key": "utf8_entry_235",
+      "original_text": "Un piccolo villaggio nel regno di Mistenia.\r\nMolti Maestri di mestiere vivono qui.",
+      "translated_text": "Một ngôi làng nhỏ bé trong vương quốc Mistenia.\nRất nhiều Bậc thầy sinh sống ở đây.",
+      "language": "italian",
+      "position": 22962,
+      "length": 83
+    },
+    {
+      "id": 236,
+      "key": "utf16_entry_236",
+      "original_text": "Ein kleines Dorf im Königreich Mythnia. Viele Lebensmeister leben hier und in der Umgebung.",
+      "translated_text": "Một ngôi làng nhỏ trong Vương quốc Mythnia. Rất nhiều Bậc thầy Sinh tồn sinh sống ở đây và vùng lân cận.",
+      "language": "german",
+      "position": 23049,
+      "length": 184
+    },
+    {
+      "id": 237,
+      "key": "utf16_entry_237",
+      "original_text": "Una aldea perteneciente al Reino de Mistenia. Allí viven muchos de los mentores de oficios.",
+      "translated_text": "Một ngôi làng thuộc về Vương quốc Mistenia. Nơi đây cư ngụ nhiều người hướng dẫn nghề nghiệp.",
+      "language": "italian",
+      "position": 23237,
+      "length": 184
+    },
+    {
+      "id": 238,
+      "key": "utf8_entry_238",
+      "original_text": "This world's term for professions. Lives come in three types: Combat, Gathering, and Crafting. Visit a guild to receive a new Life License.",
+      "translated_text": "Đây là các nghề nghiệp trong thế giới này. Có ba loại: Chiến Đấu, Thu Thập và Chế Tạo. Hãy đến hội để nhận Giấy phép Nghề nghiệp.",
+      "language": "english",
+      "position": 23943,
+      "length": 140
+    },
+    {
+      "id": 239,
+      "key": "utf16_entry_239",
+      "original_text": "Les professions sont réparties en trois types de carrières : récolte, création et combat. Obtiens une licence à la guilde pour en poursuivre une.",
+      "translated_text": "Các nghề nghiệp được chia thành ba loại: Thu thập, Chế tạo và Chiến đấu. Nhận giấy phép tại hội để theo đuổi một trong số chúng.",
+      "language": "french",
+      "position": 24087,
+      "length": 292
+    },
+    {
+      "id": 240,
+      "key": "utf16_entry_240",
+      "original_text": "C'è chi combatte, chi raccoglie e chi costruisce.\r\nPer iniziare un mestiere ti serve una licenza,\r\nche puoi ottenere alla gilda dei mestieri.",
+      "translated_text": "Có người chiến đấu, có người thu thập và có người xây dựng.\nĐể bắt đầu một nghề, bạn cần giấy phép,\ncó thể lấy được tại hội thợ.",
+      "language": "italian",
+      "position": 24383,
+      "length": 284
+    },
+    {
+      "id": 241,
+      "key": "utf16_entry_241",
+      "original_text": "Die \"Berufe\" dieser Welt. Es gibt Kämpferleben, Sammlerleben und Fertigungsleben. Die Lebensgilde stellt Lizenzen für verschiedene Leben aus.",
+      "translated_text": "Những \"Nghề\" trong thế giới này. Có nghề Chiến Đấu, nghề Sưu Tầm và nghề Chế Tạo. Hội nghề nghiệp cấp giấy phép cho các nghề khác nhau.",
+      "language": "german",
+      "position": 24671,
+      "length": 284
+    },
+    {
+      "id": 242,
+      "key": "utf16_entry_242",
+      "original_text": "Las profesiones de este mundo entran en tres categorías: combate, recolección y artesanía. Para dedicarte a un oficio, debes ir a su gremio.",
+      "translated_text": "Các nghề trong thế giới này được chia làm ba loại: chiến đấu, thu thập và chế tạo. Để theo đuổi một nghề, bạn cần đến hội quán của nghề đó.",
+      "language": "spanish",
+      "position": 24959,
+      "length": 282
+    },
+    {
+      "id": 243,
+      "key": "utf16_entry_243",
+      "original_text": "职业在这个世界里至关重要。\r\n分为战斗、采集、制作3种类别。\r\n想从事某个职业时，先去工会申领执照吧！",
+      "translated_text": "Nghề nghiệp rất quan trọng trong thế giới này.\nCó 3 loại chính: Chiến đấu, Thu thập, và Chế tạo.\nMuốn chọn nghề nào thì hãy đến Hội để xin giấy phép trước nhé!",
+      "language": "chinese",
+      "position": 25245,
+      "length": 104
+    },
+    {
+      "id": 244,
+      "key": "utf16_entry_244",
+      "original_text": "이 세계에서의 『직업』\r\n전투계, 채집계, 제작계까지 3가지로 분류된다\r\n라이프를 얻을 때는 길드에서 라이선스를 받자",
+      "translated_text": "『Chức nghiệp』 trong thế giới này được chia thành 3 loại:\nChiến đấu, Thu thập, và Chế tạo.\nĐể có được [LIFE], hãy lấy giấy phép từ Guild.",
+      "language": "korean",
+      "position": 25457,
+      "length": 132
+    },
+    {
+      "id": 245,
+      "key": "utf8_entry_245",
+      "original_text": "Each Life has a Life Master who will mentor you on your journey. Once you have chosen a Life, be sure to pay them a visit.",
+      "translated_text": "Mỗi Sinh Mệnh đều có một Bậc Thầy, người sẽ hướng dẫn bạn trên hành trình. Sau khi chọn Sinh Mệnh, hãy nhớ đến thăm họ.",
+      "language": "english",
+      "position": 25795,
+      "length": 123
+    },
+    {
+      "id": 246,
+      "key": "utf16_entry_246",
+      "original_text": "Chaque carrière a un Maître qui guide ses disciples afin qu'ils suivent sa voie. La première étape d'une carrière consiste à aller le consulter.",
+      "translated_text": "Mỗi con đường đều có một Sư Phụ dẫn dắt đệ tử đi theo. Bước đầu tiên của việc chọn một con đường là đến gặp ngài để tham khảo.",
+      "language": "french",
+      "position": 25922,
+      "length": 290
+    },
+    {
+      "id": 247,
+      "key": "utf16_entry_247",
+      "original_text": "Per ogni mestiere c'è un Maestro,\r\nche è il maggiore esperto in quel campo. Potrà aiutarti a migliorare\r\nnel tuo mestiere.",
+      "translated_text": "Mỗi nghề đều có một Bậc thầy,\nngười giỏi nhất trong lĩnh vực đó. Họ có thể giúp bạn cải thiện\ntrong nghề của mình.",
+      "language": "italian",
+      "position": 26216,
+      "length": 246
+    },
+    {
+      "id": 248,
+      "key": "utf16_entry_248",
+      "original_text": "Für jedes Leben gibt es einen Lebensmeister, der Lehrlinge unterweist. Wenn man ein Leben ergreift, sollte man zunächst seinen Meister aufsuchen.",
+      "translated_text": "Đối với mỗi nghề đều có một bậc thầy hướng dẫn đệ tử. Khi chọn một nghề, trước tiên bạn nên tìm đến sư phụ của mình.",
+      "language": "german",
+      "position": 26466,
+      "length": 292
+    },
+    {
+      "id": 249,
+      "key": "utf16_entry_249",
+      "original_text": "Cada oficio tiene su mentor o mentora, que será quien te instruya. Habla con estos para comenzar con tu nueva vocación.",
+      "translated_text": "Mỗi nghề đều có người hướng dẫn riêng, họ sẽ là người chỉ bảo bạn. Hãy nói chuyện với họ để bắt đầu con đường mới của bạn.",
+      "language": "italian",
+      "position": 26762,
+      "length": 240
+    },
+    {
+      "id": 250,
+      "key": "utf8_entry_250",
+      "original_text": "A kingdom made up of numerous islands under the peaceful rule of King Ranoah.",
+      "translated_text": "Một vương quốc gồm nhiều hòn đảo, được cai trị trong hòa bình bởi Quốc vương Ranoah.",
+      "language": "english",
+      "position": 27546,
+      "length": 78
+    },
+    {
+      "id": 251,
+      "key": "utf16_entry_251",
+      "original_text": "Le royaume se compose de plusieurs îles. La famille royale est chargée de sa protection, avec à sa tête le roi Lanoas.",
+      "translated_text": "Vương quốc này bao gồm nhiều hòn đảo. Hoàng tộc có nhiệm vụ bảo vệ nó, đứng đầu là vua Lanoas.",
+      "language": "french",
+      "position": 27628,
+      "length": 238
+    },
+    {
+      "id": 252,
+      "key": "utf8_entry_252",
+      "original_text": "Un paese costituito da diverse isole.\r\nRe Leno ne detta la legge e ne protegge la pace.",
+      "translated_text": "Một quốc gia gồm nhiều đảo.\nVua Leno ban hành luật lệ và bảo vệ hòa bình.",
+      "language": "french",
+      "position": 27870,
+      "length": 88
+    },
+    {
+      "id": 253,
+      "key": "utf16_entry_253",
+      "original_text": "Ein Königreich, das aus mehreren Inseln besteht. Unter der Herrschaft von König Ranoa leben die Bewohner des Königreichs in Frieden.",
+      "translated_text": "Một vương quốc bao gồm nhiều hòn đảo. Dưới sự trị vì của Quốc vương Ranoa, cư dân vương quốc sống trong hòa bình.",
+      "language": "german",
+      "position": 27962,
+      "length": 266
+    },
+    {
+      "id": 254,
+      "key": "utf16_entry_254",
+      "original_text": "Un reino compuesto por un puñado de islas y gobernado por el rey Lanoa, quien se encarga de preservar la paz.",
+      "translated_text": "Một vương quốc bao gồm một vài hòn đảo và được cai trị bởi vua Lanoa, người có nhiệm vụ gìn giữ hòa bình.",
+      "language": "spanish",
+      "position": 28232,
+      "length": 220
+    },
+    {
+      "id": 255,
+      "key": "utf8_entry_255",
+      "original_text": "Long, long ago, Celestia bestowed the gift of Life upon the citizens of Reveria. The world has prospered in peace ever since.",
+      "translated_text": "Thuở xa xưa, Celestia đã ban tặng Mạng sống cho cư dân Reveria. Thế giới đã thịnh vượng trong hòa bình kể từ đó.",
+      "language": "english",
+      "position": 28968,
+      "length": 126
+    },
+    {
+      "id": 256,
+      "key": "utf16_entry_256",
+      "original_text": "Jadis, elle conféra aux habitants de Rêveria les carrières, leur permettant ainsi de coopérer et de faire prospérer leur monde.",
+      "translated_text": "Thuở xưa, nàng ban cho cư dân Rêveria các mỏ, nhờ đó họ có thể hợp tác và làm cho thế giới của mình thêm thịnh vượng.",
+      "language": "french",
+      "position": 29098,
+      "length": 256
+    },
+    {
+      "id": 257,
+      "key": "utf16_entry_257",
+      "original_text": "Tanto tempo fa, la dea Celestia creò i mestieri. Con questo dono, il popolo di Reveria conduce vite appaganti aiutandosi a vicenda.",
+      "translated_text": "Thuở xa xưa, Nữ thần Celestia đã tạo ra các Nghề nghiệp. Nhờ món quà này, người dân Reveria sống một cuộc đời hạnh phúc, giúp đỡ lẫn nhau.",
+      "language": "italian",
+      "position": 29358,
+      "length": 264
+    },
+    {
+      "id": 258,
+      "key": "utf16_entry_258",
+      "original_text": "Die Göttin, die den Menschen einst die Leben schenkte. Seit es Leben gibt, helfen die Menschen einander und Reveria floriert.",
+      "translated_text": "Nữ thần, người đã ban sự sống cho loài người thuở xưa. Kể từ khi có sự sống, con người luôn giúp đỡ lẫn nhau và Reveria ngày càng hưng thịnh.",
+      "language": "german",
+      "position": 29626,
+      "length": 252
+    },
+    {
+      "id": 259,
+      "key": "utf16_entry_259",
+      "original_text": "La diosa que otorgó a Reveria los oficios, para que con ellos se ayudaran los unos a los otros. Su bondad le confirió prosperidad al mundo.",
+      "translated_text": "Nữ thần ban cho Reveria các nghề nghiệp, để mọi người có thể giúp đỡ lẫn nhau. Lòng tốt của ngài đã mang đến sự thịnh vượng cho thế giới.",
+      "language": "french",
+      "position": 29882,
+      "length": 280
+    },
+    {
+      "id": 260,
+      "key": "utf8_entry_260",
+      "original_text": "Strangelings appear to be humans who have been drained of life energy. They also seem to depict that particular person's way of life.",
+      "translated_text": "Những Strangelings dường như là con người đã bị hút cạn sinh lực. Chúng còn có vẻ phản ánh lối sống của chính người đó.",
+      "language": "english",
+      "position": 30748,
+      "length": 134
+    },
+    {
+      "id": 261,
+      "key": "utf16_entry_261",
+      "original_text": "Vidés de leur essence vitale, ces humains ont été transformés en objets. Leur apparence est liée à la vie qu'ils menaient avant leur changement.",
+      "translated_text": "Bị rút cạn sinh lực, những con người này đã bị biến thành vật phẩm. Ngoại hình của chúng phản ánh cuộc sống mà chúng đã có trước khi biến đổi.",
+      "language": "french",
+      "position": 30886,
+      "length": 290
+    },
+    {
+      "id": 262,
+      "key": "utf16_entry_262",
+      "original_text": "Quando un essere umano perde l'energia vitale diventa uno strambino, un oggetto che rappresenta la sua personalità.",
+      "translated_text": "Khi một con người mất đi sinh lực, họ sẽ trở thành một [strambino], một vật thể đại diện cho tính cách của họ.",
+      "language": "italian",
+      "position": 31180,
+      "length": 232
+    },
+    {
+      "id": 263,
+      "key": "utf16_entry_263",
+      "original_text": "Ulklinge sind Menschen, denen ihre Lebensenergie entzogen wurde, wodurch sie zu Objekten wurden. Ihre frühere Lebensweise ist noch immer erkennbar.",
+      "translated_text": "Ulklinge là những người đã bị hút cạn sinh lực, biến họ thành công cụ. Dấu vết về kiếp sống trước kia của chúng vẫn còn hiện hữu.",
+      "language": "german",
+      "position": 31416,
+      "length": 296
+    },
+    {
+      "id": 264,
+      "key": "utf16_entry_264",
+      "original_text": "Un cambiaformas es una persona a la que se le ha extraído la energía vital para convertirla en un objeto afín a su modo de vida.",
+      "translated_text": "Một Kẻ Biến Hình là người đã bị rút cạn sinh lực, rồi bị biến đổi thành một vật phẩm phù hợp với lối sống của họ.",
+      "language": "french",
+      "position": 31716,
+      "length": 258
+    },
+    {
+      "id": 265,
+      "key": "utf8_entry_265",
+      "original_text": "An island abundant with nature and fruitful farmland. Some say a village of spirits lies hidden at its center, just beyond Lulab Forest.",
+      "translated_text": "Một hòn đảo trù phú với thiên nhiên và những cánh đồng màu mỡ. Vài người đồn rằng có một ngôi làng của các linh hồn ẩn mình ở trung tâm, ngay phía sau Rừng Lulab.",
+      "language": "english",
+      "position": 32608,
+      "length": 137
+    },
+    {
+      "id": 266,
+      "key": "utf16_entry_266",
+      "original_text": "Cette île agricole à la végétation luxuriante abrite en son centre la forêt dormante. Il s'y cacherait un village habité par des esprits.",
+      "translated_text": "Hòn đảo nông nghiệp với thảm thực vật xanh tốt này ở trung tâm ẩn chứa Rừng Ngủ. Tương truyền có một ngôi làng của các linh hồn ẩn náu nơi đây.",
+      "language": "french",
+      "position": 32749,
+      "length": 276
+    },
+    {
+      "id": 267,
+      "key": "utf8_entry_267",
+      "original_text": "Un'isola verde e con una fiorente agricoltura. Si dice che la foresta che si trova qui nasconda il villaggio degli spiriti.",
+      "translated_text": "Một hòn đảo xanh tươi với nền nông nghiệp trù phú. Người ta đồn rằng khu rừng ở đây ẩn chứa ngôi làng của các vị thần linh.",
+      "language": "italian",
+      "position": 33029,
+      "length": 124
+    },
+    {
+      "id": 268,
+      "key": "utf16_entry_268",
+      "original_text": "Eine grüne Insel mit viel Landwirtschaft. Gerüchten zufolge befindet sich im Wiegenhain im Zentrum der Insel ein Dorf von Naturgeistern.",
+      "translated_text": "Một hòn đảo xanh tốt với nhiều đất nông nghiệp. Theo lời đồn, một ngôi làng của các tinh linh tự nhiên nằm trong Rừng Cây Cổ Thụ ở trung tâm đảo.",
+      "language": "german",
+      "position": 33157,
+      "length": 274
+    },
+    {
+      "id": 269,
+      "key": "utf16_entry_269",
+      "original_text": "Según cuentan, en algún lugar del Bosque Durmiente que se halla en el centro de la isla, existe un pueblo en pleno espesor habitado por espíritus...",
+      "translated_text": "Tương truyền rằng, đâu đó trong Rừng Ngủ say nằm ở trung tâm hòn đảo, có một ngôi làng ẩn mình trong bóng tối, nơi ngự trị của những linh hồn...",
+      "language": "spanish",
+      "position": 33435,
+      "length": 298
+    },
+    {
+      "id": 270,
+      "key": "utf8_entry_270",
+      "original_text": "Rem's favorite book. A tale following the adventures of a hero and their trusty dragon, who protect the kingdom from an evil demon lord.",
+      "translated_text": "Cuốn sách yêu thích của Rem. Một câu chuyện kể về cuộc phiêu lưu của một anh hùng và rồng trung thành của họ, những người bảo vệ vương quốc khỏi một ác quỷ chúa tể.",
+      "language": "english",
+      "position": 34319,
+      "length": 137
+    },
+    {
+      "id": 271,
+      "key": "utf16_entry_271",
+      "original_text": "Le roman préféré de Leina narre les aventures d'un jeune garçon protégeant son monde d'un magicien maléfique aux côtés de son dragon.",
+      "translated_text": "Cuốn tiểu thuyết yêu thích của Leina kể về cuộc phiêu lưu của một cậu bé bảo vệ thế giới của mình khỏi một pháp sư độc ác với sự giúp đỡ của con rồng.",
+      "language": "french",
+      "position": 34460,
+      "length": 268
+    },
+    {
+      "id": 272,
+      "key": "utf16_entry_272",
+      "original_text": "Una storia d'avventura e amicizia che Lemù adora.\r\nParla di un eroe e un drago che combattono insieme per sconfiggere un malvagio nemico.",
+      "translated_text": "Một câu chuyện phiêu lưu và tình bạn mà Lemù rất thích.\nNó kể về một anh hùng và một con rồng cùng chiến đấu để đánh bại kẻ thù độc ác.",
+      "language": "italian",
+      "position": 34732,
+      "length": 276
+    },
+    {
+      "id": 273,
+      "key": "utf16_entry_273",
+      "original_text": "Rems Lieblingsbuch. Ein Held und sein Drache beschützen das Land vor einem bösen Dämon. Eine Geschichte über Abenteuer und Freundschaft.",
+      "translated_text": "Cuốn sách yêu thích của Rem. Một anh hùng và rồng của anh ta bảo vệ vùng đất khỏi một con quỷ độc ác. Một câu chuyện về phiêu lưu và tình bạn.",
+      "language": "german",
+      "position": 35012,
+      "length": 274
+    },
+    {
+      "id": 274,
+      "key": "utf16_entry_274",
+      "original_text": "El libro que apasiona a Lem, en el que un héroe y un dragón derrotan al vil rey demonio en defensa de su reino. Una historia de aventuras y amistad.",
+      "translated_text": "Cuốn sách mà Lem say mê, kể về một anh hùng và một con rồng đánh bại ác vương quỷ để bảo vệ vương quốc của mình. Một câu chuyện về phiêu lưu và tình bạn.",
+      "language": "french",
+      "position": 35290,
+      "length": 298
+    },
+    {
+      "id": 275,
+      "key": "utf8_entry_275",
+      "original_text": "A resort made up of many tiny islands. Popular as a hub for Artists, you can find artwork decorating every part of the islands.",
+      "translated_text": "Một khu nghỉ dưỡng bao gồm nhiều hòn đảo nhỏ. Nơi đây nổi tiếng là điểm đến của các Nghệ Sĩ, bạn có thể tìm thấy tác phẩm nghệ thuật trang trí khắp mọi ngóc ngách trên các hòn đảo.",
+      "language": "english",
+      "position": 36172,
+      "length": 128
+    },
+    {
+      "id": 276,
+      "key": "utf16_entry_276",
+      "original_text": "Cet archipel de villégiature, célèbre destination touristique, foisonne d'œuvres d'art exposées à ciel ouvert un peu partout.",
+      "translated_text": "Quần đảo nghỉ dưỡng này, một điểm đến du lịch nổi tiếng, tràn ngập những tác phẩm nghệ thuật được trưng bày ngoài trời ở khắp mọi nơi.",
+      "language": "french",
+      "position": 36304,
+      "length": 252
+    },
+    {
+      "id": 277,
+      "key": "utf16_entry_277",
+      "original_text": "Un villaggio turistico fatto di piccole isole.\r\nNoto per i molti artisti che ci vivono,\r\nogni isola è come un museo all'aperto.",
+      "translated_text": "Một ngôi làng du lịch trên những hòn đảo nhỏ.\nNơi có nhiều nghệ sĩ sinh sống,\nmỗi hòn đảo là một bảo tàng ngoài trời.",
+      "language": "italian",
+      "position": 36560,
+      "length": 256
+    },
+    {
+      "id": 278,
+      "key": "utf16_entry_278",
+      "original_text": "Erholungsgebiet, das aus kleinen Inseln besteht. Beliebtes Ferienziel für Kunstliebhaber, da hier viele Kunstwerke ausgestellt sind.",
+      "translated_text": "Khu vực nghỉ dưỡng, gồm những hòn đảo nhỏ. Điểm đến ưa thích của những người yêu nghệ thuật, nơi trưng bày nhiều tác phẩm nghệ thuật.",
+      "language": "german",
+      "position": 36820,
+      "length": 266
+    },
+    {
+      "id": 279,
+      "key": "utf16_entry_279",
+      "original_text": "Un resort compuesto por un archipiélago de islotes. Es un lugar famoso por sus corrientes artísticas, con obras que empapan cada rincón.",
+      "translated_text": "Một khu nghỉ dưỡng bao gồm một quần đảo. Nơi này nổi tiếng với dòng chảy nghệ thuật, với những tác phẩm thấm đẫm mọi ngóc ngách.",
+      "language": "spanish",
+      "position": 37090,
+      "length": 274
+    },
+    {
+      "id": 280,
+      "key": "utf8_entry_280",
+      "original_text": "An island that attracts the brawn and buff. At its center lies the Colosseum, where fights are held day and night, and victors enjoy lavish praise.",
+      "translated_text": "Một hòn đảo thu hút những kẻ cơ bắp và khỏe mạnh. Ở trung tâm là Đấu Trường La Mã, nơi các trận chiến diễn ra ngày đêm, và những người chiến thắng được hưởng những lời khen ngợi xa hoa.",
+      "language": "english",
+      "position": 37976,
+      "length": 148
+    },
+    {
+      "id": 281,
+      "key": "utf16_entry_281",
+      "original_text": "Le Colisée de cette île attire les plus puissants. S'y déroulent jour et nuit des combats récompensant généreusement ses vainqueurs.",
+      "translated_text": "Đấu trường La Mã trên hòn đảo này thu hút những kẻ mạnh nhất. Ngày đêm diễn ra những trận chiến, phần thưởng hậu hĩnh cho những người chiến thắng.",
+      "language": "french",
+      "position": 38128,
+      "length": 266
+    },
+    {
+      "id": 282,
+      "key": "utf16_entry_282",
+      "original_text": "La meta di ogni valoroso combattente.\r\nIl colosseo dell'isola è sede di continue sfide, con sfarzosi premi riservati ai vincitori.",
+      "translated_text": "Mục tiêu của mọi chiến binh dũng cảm.\nĐấu trường trên đảo là nơi diễn ra những thử thách không ngừng, với phần thưởng xa hoa dành cho người chiến thắng.",
+      "language": "italian",
+      "position": 38398,
+      "length": 262
+    },
+    {
+      "id": 283,
+      "key": "utf16_entry_283",
+      "original_text": "Auf dieser Insel versammeln sich Muskelprotze und Kraftpakete, um Tag und Nacht im Kolosseum zu kämpfen. Sieger werden mit Lob überschüttet.",
+      "translated_text": "Trên hòn đảo này, những gã cơ bắp và lực sĩ tụ họp để chiến đấu trong đấu trường suốt ngày đêm. Kẻ chiến thắng sẽ được tung hô.",
+      "language": "german",
+      "position": 38664,
+      "length": 282
+    },
+    {
+      "id": 284,
+      "key": "utf16_entry_284",
+      "original_text": "Una isla en la que se congregan los más fuertes. En su centro está el Coliseo, donde se celebran combates día y noche, así como a los vencedores.",
+      "translated_text": "Một hòn đảo tập trung những kẻ mạnh nhất. Ở trung tâm là Đấu Trường, nơi các trận chiến diễn ra ngày đêm, và vinh danh những người chiến thắng.",
+      "language": "spanish",
+      "position": 38950,
+      "length": 292
+    },
+    {
+      "id": 285,
+      "key": "utf16_entry_285",
+      "original_text": "がけに[向/む]かって　<CMD_JUMP>でジャンプすると\r\nがけにつかまることができる\r\nそのまま[連続/れんぞく]ジャンプすれば　がけを[登/のぼ]れるぞ！",
+      "translated_text": "Hướng tới [向/む] vách đá, nhảy bằng <CMD_JUMP>\nBạn có thể bám vào vách đá.\nNhảy [連続/れんぞく] liên tục để [登/のぼ] trèo lên vách đá!",
+      "language": "japanese",
+      "position": 39618,
+      "length": 164
+    },
+    {
+      "id": 286,
+      "key": "utf8_entry_286",
+      "original_text": "Jump with <CMD_JUMP> while facing a ledge to grab onto it. Keep jumping and you'll climb up!",
+      "translated_text": "Nhảy bằng <CMD_JUMP> khi đối mặt với mép vực để bám vào. Cứ nhảy liên tục để leo lên!",
+      "language": "english",
+      "position": 39786,
+      "length": 93
+    },
+    {
+      "id": 287,
+      "key": "utf16_entry_287",
+      "original_text": "Utilise <CMD_JUMP> pour sauter sur une paroi rocheuse et t'y agripper. Enchaîne les sauts pour l'escalader !",
+      "translated_text": "Sử dụng <CMD_JUMP> để nhảy lên vách đá và bám vào. Liên tục nhảy để leo lên!",
+      "language": "french",
+      "position": 39883,
+      "length": 218
+    },
+    {
+      "id": 288,
+      "key": "utf8_entry_288",
+      "original_text": "Salta con <CMD_JUMP> contro gli ostacoli per aggrapparti, dopo di che salta ripetutamente per superarli!",
+      "translated_text": "Nhảy bằng <CMD_JUMP> vào chướng ngại vật để bám vào, sau đó nhảy liên tục để vượt qua!",
+      "language": "italian",
+      "position": 40105,
+      "length": 105
+    },
+    {
+      "id": 289,
+      "key": "utf16_entry_289",
+      "original_text": "Drücke <CMD_JUMP> vor einem Hang, um dich daran festzuklammern.\r\nSpringe dann mehrere Male in Folge,\r\num den Hang zu erklimmen!",
+      "translated_text": "Nhấn <CMD_JUMP> trước một vách để bám vào.\nSau đó nhảy liên tục nhiều lần\nđể trèo lên vách!",
+      "language": "german",
+      "position": 40214,
+      "length": 256
+    },
+    {
+      "id": 290,
+      "key": "utf16_entry_290",
+      "original_text": "Si te acercas al borde de un risco y pulsas <CMD_JUMP> para saltar, te agarrarás a este. ¡Pulsa de nuevo para escalar saltando entre risco y risco!",
+      "translated_text": "Nếu bạn đến gần mép vực và nhấn <CMD_JUMP> để nhảy, bạn sẽ bám vào đó. Nhấn lần nữa để leo trèo bằng cách nhảy giữa các vách đá!",
+      "language": "spanish",
+      "position": 40474,
+      "length": 296
+    },
+    {
+      "id": 291,
+      "key": "utf16_entry_291",
+      "original_text": "面向悬崖按<CMD_JUMP>跳跃，即可抓住断面。\r\n连续跳跃就能轻松地爬上去啦！",
+      "translated_text": "Hướng về vách đá, nhấn <CMD_JUMP> để nhảy và bám vào cạnh.\nNhảy liên tục để leo lên thật dễ dàng!",
+      "language": "chinese",
+      "position": 40774,
+      "length": 84
+    },
+    {
+      "id": 292,
+      "key": "utf16_entry_292",
+      "original_text": "面向懸崖按下<CMD_JUMP>跳躍，\r\n就能攀住懸崖。\r\n只要連續跳躍就能爬上懸崖囉！",
+      "translated_text": "Hướng về vách đá, nhấn <CMD_JUMP> để nhảy,\nsẽ bám được vào vách đá.\nChỉ cần nhảy liên tục là có thể leo lên vách đá rồi!",
+      "language": "chinese",
+      "position": 40862,
+      "length": 90
+    },
+    {
+      "id": 293,
+      "key": "utf16_entry_293",
+      "original_text": "절벽을 향해 <CMD_JUMP>로 점프하면\r\n절벽에 매달릴 수 있다\r\n그 상태로 연속 점프하면 절벽을 오를 수 있다!",
+      "translated_text": "Hướng về vách đá, nhảy bằng <CMD_JUMP>\nBạn có thể bám vào vách đá.\nNhảy liên tục khi ở trạng thái đó để leo lên vách đá!",
+      "language": "korean",
+      "position": 40956,
+      "length": 132
+    },
+    {
+      "id": 294,
+      "key": "utf16_entry_294",
+      "original_text": "[戦闘/せんとう]ライフは　<CMD_BTL_ATTACK>で[攻撃/こうげき]するとき\r\n３[回/かい]まで[連続/れんぞく]で　[攻撃/こうげき]できる\r\nさらに<CMD_BTL_ATTACK_STRONG>で　[強攻撃/きょうこうげき]につなげられるぞ",
+      "translated_text": "[戦闘/せんとう]ライフ là khi dùng <CMD_BTL_ATTACK> để [攻撃/こうげき]\nCó thể [連続/れんぞく] [攻撃/こうげき] tối đa 3 [回/かい]\nHơn nữa, có thể dùng <CMD_BTL_ATTACK_STRONG> để thi triển [強攻撃/きょうこうげき]!",
+      "language": "japanese",
+      "position": 41118,
+      "length": 260
+    },
+    {
+      "id": 295,
+      "key": "utf8_entry_295",
+      "original_text": "Combat Lives can perform up to three consecutive attacks with <CMD_BTL_ATTACK>. Press <CMD_BTL_ATTACK_STRONG> for a strong attack!",
+      "translated_text": "Lính chiến có thể tung tối đa ba đòn liên tiếp bằng <CMD_BTL_ATTACK>. Nhấn <CMD_BTL_ATTACK_STRONG> để tung đòn mạnh!",
+      "language": "english",
+      "position": 41382,
+      "length": 131
+    },
+    {
+      "id": 296,
+      "key": "utf16_entry_296",
+      "original_text": "En carrière de combat, appuie sur <CMD_BTL_ATTACK> jusqu'à trois fois pour enchaîner les attaques, puis sur <CMD_BTL_ATTACK_STRONG> pour terminer avec une attaque puissante.",
+      "translated_text": "Trong chiến đấu, nhấn <CMD_BTL_ATTACK> tối đa ba lần để tung chuỗi đòn, sau đó nhấn <CMD_BTL_ATTACK_STRONG> để kết thúc bằng một đòn mạnh.",
+      "language": "french",
+      "position": 41517,
+      "length": 348
+    },
+    {
+      "id": 297,
+      "key": "utf16_entry_297",
+      "original_text": "I mestieri combattenti attaccano con <CMD_BTL_ATTACK>, premilo fino a tre volte di seguito per sferrare attacchi a catena. Premi <CMD_BTL_ATTACK_STRONG> per un attacco ancora più potente!",
+      "translated_text": "Các chiến binh tấn công bằng <CMD_BTL_ATTACK>, nhấn nó liên tục đến ba lần để tung ra các đòn đánh liên hoàn. Nhấn <CMD_BTL_ATTACK_STRONG> để tung ra một đòn đánh mạnh hơn!",
+      "language": "italian",
+      "position": 41869,
+      "length": 376
+    },
+    {
+      "id": 298,
+      "key": "utf16_entry_298",
+      "original_text": "In Kämpferleben greifst du mit <CMD_BTL_ATTACK> an. Du kannst bis zu drei Angriffe in Folge ausführen. Mit <CMD_BTL_ATTACK_STRONG> kannst du schwere Angriffe ausführen.",
+      "translated_text": "Trong Kämpferleben, bạn tấn công bằng <CMD_BTL_ATTACK>. Bạn có thể thực hiện tối đa ba đòn tấn công liên tiếp. Với <CMD_BTL_ATTACK_STRONG>, bạn có thể tung ra các đòn tấn công mạnh.",
+      "language": "german",
+      "position": 42249,
+      "length": 338
+    },
+    {
+      "id": 299,
+      "key": "utf16_entry_299",
+      "original_text": "Con oficios de combate, pulsa <CMD_BTL_ATTACK> para atacar. Puedes lanzar hasta tres ataques seguidos. ¡También puedes pulsar <CMD_BTL_ATTACK_STRONG> para asestar un ataque poderoso!",
+      "translated_text": "Với các kỹ năng chiến đấu, nhấn <CMD_BTL_ATTACK> để tấn công. Bạn có thể tung ra tối đa ba đòn liên tiếp. Ngoài ra, bạn có thể nhấn <CMD_BTL_ATTACK_STRONG> để tung ra một đòn mạnh!",
+      "language": "spanish",
+      "position": 42591,
+      "length": 366
+    },
+    {
+      "id": 300,
+      "key": "utf16_entry_300",
+      "original_text": "当战斗职业使用<CMD_BTL_ATTACK>攻击敌人时，\r\n最多可发动3段连续攻击。\r\n再按下<CMD_BTL_ATTACK_STRONG>还能继续打出强力攻击。",
+      "translated_text": "Khi chiến đấu với nghề <CMD_BTL_ATTACK>,\ntối đa tung ra 3 đòn liên hoàn.\nNhấn <CMD_BTL_ATTACK_STRONG> để tung đòn đánh mạnh tiếp theo.",
+      "language": "chinese",
+      "position": 42961,
+      "length": 166
+    },
+    {
+      "id": 301,
+      "key": "utf16_entry_301",
+      "original_text": "戰鬥職業按下<CMD_BTL_ATTACK>攻擊時，\r\n最多能連續使出三次攻擊。\r\n此外，按下<CMD_BTL_ATTACK_STRONG>還能發動強力攻擊。",
+      "translated_text": "Khi nhân vật chiến đấu ấn <CMD_BTL_ATTACK> để tấn công,\ncó thể tung ra tối đa ba đòn liên tiếp.\nNgoài ra, ấn <CMD_BTL_ATTACK_STRONG> để tung ra đòn tấn công mạnh.",
+      "language": "chinese",
+      "position": 43131,
+      "length": 160
+    },
+    {
+      "id": 302,
+      "key": "utf16_entry_302",
+      "original_text": "전투 라이프는 <CMD_BTL_ATTACK>로 공격 시\r\n3회까지 연속으로 공격할 수 있다\r\n게다가 <CMD_BTL_ATTACK_STRONG>으로 강한 공격으로 이어진다",
+      "translated_text": "Chiến đấu [BTL_LIFE] có thể tấn công liên tiếp tối đa 3 lần khi tấn công bằng <CMD_BTL_ATTACK>.\nHơn nữa, nó sẽ chuyển sang đòn tấn công mạnh bằng <CMD_BTL_ATTACK_STRONG>.",
+      "language": "korean",
+      "position": 43295,
+      "length": 190
+    },
+    {
+      "id": 303,
+      "key": "utf16_entry_303",
+      "original_text": "[戦闘/せんとう]ライフは　<CMD_BTL_AVOID>で[回避中/かいひちゅう]に\r\n<CMD_BTL_ATTACK>を[押/お]すと　[特殊/とくしゅ]な[攻撃/こうげき]を[行/おこな]う\r\n[敵/てき]の[攻撃/こうげき]を[避/さ]けつつ　[反撃/はんげき]しよう",
+      "translated_text": "[戦闘/せんとう]ライフは <CMD_BTL_AVOID> で [回避中/かいひちゅう] に <CMD_BTL_ATTACK> を [押/お] すと [特殊/とくしゅ] な [攻撃/こうげき] を [行/おこな] う\n[敵/てき] の [攻撃/こうげき] を [避/さ] けつつ [反撃/はんげき] しよう",
+      "language": "japanese",
+      "position": 43515,
+      "length": 278
+    },
+    {
+      "id": 304,
+      "key": "utf8_entry_304",
+      "original_text": "If you have a Combat Life, dodge with <CMD_BTL_AVOID> and press <CMD_BTL_ATTACK> to perform a counterattack. Try to get hits in without taking damage!",
+      "translated_text": "Nếu có \"Combat Life\", né bằng <CMD_BTL_AVOID> và nhấn <CMD_BTL_ATTACK> để phản công. Cố gắng tung đòn mà không bị dính damage!",
+      "language": "english",
+      "position": 43797,
+      "length": 151
+    },
+    {
+      "id": 305,
+      "key": "utf16_entry_305",
+      "original_text": "En carrière de combat, appuie sur <CMD_BTL_AVOID> pour esquiver, puis sur <CMD_BTL_ATTACK> pour lancer une attaque spéciale. Esquive et contre-attaque !",
+      "translated_text": "Trong chiến đấu, nhấn <CMD_BTL_AVOID> để né đòn, rồi nhấn <CMD_BTL_ATTACK> để tung chiêu thức đặc biệt. Né và phản công!",
+      "language": "french",
+      "position": 43952,
+      "length": 306
+    },
+    {
+      "id": 306,
+      "key": "utf8_entry_306",
+      "original_text": "I mestieri combattenti schivano con <CMD_BTL_AVOID>.\r\nPremi <CMD_BTL_ATTACK> mentre schivi per sferrare un contrattacco speciale.",
+      "translated_text": "Các nghề chiến đấu né đòn bằng <CMD_BTL_AVOID>.\nNhấn <CMD_BTL_ATTACK> trong khi né để tung phản công đặc biệt.",
+      "language": "italian",
+      "position": 44262,
+      "length": 130
+    },
+    {
+      "id": 307,
+      "key": "utf16_entry_307",
+      "original_text": "In Kämpferleben kannst du gegnerischen Angriffen mit <CMD_BTL_AVOID> ausweichen und dann schnell <CMD_BTL_ATTACK> drücken, um einen besonderen Angriff auszuführen.",
+      "translated_text": "Trong Kämpferleben, bạn có thể né tránh các đòn tấn công của kẻ địch bằng <CMD_BTL_AVOID>, sau đó nhanh chóng nhấn <CMD_BTL_ATTACK> để tung một đòn tấn công đặc biệt.",
+      "language": "german",
+      "position": 44396,
+      "length": 328
+    },
+    {
+      "id": 308,
+      "key": "utf16_entry_308",
+      "original_text": "Con oficios de combate, pulsa <CMD_BTL_AVOID> para esquivar y <CMD_BTL_ATTACK> para lanzar un ataque especial. ¡Evita los ataques enemigos y contraataca!",
+      "translated_text": "Với các kỹ năng chiến đấu, nhấn <CMD_BTL_AVOID> để né và <CMD_BTL_ATTACK> để tung chiêu đặc biệt. Tránh các đòn tấn công của kẻ địch và phản công!",
+      "language": "spanish",
+      "position": 44728,
+      "length": 310
+    },
+    {
+      "id": 309,
+      "key": "utf16_entry_309",
+      "original_text": "当战斗职业使用<CMD_BTL_AVOID>进行闪避时，\r\n按下<CMD_BTL_ATTACK>即可发动特殊攻击。\r\n在闪避敌人攻击的同时，进行反击吧！",
+      "translated_text": "Khi các class chiến đấu dùng <CMD_BTL_AVOID> để né đòn,\nnhấn <CMD_BTL_ATTACK> để tung đòn đánh đặc biệt.\nTrong lúc né tránh đòn đánh của kẻ địch, hãy phản công!",
+      "language": "chinese",
+      "position": 45042,
+      "length": 154
+    },
+    {
+      "id": 310,
+      "key": "utf16_entry_310",
+      "original_text": "戰鬥職業按下<CMD_BTL_AVOID>閃避時，\r\n再按下<CMD_BTL_ATTACK>可發動特殊攻擊，\r\n閃避敵人的攻擊，同時展開反擊吧。",
+      "translated_text": "Khi nhân vật chiến đấu nhấn <CMD_BTL_AVOID> để né đòn,\nnhấn <CMD_BTL_ATTACK> để tung ra đòn đánh đặc biệt,\nné tránh đòn tấn công của kẻ địch, đồng thời phản công ngay lập tức.",
+      "language": "chinese",
+      "position": 45200,
+      "length": 146
+    },
+    {
+      "id": 311,
+      "key": "utf16_entry_311",
+      "original_text": "전투 라이프는 <CMD_BTL_AVOID>로 회피 중에\r\n<CMD_BTL_ATTACK> 버튼을 누르면 특수한 공격을 펼친다\r\n적의 공격을 피하면서 반격하자",
+      "translated_text": "Chiến đấu trong game, trong khi né tránh bằng <CMD_BTL_AVOID>,\nnhấn nút <CMD_BTL_ATTACK> để tung ra đòn đánh đặc biệt.\nHãy vừa né đòn của địch, vừa phản công lại chúng!",
+      "language": "korean",
+      "position": 45350,
+      "length": 174
+    },
+    {
+      "id": 312,
+      "key": "utf16_entry_312",
+      "original_text": "Les arbres, gisements et poissons ont des zones de rupture (points faibles).\r\nAjoute la technique Détection précise à tes compétences afin de pouvoir repérer les zones de rupture.",
+      "translated_text": "Cây cối, mỏ khoáng và cá đều có điểm yếu.\nThêm kỹ năng Nhận Diện Chuẩn Xác vào danh sách kỹ năng của bạn để tìm ra điểm yếu.",
+      "language": "french",
+      "position": 46008,
+      "length": 360
+    },
+    {
+      "id": 313,
+      "key": "utf16_entry_313",
+      "original_text": "Alberi, minerali e pesci hanno un \"punto giusto\" (punto debole). Se impari la abilità Individua il punto dalla lista abilità, potrai individuarli durante le tue attività di raccolta.",
+      "translated_text": "Cây cối, khoáng sản và cá đều có \"điểm yếu\" (điểm yếu). Nếu bạn học kỹ năng Xác định điểm yếu từ danh sách kỹ năng, bạn sẽ có thể xác định chúng trong khi thu thập.",
+      "language": "french",
+      "position": 46372,
+      "length": 366
+    },
+    {
+      "id": 314,
+      "key": "utf16_entry_314",
+      "original_text": "Bäume, Erzadern und Fische haben Schwachstellen. Mit der entsprechenden Fertigkeit kannst du beim Abbau danach suchen.",
+      "translated_text": "Cây cối, mạch quặng và cá có điểm yếu. Với kỹ năng thích hợp, bạn có thể tìm kiếm chúng khi khai thác.",
+      "language": "german",
+      "position": 46742,
+      "length": 238
+    },
+    {
+      "id": 315,
+      "key": "utf16_entry_315",
+      "original_text": "Los árboles, los yacimientos y los peces tienen su punto débil. Si aprendes la habilidad Búsqueda de punto en el tablero de habilidades, podrás encontrarlos mientras los cosechas.",
+      "translated_text": "Cây cối, mỏ khoáng và cá đều có điểm yếu. Nếu học kỹ năng Tìm Điểm Yếu trong bảng kỹ năng, bạn sẽ tìm được chúng khi thu hoạch.",
+      "language": "spanish",
+      "position": 46984,
+      "length": 360
+    },
+    {
+      "id": 316,
+      "key": "utf8_entry_316",
+      "original_text": "Depleting the line gauge during fishing will cause your line to break. Hit the Sweet Spots to lessen the tension, restoring some of the gauge.",
+      "translated_text": "Khi cần câu cá, nếu làm cạn thanh lực, dây câu sẽ đứt. Chạm vào Vùng Ngọt để giảm căng, hồi lại một phần lực cho thanh.",
+      "language": "english",
+      "position": 48014,
+      "length": 143
+    },
+    {
+      "id": 317,
+      "key": "utf16_entry_317",
+      "original_text": "Si la jauge de ligne se vide complètement pendant que tu pêches, la ligne casse.\r\nEn cas d'échec, attaque la zone de rupture afin de restaurer la jauge.",
+      "translated_text": "Nếu thanh căng cước tụt hết khi câu cá, cần câu sẽ đứt.\nKhi thất bại, tấn công vào khu vực đứt để phục hồi thanh.",
+      "language": "french",
+      "position": 48161,
+      "length": 306
+    },
+    {
+      "id": 318,
+      "key": "utf8_entry_318",
+      "original_text": "Se l'indicatore della lenza si svuota del tutto,\r\nla lenza si spezza.\r\nColpendo il punto migliore, ripristinerai l'indicatore.",
+      "translated_text": "Nếu thanh căng cước cạn kiệt,\ncước câu sẽ đứt.\nTập trung vào điểm tốt nhất, bạn sẽ hồi lại thanh.",
+      "language": "italian",
+      "position": 48471,
+      "length": 128
+    },
+    {
+      "id": 319,
+      "key": "utf16_entry_319",
+      "original_text": "Wenn deine Angelleiste aufgebraucht ist, reißt deine Leine und der Fisch entkommt. Greife die Schwachstelle an, damit sich die Leiste erholt.",
+      "translated_text": "Khi thanh cần câu cạn kiệt, dây câu của bạn sẽ đứt và cá sẽ thoát. Tấn công điểm yếu để hồi phục thanh.",
+      "language": "german",
+      "position": 48603,
+      "length": 284
+    },
+    {
+      "id": 320,
+      "key": "utf16_entry_320",
+      "original_text": "Cuando el medidor de sedal se agote, este se romperá y perderás al pez. Si aciertas en el punto débil del pez, la barra se restaurará completamente.",
+      "translated_text": "Khi thanh đo cần câu cạn kiệt, dây câu sẽ đứt và bạn sẽ mất cá. Nếu bạn đánh trúng điểm yếu của cá, thanh sẽ được hồi đầy.",
+      "language": "spanish",
+      "position": 48891,
+      "length": 298
+    },
+    {
+      "id": 321,
+      "key": "utf16_entry_321",
+      "original_text": "[冒険中/ぼうけんちゅう]にアイテムを[使/つか]いたい[場合/ばあい]は\r\nかばんに[登録/とうろく]してみよう\r\nかばんは<CMD_OPEN_ITEM_SLOT_MENU>で[開/ひら]くことができる",
+      "translated_text": "Trong [冒険中/ぼうけんちゅう], nếu muốn [使/つか] đồ, hãy\n[登録/とうろく] chúng vào túi đồ.\nCó thể [開/ひら] túi đồ bằng <CMD_OPEN_ITEM_SLOT_MENU>",
+      "language": "japanese",
+      "position": 49571,
+      "length": 206
+    },
+    {
+      "id": 322,
+      "key": "utf8_entry_322",
+      "original_text": "Register items from your bag for easy\r\naccess during your adventures!\r\nPress <CMD_OPEN_ITEM_SLOT_MENU> to open your bag.",
+      "translated_text": "Đăng ký vật phẩm từ hành trang để dễ dàng sử dụng trong chuyến phiêu lưu của bạn!\nẤn <CMD_OPEN_ITEM_SLOT_MENU> để mở túi đồ.",
+      "language": "english",
+      "position": 49781,
+      "length": 121
+    },
+    {
+      "id": 323,
+      "key": "utf8_entry_323",
+      "original_text": "Si tu souhaites utiliser un objet au cours de ton aventure, enregistre-le dans ton sac. Appuie sur <CMD_OPEN_ITEM_SLOT_MENU> pour ouvrir ce dernier.",
+      "translated_text": "Nếu bạn muốn sử dụng một vật phẩm trong suốt cuộc phiêu lưu, hãy lưu nó vào túi đồ. Nhấn <CMD_OPEN_ITEM_SLOT_MENU> để mở túi đồ.",
+      "language": "french",
+      "position": 49906,
+      "length": 149
+    },
+    {
+      "id": 324,
+      "key": "utf8_entry_324",
+      "original_text": "Metti degli oggetti nella borsa\r\nper usarli durante le avventure.\r\nPremi <CMD_OPEN_ITEM_SLOT_MENU> per aprire la borsa.",
+      "translated_text": "Cho vật phẩm vào túi\nđể dùng trong lúc phiêu lưu.\nBấm <CMD_OPEN_ITEM_SLOT_MENU> để mở túi.",
+      "language": "italian",
+      "position": 50059,
+      "length": 120
+    },
+    {
+      "id": 325,
+      "key": "utf16_entry_325",
+      "original_text": "Wenn du auf deinen Abenteuern schnell auf Gegenstände zugreifen willst, registriere sie in deiner Tasche und greife mit <CMD_OPEN_ITEM_SLOT_MENU> auf sie zu.",
+      "translated_text": "Nếu bạn muốn nhanh chóng sử dụng vật phẩm trong chuyến phiêu lưu, hãy đăng ký chúng vào túi đồ và truy cập bằng <CMD_OPEN_ITEM_SLOT_MENU>.",
+      "language": "german",
+      "position": 50183,
+      "length": 316
+    },
+    {
+      "id": 326,
+      "key": "utf16_entry_326",
+      "original_text": "Cuando quieras utilizar algún objeto durante tu aventura, puedes dejarlo registrado en tu mochila. Pulsa <CMD_OPEN_ITEM_SLOT_MENU> para acceder a tu mochila.",
+      "translated_text": "Khi bạn muốn sử dụng vật phẩm trong cuộc phiêu lưu, bạn có thể cất chúng vào ba lô. Nhấn <CMD_OPEN_ITEM_SLOT_MENU> để mở ba lô.",
+      "language": "spanish",
+      "position": 50503,
+      "length": 316
+    },
+    {
+      "id": 327,
+      "key": "utf16_entry_327",
+      "original_text": "冒险时想要快速使用道具的话，\r\n可以先将它们登记到背包当中。\r\n按<CMD_OPEN_ITEM_SLOT_MENU>即可打开背包。",
+      "translated_text": "Khi phiêu lưu, nếu muốn dùng vật phẩm nhanh,\nbạn có thể đăng ký chúng vào Ba Lô trước.\nẤn <CMD_OPEN_ITEM_SLOT_MENU> để mở Ba Lô.",
+      "language": "chinese",
+      "position": 50823,
+      "length": 132
+    },
+    {
+      "id": 328,
+      "key": "utf16_entry_328",
+      "original_text": "想在冒險中使用道具，\r\n就先把道具登錄到包包裡吧，\r\n可以按下<CMD_OPEN_ITEM_SLOT_MENU>打開包包。",
+      "translated_text": "Muốn dùng vật phẩm trong lúc phiêu lưu,\nhãy bỏ vật phẩm vào Ba Lô trước đã.\nẤn <CMD_OPEN_ITEM_SLOT_MENU> để mở Ba Lô.",
+      "language": "chinese",
+      "position": 50959,
+      "length": 124
+    },
+    {
+      "id": 329,
+      "key": "utf16_entry_329",
+      "original_text": "모험 중에 아이템을 사용하고 싶을 때는\r\n가방에 등록해 보자\r\n가방은 <CMD_OPEN_ITEM_SLOT_MENU>로 열 수 있다",
+      "translated_text": "Khi muốn dùng vật phẩm trong lúc phiêu lưu,\nhãy đăng ký vào túi đồ nhé.\nCó thể mở túi đồ bằng <CMD_OPEN_ITEM_SLOT_MENU>.",
+      "language": "korean",
+      "position": 51087,
+      "length": 146
+    },
+    {
+      "id": 330,
+      "key": "utf8_entry_330",
+      "original_text": "As day turns to night, you may be able to have new conversations or encounter different enemies. Keep your eyes peeled!",
+      "translated_text": "Khi ngày chuyển thành đêm, bạn có thể có những cuộc trò chuyện mới hoặc chạm trán kẻ địch khác. Hãy cẩn thận quan sát!",
+      "language": "english",
+      "position": 51509,
+      "length": 120
+    },
+    {
+      "id": 331,
+      "key": "utf16_entry_331",
+      "original_text": "On ne rencontre pas les mêmes créatures le jour et la nuit, et les habitants auront des choses différentes à te dire.",
+      "translated_text": "Ban ngày và ban đêm sẽ gặp những sinh vật khác nhau, và dân làng cũng có những chuyện khác nhau để kể cho bạn.",
+      "language": "french",
+      "position": 51633,
+      "length": 236
+    },
+    {
+      "id": 332,
+      "key": "utf8_entry_332",
+      "original_text": "Di notte sentirai conversazioni diverse\r\ne incontrerai mostri diversi.\r\nFai attenzione alle differenze.",
+      "translated_text": "Đêm đến, bạn sẽ nghe những cuộc trò chuyện khác nhau\nvà gặp những loại quái khác nhau.\nHãy cẩn thận với những khác biệt.",
+      "language": "german",
+      "position": 51873,
+      "length": 104
+    },
+    {
+      "id": 333,
+      "key": "utf16_entry_333",
+      "original_text": "Mit der Tageszeit ändern sich auch die Gesprächsthemen der Stadtbewohner und die Monster, die du antreffen kannst.",
+      "translated_text": "Thời gian trong ngày sẽ thay đổi nội dung trò chuyện của dân trong thành phố và cả quái vật mà bạn có thể gặp.",
+      "language": "german",
+      "position": 51981,
+      "length": 230
+    },
+    {
+      "id": 334,
+      "key": "utf16_entry_334",
+      "original_text": "Según sea de día o noche, verás que las conversaciones con la gente varían y que aparecen monstruos distintos. ¡Presta atención!",
+      "translated_text": "Tùy theo ngày hay đêm, bạn sẽ thấy các cuộc trò chuyện với mọi người thay đổi và những con quái vật khác nhau xuất hiện. Hãy để ý nhé!",
+      "language": "french",
+      "position": 52215,
+      "length": 258
+    },
+    {
+      "id": 335,
+      "key": "utf8_entry_335",
+      "original_text": "The faster you can craft an item, the higher its quality will be. Higher quality items will also have stronger potency and effects.",
+      "translated_text": "Chế tạo vật phẩm càng nhanh, phẩm chất của nó càng cao. Vật phẩm phẩm chất cao hơn sẽ có hiệu lực và công dụng mạnh mẽ hơn.",
+      "language": "english",
+      "position": 53011,
+      "length": 132
+    },
+    {
+      "id": 336,
+      "key": "utf16_entry_336",
+      "original_text": "En carrière de création, plus vite tu termines la fabrication d'un objet, plus sa qualité sera élevée et ses effets, importants.",
+      "translated_text": "Trong chế độ Chế tạo, bạn hoàn thành vật phẩm càng nhanh, chất lượng của nó càng cao và hiệu ứng càng mạnh.",
+      "language": "french",
+      "position": 53147,
+      "length": 258
+    },
+    {
+      "id": 337,
+      "key": "utf16_entry_337",
+      "original_text": "Più sei veloce nel crearli, più la qualità\r\ndegli oggetti che crei salirà, migliorandone\r\nstatistiche ed efficacia.",
+      "translated_text": "Bạn tạo chúng càng nhanh, chất lượng\nvật phẩm tạo ra càng cao, giúp\ncải thiện chỉ số và hiệu quả.",
+      "language": "italian",
+      "position": 53409,
+      "length": 232
+    },
+    {
+      "id": 338,
+      "key": "utf16_entry_338",
+      "original_text": "In Fertigungsleben nimmt die Qualität von Gegenständen zu, je schneller du sie herstellst. Höhere Qualität = bessere Wirkung und Effekte.",
+      "translated_text": "Trong quá trình chế tạo, chất lượng vật phẩm sẽ tăng lên nếu bạn chế tạo chúng nhanh hơn. Chất lượng cao hơn = hiệu ứng và công dụng tốt hơn.",
+      "language": "german",
+      "position": 53645,
+      "length": 276
+    },
+    {
+      "id": 339,
+      "key": "utf16_entry_339",
+      "original_text": "Cuanto antes completes un objeto, mayor será su calidad. A su vez, los objetos de mejor calidad tendrán más propiedades especiales.",
+      "translated_text": "Hoàn thành một món đồ càng sớm, chất lượng của nó càng cao. Đổi lại, những món đồ chất lượng cao hơn sẽ có nhiều thuộc tính đặc biệt hơn.",
+      "language": "spanish",
+      "position": 53925,
+      "length": 264
+    },
+    {
+      "id": 340,
+      "key": "utf8_entry_340",
+      "original_text": "If you want to reset your Skill Board, talk to one of the Lip Flowers at the Guild Office. It might cost you a bit of Dosh, though.",
+      "translated_text": "Nếu muốn đặt lại Bảng Kỹ Năng, hãy nói chuyện với một trong những Bông Hoa Môi ở Văn phòng Hội. Tuy nhiên, có thể tốn một ít Tiền đấy.",
+      "language": "english",
+      "position": 54633,
+      "length": 132
+    },
+    {
+      "id": 341,
+      "key": "utf16_entry_341",
+      "original_text": "Lysana et Lyson peuvent réinitialiser tes points de compétence, mais ce n'est pas gratuit ! Elles se trouvent à la guilde.",
+      "translated_text": "Lysana và Lyson có thể reset điểm kỹ năng của bạn, nhưng không miễn phí đâu! Chúng ở trong guild.",
+      "language": "french",
+      "position": 54769,
+      "length": 246
+    },
+    {
+      "id": 342,
+      "key": "utf16_entry_342",
+      "original_text": "In cambio di qualche Lyr, puoi reimpostare\r\nle tue abilità parlando a Labbrangela\r\ne Labbrosvaldo nella gilda.",
+      "translated_text": "Đổi lại vài Lyr, bạn có thể thiết lập lại\ncác kỹ năng của mình bằng cách nói chuyện với Labbrangela\nvà Labbrosvaldo trong bang hội.",
+      "language": "french",
+      "position": 55019,
+      "length": 222
+    },
+    {
+      "id": 343,
+      "key": "utf16_entry_343",
+      "original_text": "Lui und Leo Lippe können in der Gilde deine Fähigkeitspunkte zurücksetzen. Das kostet allerdings ein paar Gulden.",
+      "translated_text": "Lui và Leo Lippe có thể giúp bạn đặt lại điểm kỹ năng trong Bang hội. Tất nhiên, việc này sẽ tốn một ít Gulden.",
+      "language": "german",
+      "position": 55245,
+      "length": 228
+    },
+    {
+      "id": 344,
+      "key": "utf16_entry_344",
+      "original_text": "Si se lo pides a Giratriz en la sede gremial, te reiniciará el tablero de habilidades. No obstante, te costará unos cuantos revis.",
+      "translated_text": "Nếu bạn nhờ Giratriz ở trụ sở bang hội, cô ấy sẽ đặt lại bảng kỹ năng cho bạn. Tuy nhiên, bạn sẽ tốn một ít revis.",
+      "language": "spanish",
+      "position": 55477,
+      "length": 262
+    },
+    {
+      "id": 345,
+      "key": "utf8_entry_345",
+      "original_text": "Don't be afraid to pick every Celestia's Gift you find. New flowers will bloom when the day changes in real-world time!",
+      "translated_text": "Đừng ngại nhặt tất cả Quà Celestia bạn tìm thấy. Hoa mới sẽ nở khi thời gian thực tế thay đổi!",
+      "language": "english",
+      "position": 56193,
+      "length": 120
+    },
+    {
+      "id": 346,
+      "key": "utf16_entry_346",
+      "original_text": "Les mandragonnes fleurissent toutes les vingt-quatre heures réelles, même si tu les as cueillies en totalité.",
+      "translated_text": "Cây Mandragora sẽ nở hoa lại sau mỗi 24 giờ thực tế, ngay cả khi ngươi đã hái hết chúng rồi.",
+      "language": "french",
+      "position": 56317,
+      "length": 220
+    },
+    {
+      "id": 347,
+      "key": "utf8_entry_347",
+      "original_text": "Se cogli tutti i fiori divini, aspetta\r\nche passi un giorno nel mondo reale\r\ne ne sbocceranno di nuovi.",
+      "translated_text": "Nếu bạn hái hết hoa thần thánh, hãy đợi\nmột ngày trôi qua trong thế giới thực\nrồi hoa mới sẽ nở.",
+      "language": "italian",
+      "position": 56541,
+      "length": 104
+    },
+    {
+      "id": 348,
+      "key": "utf16_entry_348",
+      "original_text": "Selbst wenn du alle Göttinnenmieren pflückst, wachsen am nächsten Tag (Echtzeit) wieder neue.",
+      "translated_text": "Ngay cả khi bạn hái hết hoa Göttinnenmieren, ngày hôm sau (thời gian thực) chúng sẽ mọc lại.",
+      "language": "german",
+      "position": 56649,
+      "length": 188
+    },
+    {
+      "id": 349,
+      "key": "utf16_entry_349",
+      "original_text": "Puedes recoger la Hierbasacra que veas necesaria. Cuando haya pasado un día en la vida real, volverá a florecer sin problema.",
+      "translated_text": "Bạn có thể hái Cỏ Thần cần thiết. Sau một ngày ngoài đời thực, nó sẽ lại mọc ra thôi.",
+      "language": "french",
+      "position": 56841,
+      "length": 252
+    },
+    {
+      "id": 350,
+      "key": "utf8_entry_350",
+      "original_text": "When fighting enemies, your Gathering or Crafting Life Buddies will show their support. Let their cheers guide you to victory!",
+      "translated_text": "Khi chiến đấu với kẻ địch, các Đồng Hành Sinh Hoạt của bạn sẽ hỗ trợ hết mình. Hãy để tiếng cổ vũ của họ dẫn lối đến chiến thắng!",
+      "language": "english",
+      "position": 57577,
+      "length": 127
+    },
+    {
+      "id": 351,
+      "key": "utf16_entry_351",
+      "original_text": "Tes acolytes de récolte ou de création peuvent te soutenir pendant les combats. Tires-en parti pour vaincre tes ennemis !",
+      "translated_text": "Đệ tử thu thập hoặc chế tạo của bạn có thể hỗ trợ bạn trong chiến đấu. Tận dụng họ để đánh bại kẻ thù!",
+      "language": "french",
+      "position": 57708,
+      "length": 244
+    },
+    {
+      "id": 352,
+      "key": "utf16_entry_352",
+      "original_text": "In battaglia, i costruttori e raccoglitori,\r\nanziché combattere, ti aiutano in altri modi.\r\nSconfiggi i nemici con il loro supporto!",
+      "translated_text": "Trong chiến trận, thợ xây và người thu thập không trực tiếp chiến đấu,\nmà hỗ trợ bạn theo những cách khác.\nHãy đánh bại kẻ địch với sự giúp đỡ của họ!",
+      "language": "italian",
+      "position": 57956,
+      "length": 266
+    },
+    {
+      "id": 353,
+      "key": "utf16_entry_353",
+      "original_text": "Verbündete mit Sammler- und Fertigungsleben feuern ihre Freunde im Kampf an. Lass dich von ihren Anfeuerungsrufen beflügeln und besiege die Gegner!",
+      "translated_text": "Đồng đội có lối chơi tập trung vào thu thập và chế tạo sẽ tiếp thêm sức mạnh cho bạn bè trong chiến đấu. Hãy để những lời cổ vũ của họ tiếp thêm sức mạnh cho bạn và đánh bại kẻ địch!",
+      "language": "german",
+      "position": 58226,
+      "length": 296
+    },
+    {
+      "id": 354,
+      "key": "utf16_entry_354",
+      "original_text": "Tus compañeros de oficios de recolección o artesanía no pelearán en combate, ¡pero con su apoyo tendrás más fuerzas para vencer!",
+      "translated_text": "Đồng nghiệp làm nghề thu thập hoặc chế tạo của bạn sẽ không tham chiến, nhưng với sự hỗ trợ của họ, bạn sẽ có thêm sức mạnh để chiến thắng!",
+      "language": "spanish",
+      "position": 58526,
+      "length": 258
+    },
+    {
+      "id": 355,
+      "key": "utf8_entry_355",
+      "original_text": "When you level up your Life, your Buddy of the same Life will level up with you.",
+      "translated_text": "Khi bạn lên cấp [Life] của mình, đồng đội [Buddy] cùng [Life] cũng sẽ lên cấp theo bạn.",
+      "language": "english",
+      "position": 59310,
+      "length": 81
+    },
+    {
+      "id": 356,
+      "key": "utf16_entry_356",
+      "original_text": "Le niveau de vos alliés appartenant à la même carrière que vous monte en même temps que le vôtre.",
+      "translated_text": "Đồng đội của bạn cùng nghề sẽ lên cấp cùng bạn.",
+      "language": "french",
+      "position": 59395,
+      "length": 196
+    },
+    {
+      "id": 357,
+      "key": "utf16_entry_357",
+      "original_text": "Quando sali di livello in un mestiere,\r\nsalirà anche il livello dei tuoi compagni\r\nche fanno quello stesso mestiere.",
+      "translated_text": "Khi bạn lên cấp nghề,\nđồng đội của bạn cũng sẽ lên cấp\nvới nghề đó.",
+      "language": "italian",
+      "position": 59595,
+      "length": 234
+    },
+    {
+      "id": 358,
+      "key": "utf16_entry_358",
+      "original_text": "Wenn sich die Stufe deines Lebens erhöht, erhöht sich auch die Stufe deiner Verbündeten mit dem gleichen Leben.",
+      "translated_text": "Khi cấp độ của bạn tăng lên, cấp độ của đồng minh có cùng lượng Máu cũng tăng theo.",
+      "language": "german",
+      "position": 59833,
+      "length": 224
+    },
+    {
+      "id": 359,
+      "key": "utf16_entry_359",
+      "original_text": "El nivel de tus compañeros también aumentará cuando subas de nivel y tengas el mismo oficio que estos.",
+      "translated_text": "Cấp độ của đồng đội bạn cũng sẽ tăng khi bạn lên cấp và có cùng nghề nghiệp với họ.",
+      "language": "spanish",
+      "position": 60061,
+      "length": 206
+    },
+    {
+      "id": 360,
+      "key": "utf8_entry_360",
+      "original_text": "At base camp, you can chat with your Buddies and even give them presents. Investing in friendships may lead to greater rewards!",
+      "translated_text": "Ở căn cứ, bạn có thể trò chuyện với Đồng đội và thậm chí tặng quà cho họ. Đầu tư vào tình bạn có thể mang lại những phần thưởng lớn!",
+      "language": "english",
+      "position": 60713,
+      "length": 128
+    },
+    {
+      "id": 361,
+      "key": "utf16_entry_361",
+      "original_text": "Renforcez vos relations avec les gens de la base en leur parlant et en leur offrant des cadeaux. De belles amitiés pourraient se créer, qui sait ?",
+      "translated_text": "Tăng cường mối quan hệ với cư dân trong căn cứ bằng cách trò chuyện và tặng quà cho họ. Biết đâu, những tình bạn đẹp sẽ nảy nở?",
+      "language": "french",
+      "position": 60845,
+      "length": 294
+    },
+    {
+      "id": 362,
+      "key": "utf8_entry_362",
+      "original_text": "Fai amicizia con i tuoi compagni alla gilda\r\nparlandoci e facendogli regali.\r\nRicorda che chi trova un amico, trova un tesoro.",
+      "translated_text": "Kết bạn với đồng đội trong bang hội\nbằng cách trò chuyện và tặng quà cho họ.\nHãy nhớ rằng, ai có bạn, người đó có của.",
+      "language": "italian",
+      "position": 61143,
+      "length": 127
+    },
+    {
+      "id": 363,
+      "key": "utf16_entry_363",
+      "original_text": "Du kannst im Stützpunkt mit Verbündeten reden und ihnen Geschenke machen. Vertiefe deine Freundschaften und du wirst vielleicht belohnt.",
+      "translated_text": "Bạn có thể nói chuyện với đồng đội ở căn cứ và tặng quà cho họ. Tăng tình bạn và bạn có thể sẽ được đền đáp.",
+      "language": "german",
+      "position": 61274,
+      "length": 274
+    },
+    {
+      "id": 364,
+      "key": "utf16_entry_364",
+      "original_text": "Habla con tus compañeros de la base y regálales distintos objetos para conocerlos mejor. ¿Quién sabe cómo reaccionarán?",
+      "translated_text": "Nói chuyện với đồng đội ở căn cứ và tặng họ các vật phẩm khác nhau để hiểu rõ hơn về họ. Ai mà biết họ sẽ phản ứng thế nào?",
+      "language": "french",
+      "position": 61552,
+      "length": 240
+    },
+    {
+      "id": 365,
+      "key": "utf8_entry_365",
+      "original_text": "Treasure Groves are randomized dungeons that appear when you plant a new Sapling. Step into these strange places and see what wonders await you in their deepest levels!",
+      "translated_text": "Khu Rừng Kho Báu là những hầm ngục ngẫu nhiên xuất hiện khi bạn trồng Cây non. Bước vào những nơi kỳ lạ này và xem điều kỳ diệu nào đang chờ đợi bạn ở những tầng sâu nhất!",
+      "language": "english",
+      "position": 62380,
+      "length": 169
+    },
+    {
+      "id": 366,
+      "key": "utf16_entry_366",
+      "original_text": "Les dédaléarbres sont des donjons mystérieux dont la structure change aléatoirement à chaque nouvelle graine plantée. Explore-les encore et encore pour tenter d'en voir le bout !",
+      "translated_text": "Những Mê Cung Cây là những hầm ngục bí ẩn, cấu trúc của chúng thay đổi ngẫu nhiên sau mỗi hạt giống được gieo. Hãy khám phá chúng hết lần này đến lần khác để cố gắng tìm ra lối ra!",
+      "language": "french",
+      "position": 62553,
+      "length": 358
+    },
+    {
+      "id": 367,
+      "key": "utf16_entry_367",
+      "original_text": "L'Alberinto è un labirinto misterioso che cambia struttura in modo casuale ogni volta che pianti un germoglio. Ripeti le esplorazioni per raggiungere i livelli più profondi.",
+      "translated_text": "L'Alberinto là một mê cung bí ẩn, cấu trúc sẽ thay đổi ngẫu nhiên mỗi khi bạn gieo mầm. Lặp lại các cuộc thám hiểm để đạt đến các tầng sâu nhất.",
+      "language": "italian",
+      "position": 62915,
+      "length": 348
+    },
+    {
+      "id": 368,
+      "key": "utf16_entry_368",
+      "original_text": "Jeder eingepflanzte Setzling eines Irrbaums hat einen anderen, zufällig gewählten Aufbau. Erkunde die mysteriöse Höhle bis in ihre hintersten Ecken, so oft du möchtest!",
+      "translated_text": "Mỗi cây con của Irrwurzel được trồng sẽ có cấu trúc ngẫu nhiên khác nhau. Khám phá hang động bí ẩn đến từng ngóc ngách, thoải mái bao nhiêu tùy thích!",
+      "language": "german",
+      "position": 63267,
+      "length": 338
+    },
+    {
+      "id": 369,
+      "key": "utf16_entry_369",
+      "original_text": "El arberinto varía en función de cómo lo cuides; también lo harán los monstruos y recursos que allí encuentres. ¡Usa la regadera siempre que puedas!",
+      "translated_text": "Mê cung sẽ thay đổi tùy vào cách bạn chăm sóc nó; quái vật và tài nguyên bạn tìm thấy cũng vậy. Luôn dùng bình tưới khi có thể!",
+      "language": "french",
+      "position": 63609,
+      "length": 298
+    },
+    {
+      "id": 370,
+      "key": "utf8_entry_370",
+      "original_text": "A cafe that Colm manages, inside the guild. It is popular with the islanders for its unique food and relaxing atmosphere.",
+      "translated_text": "Một quán cafe do Colm quản lý, nằm trong hội quán. Nơi đây được dân đảo yêu thích bởi đồ ăn độc đáo và không khí thư giãn.",
+      "language": "english",
+      "position": 64495,
+      "length": 122
+    },
+    {
+      "id": 371,
+      "key": "utf16_entry_371",
+      "original_text": "Glouton a ouvert ce café au sein de la guilde. Les insulaires viennent s'y détendre et déguster des plats spéciaux !",
+      "translated_text": "Glouton đã mở quán cà phê này trong bang hội. Dân đảo đến đây thư giãn và thưởng thức những món đặc biệt!",
+      "language": "french",
+      "position": 64621,
+      "length": 234
+    },
+    {
+      "id": 372,
+      "key": "utf16_entry_372",
+      "original_text": "Un bar aperto da Pucci nel quartier generale.\r\nServe piatti speciali ed è il posto migliore\r\nper rilassarsi insieme ai propri compagni.",
+      "translated_text": "Một quán bar do Pucci mở tại tổng hành dinh.\nQuán phục vụ các món đặc biệt và là nơi tốt nhất\nđể thư giãn cùng đồng đội.",
+      "language": "italian",
+      "position": 64859,
+      "length": 272
+    },
+    {
+      "id": 373,
+      "key": "utf16_entry_373",
+      "original_text": "Das Café, das Kuller in der Gilde eröffnet hat. Ein Ort der Entspannung für Inselbewohner, an dem besondere Gerichte serviert werden.",
+      "translated_text": "Quán cà phê mà Kuller đã mở trong Bang hội. Một nơi thư giãn cho cư dân trên đảo, nơi các món ăn đặc biệt được phục vụ.",
+      "language": "german",
+      "position": 65135,
+      "length": 268
+    },
+    {
+      "id": 374,
+      "key": "utf16_entry_374",
+      "original_text": "La cafetería que ha abierto Colón dentro de la sede gremial. Allí sirve toda clase de platos únicos y es un punto de descanso para los isleños.",
+      "translated_text": "Quán cà phê Colón đã mở trong trụ sở bang hội. Nơi đây phục vụ đủ loại món ăn độc đáo và là điểm dừng chân lý tưởng cho cư dân trên đảo.",
+      "language": "french",
+      "position": 65407,
+      "length": 288
+    },
+    {
+      "id": 375,
+      "key": "utf8_entry_375",
+      "original_text": "Time your dodges perfectly to perform a Near-Dodge! This will temporarily increase your attack strength.",
+      "translated_text": "Canh thời điểm né tránh thật chuẩn để thực hiện Né Gần! Việc này sẽ tạm thời tăng sức tấn công của bạn.",
+      "language": "english",
+      "position": 66211,
+      "length": 105
+    },
+    {
+      "id": 376,
+      "key": "utf16_entry_376",
+      "original_text": "Tu peux faire une esquive parfaite en esquivant une attaque ennemie au bon moment ! Ton attaque sera également temporairement augmentée.",
+      "translated_text": "Bạn có thể tung né hoàn hảo bằng cách né đòn của kẻ địch đúng thời điểm! Tấn công của bạn cũng sẽ tạm thời được tăng cường.",
+      "language": "french",
+      "position": 66320,
+      "length": 274
+    },
+    {
+      "id": 377,
+      "key": "utf16_entry_377",
+      "original_text": "Schiva al momento giusto per attivare la \"Schivata precisa\"! Aumenterà il tuo attacco per un po'.",
+      "translated_text": "Tránh đòn đúng lúc để kích hoạt \"Miễn né chuẩn xác\"! Sẽ tăng tấn công của bạn trong chốc lát.",
+      "language": "italian",
+      "position": 66598,
+      "length": 196
+    },
+    {
+      "id": 378,
+      "key": "utf16_entry_378",
+      "original_text": "Wenn du mit dem richtigen Timing einem Angriff ausweichst, wird für eine gewisse Zeit deine Angriffskraft erhöht.",
+      "translated_text": "Nếu né đòn đúng lúc, sức tấn công của bạn sẽ tăng lên trong một khoảng thời gian.",
+      "language": "german",
+      "position": 66798,
+      "length": 228
+    },
+    {
+      "id": 379,
+      "key": "utf16_entry_379",
+      "original_text": "Si esquivas los ataques del enemigo en el momento justo, ¡lograrás una «Finta por los pelos»! Es una mejora que potenciará durante un momento tu ataque.",
+      "translated_text": "Nếu né đòn của kẻ địch vào đúng thời điểm, bạn sẽ thực hiện được \"Phản đòn sát nút\"! Kỹ năng này sẽ tăng cường tấn công của bạn trong chốc lát.",
+      "language": "spanish",
+      "position": 67030,
+      "length": 306
+    },
+    {
+      "id": 380,
+      "key": "utf8_entry_380",
+      "original_text": "Time your guards perfectly to perform a Perfect Guard! This fills your Special gauge.",
+      "translated_text": "Canh thời điểm đỡ đòn chuẩn xác để tung Đỡ Hoàn Hảo! Kỹ năng Đặc Biệt của bạn sẽ đầy.",
+      "language": "english",
+      "position": 67854,
+      "length": 86
+    },
+    {
+      "id": 381,
+      "key": "utf16_entry_381",
+      "original_text": "Tu peux faire une garde parfaite en bloquant une attaque ennemie au bon moment ! Cela augmente également ta jauge de déchaînement.",
+      "translated_text": "Bạn có thể đỡ đòn hoàn hảo bằng cách đỡ đòn kẻ địch đúng lúc! Điều này cũng tăng thanh Nộ của bạn.",
+      "language": "french",
+      "position": 67944,
+      "length": 262
+    },
+    {
+      "id": 382,
+      "key": "utf16_entry_382",
+      "original_text": "Para con lo scudo al momento giusto per attivare la \"Parata perfetta\"! Quando riesce, la tua barra tensione si riempirà.",
+      "translated_text": "Để đỡ đòn đúng lúc, hãy kích hoạt \"Đỡ đòn hoàn hảo\"! Khi thành công, thanh Tức giận của bạn sẽ đầy.",
+      "language": "italian",
+      "position": 68210,
+      "length": 242
+    },
+    {
+      "id": 383,
+      "key": "utf16_entry_383",
+      "original_text": "Wenn du mit dem richtigen Timing einen Angriff abwehrst, füllt sich deine Fokusleiste ein wenig.",
+      "translated_text": "Nếu bạn đỡ đòn đúng thời điểm, thanh Nộ của bạn sẽ đầy lên một chút.",
+      "language": "german",
+      "position": 68456,
+      "length": 194
+    },
+    {
+      "id": 384,
+      "key": "utf16_entry_384",
+      "original_text": "Si te cubres de los ataques del enemigo en el momento justo, ¡lograrás una «Guardia perfecta»! Es una mejora que aumentará tu medidor de habilidad especial.",
+      "translated_text": "Nếu đỡ đòn thành công đòn tấn công của kẻ địch vào thời điểm thích hợp, bạn sẽ đạt được trạng thái \"[Guardia perfecta]\"! Hiệu ứng này sẽ tăng cường thanh kỹ năng đặc biệt của bạn.",
+      "language": "spanish",
+      "position": 68654,
+      "length": 314
+    },
+    {
+      "id": 385,
+      "key": "utf8_entry_385",
+      "original_text": "Choose a Crafting Life and aim to craft the strongest equipment! Craftable equipment will change based on your Life.",
+      "translated_text": "Chọn Nghề Chế Tạo và hướng đến chế tạo trang bị mạnh nhất! Trang bị có thể chế tạo sẽ thay đổi tùy theo Nghề của bạn.",
+      "language": "english",
+      "position": 69518,
+      "length": 117
+    },
+    {
+      "id": 386,
+      "key": "utf16_entry_386",
+      "original_text": "Suis une carrière de création et essaie de fabriquer de puissants équipements ! Attention, ces derniers dépendent de la carrière choisie.",
+      "translated_text": "Theo đuổi con đường chế tạo và cố gắng tạo ra trang bị mạnh mẽ! Lưu ý, chúng phụ thuộc vào con đường bạn chọn.",
+      "language": "french",
+      "position": 69639,
+      "length": 276
+    },
+    {
+      "id": 387,
+      "key": "utf8_entry_387",
+      "original_text": "Scegli un mestiere da costruttore e prova a creare oggetti potenti! A seconda del mestiere che scegli, cambiano gli oggetti che puoi creare.",
+      "translated_text": "Chọn một nghề chế tạo và thử tạo ra các vật phẩm mạnh mẽ! Tùy vào nghề bạn chọn, các vật phẩm bạn có thể tạo ra sẽ khác nhau.",
+      "language": "italian",
+      "position": 69919,
+      "length": 141
+    },
+    {
+      "id": 388,
+      "key": "utf16_entry_388",
+      "original_text": "Widme dich einem Fertigungsleben, um mit etwas Geschick großartige Rüstungen herzustellen. Was für Rüstungen du herstellen kannst, unterscheidet sich je nach Leben.",
+      "translated_text": "Hòa mình vào cuộc sống chế tạo, dùng chút kỹ năng để tạo ra những bộ giáp tuyệt vời. Loại giáp bạn có thể tạo ra sẽ khác biệt tùy theo lựa chọn nghề nghiệp.",
+      "language": "german",
+      "position": 70064,
+      "length": 330
+    },
+    {
+      "id": 389,
+      "key": "utf16_entry_389",
+      "original_text": "Adopta un oficio de artesanía. Luego, crea equipo poderoso ¡y acepta el desafío! Ten en cuenta que el equipo que puedas fabricar variará según el oficio.",
+      "translated_text": "Chọn một nghề thủ công. Sau đó, chế tạo trang bị mạnh mẽ và chấp nhận thử thách! Lưu ý rằng trang bị bạn có thể chế tạo sẽ khác nhau tùy thuộc vào nghề bạn chọn.",
+      "language": "spanish",
+      "position": 70398,
+      "length": 308
+    },
+    {
+      "id": 390,
+      "key": "utf16_entry_390",
+      "original_text": "Wonders await you in Ginormosia! This strange world is home to even stranger creatures—from tall eyeball towers to tons of chatty monsters, just to name a few!",
+      "translated_text": "Những điều kỳ diệu đang chờ đón bạn ở Ginormosia! Thế giới kỳ lạ này là nhà của những sinh vật còn kỳ lạ hơn — từ những tòa tháp mắt khổng lồ đến vô vàn quái vật thích buôn chuyện, chỉ kể vài ví dụ thôi đấy!",
+      "language": "english",
+      "position": 71298,
+      "length": 320
+    },
+    {
+      "id": 391,
+      "key": "utf16_entry_391",
+      "original_text": "Ainsi se nomme le vaste continent qui s'étend de l'autre côté du portail. Tours pourvues d'un œil géant, monstres qui parlent... il regorge de bizarreries uniques en leur genre.",
+      "translated_text": "Đó là tên của lục địa rộng lớn nằm bên kia cánh cổng. Những tòa tháp với con mắt khổng lồ, lũ quái vật biết nói... nó ẩn chứa vô vàn điều kỳ lạ có một không hai.",
+      "language": "french",
+      "position": 71622,
+      "length": 356
+    },
+    {
+      "id": 392,
+      "key": "utf8_entry_392",
+      "original_text": "Oltre il portale si trova il continente Moltogrande, pieno di torri occhiute, mostri parlanti e altre stranezze che non si trovano negli altri mondi.",
+      "translated_text": "Bên kia cánh cổng là lục địa Moltogrande, nơi đầy rẫy tháp mắt, quái vật biết nói và vô số điều kỳ lạ khác mà không có ở các thế giới khác.",
+      "language": "italian",
+      "position": 71982,
+      "length": 150
+    },
+    {
+      "id": 393,
+      "key": "utf16_entry_393",
+      "original_text": "Der riesige Kontinent hinter dem Tor hat neben riesigen Augäpfeln und sprechenden Monstern noch jede Menge andere merkwürdige Dinge zu bieten, die man sonst nirgendwo finden kann.",
+      "translated_text": "Khúc Đại Lục khổng lồ phía sau cánh cổng, ngoài những con mắt khổng lồ và quái vật biết nói, còn ẩn chứa vô số điều kỳ lạ khác mà bạn không thể tìm thấy ở bất cứ đâu.",
+      "language": "german",
+      "position": 72136,
+      "length": 360
+    },
+    {
+      "id": 394,
+      "key": "utf16_entry_394",
+      "original_text": "El continente que se extiende al otro lado de las puertas se llama Mogollones y está repleto de misterios únicos de este territorio, como torres con un inmenso ojo o monstruos que hablan.",
+      "translated_text": "Vùng đất trải dài bên kia cánh cổng gọi là Mogollones, nơi ẩn chứa vô số bí ẩn độc đáo của vùng đất này, như những tòa tháp có con mắt khổng lồ hay những con quái vật biết nói.",
+      "language": "spanish",
+      "position": 72500,
+      "length": 376
+    },
+    {
+      "id": 395,
+      "key": "utf8_entry_395",
+      "original_text": "Select \"Teleportation Gate\" from your Weird Pad to travel between Ginormosia and other worlds. You can easily move between different lands anytime, anywhere!",
+      "translated_text": "Chọn \"Cổng Dịch Chuyển\" trong Weird Pad của bạn để dịch chuyển giữa Ginormosia và các thế giới khác. Bạn có thể dễ dàng di chuyển giữa các vùng đất khác nhau mọi lúc, mọi nơi!",
+      "language": "english",
+      "position": 73560,
+      "length": 158
+    },
+    {
+      "id": 396,
+      "key": "utf16_entry_396",
+      "original_text": "Sélectionne l'omniportail sur ta tablette pour te déplacer rapidement sur le continent et dans les autres mondes. Rends-toi où tu veux, quand tu le veux et en un tour de main !",
+      "translated_text": "Chọn Cổng Dịch Chuyển trên bảng của bạn để dịch chuyển tức thời đến mọi nơi trên lục địa và các thế giới khác. Đến bất cứ đâu, bất cứ khi nào, chỉ trong tích tắc!",
+      "language": "french",
+      "position": 73722,
+      "length": 354
+    },
+    {
+      "id": 397,
+      "key": "utf8_entry_397",
+      "original_text": "Seleziona \"Portale universale\" sul tablet strambo per spostarti tra il continente e altri mondi con un solo pulsante. Viaggia liberamente tra i mondi!",
+      "translated_text": "Chọn \"Cổng Dịch Chuyển\" trên chiếc máy tính bảng kỳ lạ để dịch chuyển giữa lục địa và những thế giới khác chỉ với một nút bấm. Tự do di chuyển giữa các thế giới!",
+      "language": "italian",
+      "position": 74080,
+      "length": 151
+    },
+    {
+      "id": 398,
+      "key": "utf16_entry_398",
+      "original_text": "Wähle auf dem Pad das \"Tor nach Überall\" aus, um per Knopfdruck nach Gigantien zu reisen. Besuche diese andere Welt jederzeit und von überall!",
+      "translated_text": "Chọn \"Cổng Vạn Năng\" trên Pad để dịch chuyển tức thời đến Gigantien. Ghé thăm thế giới khác này bất cứ lúc nào và từ bất cứ đâu!",
+      "language": "german",
+      "position": 74235,
+      "length": 286
+    },
+    {
+      "id": 399,
+      "key": "utf16_entry_399",
+      "original_text": "Selecciona una Puerta viajera desde la tableta extraña para cambiar entre el continente y el otro mundo con un solo botón. ¡Viaja por el mundo en un abrir y cerrar de ojos!",
+      "translated_text": "Chọn Cổng Dịch Chuyển từ bảng điều khiển bí ẩn để chuyển đổi giữa lục địa và thế giới khác chỉ bằng một nút bấm. Du hành khắp thế giới trong nháy mắt!",
+      "language": "spanish",
+      "position": 74525,
+      "length": 346
+    },
+    {
+      "id": 400,
+      "key": "utf16_entry_400",
+      "original_text": "只需点击奇怪的Pad中的“任意门”，\r\n就可以自由往返于无垠大陆与其他世界。\r\n无论何时何地，都能轻松穿梭！",
+      "translated_text": "Chỉ cần nhấp vào \"Cánh Cửa Vô Định\" trong Pad kỳ lạ,\nlà có thể tự do đi về giữa Đại Lục Vô Tận và các thế giới khác.\nBất kể lúc nào hay ở đâu, đều có thể dễ dàng xuyên suốt!",
+      "language": "chinese",
+      "position": 74875,
+      "length": 110
+    },
+    {
+      "id": 401,
+      "key": "utf16_entry_401",
+      "original_text": "기묘한 Pad에서 『어디로든 게이트』를 선택하면\r\n버튼 하나로 대륙과 다른 세계를 이동할 수 있다\r\n언제든지, 어디서든지 손쉽게 세계를 왕래하자!",
+      "translated_text": "Trên Pad kỳ lạ này, chọn 『Cổng Dịch Chuyển』,\nbạn có thể dịch chuyển tức thời đến các lục địa và thế giới khác chỉ bằng một nút bấm.\nDễ dàng đi lại giữa các thế giới mọi lúc, mọi nơi!",
+      "language": "korean",
+      "position": 75091,
+      "length": 164
+    },
+    {
+      "id": 402,
+      "key": "utf8_entry_402",
+      "original_text": "When you approach a marked area on the map, an Area Challenge will begin! Clear Area Challenges quickly to earn more rewards!",
+      "translated_text": "Khi bạn đến gần khu vực đã đánh dấu trên bản đồ, Thử Thách Vùng sẽ bắt đầu! Hoàn thành Thử Thách Vùng nhanh chóng để nhận thêm phần thưởng!",
+      "language": "english",
+      "position": 75497,
+      "length": 126
+    },
+    {
+      "id": 403,
+      "key": "utf16_entry_403",
+      "original_text": "Des défis de zone peuvent apparaître lorsque tu t'approches d'une zone marquée sur la carte. Termine-les vite pour recevoir un maximum de récompenses !",
+      "translated_text": "Thử thách khu vực có thể xuất hiện khi bạn đến gần một khu vực được đánh dấu trên bản đồ. Hoàn thành chúng nhanh chóng để nhận được nhiều phần thưởng nhất!",
+      "language": "french",
+      "position": 75627,
+      "length": 304
+    },
+    {
+      "id": 404,
+      "key": "utf16_entry_404",
+      "original_text": "Avvicinandoti all'area indicata sulla mappa, inizierà un Sfida dell'area! Superala rapidamente per ottenere ricche ricompense.",
+      "translated_text": "Khi đến gần khu vực được chỉ định trên bản đồ, Thử Thách Vùng sẽ bắt đầu! Vượt qua nhanh chóng để nhận phần thưởng hậu hĩnh.",
+      "language": "italian",
+      "position": 75935,
+      "length": 254
+    },
+    {
+      "id": 405,
+      "key": "utf16_entry_405",
+      "original_text": "Näherst du dich einem auf der Karte markierten Gebiet, wird die dortige Herausforderung beginnen! Schließe sie so schnell wie möglich ab und hole dir so haufenweise Belohnungen!",
+      "translated_text": "Khi bạn đến gần khu vực được đánh dấu trên bản đồ, thử thách ở đó sẽ bắt đầu! Hoàn thành nó nhanh nhất có thể và nhận thật nhiều phần thưởng!",
+      "language": "german",
+      "position": 76193,
+      "length": 356
+    },
+    {
+      "id": 406,
+      "key": "utf16_entry_406",
+      "original_text": "¡Acércate a las zonas de desafíos resaltadas en el mapa para participar en misiones especiales! ¡Complétalos rápido para recompensas considerables!",
+      "translated_text": "Tiến đến các khu vực thử thách được đánh dấu trên bản đồ để tham gia vào các nhiệm vụ đặc biệt! Hoàn thành chúng nhanh chóng để nhận thưởng lớn!",
+      "language": "spanish",
+      "position": 76553,
+      "length": 296
+    },
+    {
+      "id": 407,
+      "key": "utf8_entry_407",
+      "original_text": "You can use the Evershops set up around Ginormosia to sell your produce in exchange for items and currency. Fan-favorite veggies are worth twice as much!",
+      "translated_text": "Bạn có thể dùng các cửa hàng Evershops quanh Ginormosia để bán nông sản, đổi lấy vật phẩm và tiền tệ. Rau củ được yêu thích sẽ có giá trị gấp đôi!",
+      "language": "english",
+      "position": 77513,
+      "length": 154
+    },
+    {
+      "id": 408,
+      "key": "utf16_entry_408",
+      "original_text": "Vendendo le verdure alla bancarella faidaté, ottieni oggetti e soldi utilizzabili a Moltogrande. Vendi le verdure più richieste al doppio del prezzo!",
+      "translated_text": "Bán rau củ ở quầy tự làm, bạn sẽ nhận được vật phẩm và tiền có thể dùng ở Moltogrande. Bán những loại rau củ được yêu cầu nhất với giá gấp đôi!",
+      "language": "french",
+      "position": 78097,
+      "length": 300
+    },
+    {
+      "id": 409,
+      "key": "utf16_entry_409",
+      "original_text": "Durch den Gemüseverkauf am SB-Stand kannst du Gegenstände und die in Gigantien verwendete Währung erhalten! Für gefragtes Gemüse kannst du sogar den doppelten Preis erzielen!",
+      "translated_text": "Thông qua việc bán rau tại quầy tự phục vụ, bạn có thể nhận được vật phẩm và tiền tệ được sử dụng trong Gigantien! Với những loại rau được ưa chuộng, bạn thậm chí còn có thể kiếm được gấp đôi giá trị!",
+      "language": "german",
+      "position": 78401,
+      "length": 350
+    },
+    {
+      "id": 410,
+      "key": "utf16_entry_410",
+      "original_text": "Al vender las verduras que dejes en las ventas autoservicio conseguirás objetos y una moneda exclusiva de Mogollones. ¡Las verduras al alza pagan el doble!",
+      "translated_text": "Bán rau củ ở quầy tự phục vụ sẽ giúp bạn nhận được vật phẩm và một loại tiền tệ độc quyền của Mogollones. Rau củ được giá sẽ được trả gấp đôi!",
+      "language": "spanish",
+      "position": 78755,
+      "length": 312
+    },
+    {
+      "id": 411,
+      "key": "utf16_entry_411",
+      "original_text": "무인 판매소에 둔 채소가 팔리면 아이템이나\r\n무지크지 대륙에서 쓸 수 있는 화폐를 획득한다\r\n인기 채소는 평소보다 2배 높은 가격으로 팔 수 있다!",
+      "translated_text": "Nếu rau củ đặt trong cửa hàng tự động được bán, bạn sẽ nhận được vật phẩm hoặc tiền tệ có thể dùng ở lục địa Mujikji.\nRau củ được yêu thích có thể bán với giá cao gấp đôi so với bình thường!",
+      "language": "korean",
+      "position": 79301,
+      "length": 166
+    },
+    {
+      "id": 412,
+      "key": "utf8_entry_412",
+      "original_text": "Traveling merchants operate in every corner of Ginormosia, offering goods tailored to the area's rank. Look for sales on rainy days to make the most of your hard-earned cash!",
+      "translated_text": "Các thương nhân du mục có mặt ở mọi ngóc ngách của Ginormosia, cung cấp hàng hóa phù hợp với cấp độ của khu vực. Hãy tìm kiếm các đợt giảm giá vào những ngày mưa để tận dụng tối đa số tiền kiếm được khó nhọc của bạn!",
+      "language": "english",
+      "position": 79775,
+      "length": 175
+    },
+    {
+      "id": 413,
+      "key": "utf16_entry_413",
+      "original_text": "Les produits vendus par les commerçants des différentes régions de Giganterrarium changent en fonction du rang de la zone. Profite des réductions proposées les jours de pluie pour dépenser malin !",
+      "translated_text": "Hàng hóa của các thương nhân ở các vùng khác nhau của Giganterrarium sẽ thay đổi tùy theo cấp bậc của khu vực. Tận dụng ưu đãi giảm giá vào những ngày mưa để mua sắm thông minh nhé!",
+      "language": "french",
+      "position": 79954,
+      "length": 394
+    },
+    {
+      "id": 414,
+      "key": "utf8_entry_414",
+      "original_text": "I mercanti vendono prodotti in base al grado delle diverse aree del continente, e nei giorni di pioggia offrono sconti. Non farteli scappare!",
+      "translated_text": "Bọn thương nhân bán hàng dựa trên cấp độ của các khu vực trên lục địa, và họ sẽ giảm giá vào những ngày mưa. Đừng bỏ lỡ cơ hội!",
+      "language": "italian",
+      "position": 80352,
+      "length": 142
+    },
+    {
+      "id": 415,
+      "key": "utf16_entry_415",
+      "original_text": "Ziehende Händler verkaufen in ganz Gigantien deinem Gebietsrang entsprechende Waren! An Regentagen gibt es sogar einen Rabatt für dich!",
+      "translated_text": "Những thương nhân lang thang sẽ bán hàng hóa tương ứng với cấp độ lãnh địa của bạn khắp Gigantien! Vào những ngày mưa, bạn còn được giảm giá nữa đấy!",
+      "language": "german",
+      "position": 80498,
+      "length": 272
+    },
+    {
+      "id": 416,
+      "key": "utf16_entry_416",
+      "original_text": "Hay mercaderes en todas las áreas de Mogollones y estos ofrecen objetos dependiendo del rango del área. ¡Aprovecha para conseguir ofertas cuando llueva!",
+      "translated_text": "Có thương nhân ở khắp các khu vực của Mogollones và họ cung cấp vật phẩm tùy theo cấp độ khu vực. Hãy tranh thủ săn đồ giá hời khi trời mưa nhé!",
+      "language": "spanish",
+      "position": 80774,
+      "length": 306
+    },
+    {
+      "id": 417,
+      "key": "utf8_entry_417",
+      "original_text": "An ancient robot discovered in the Depths that is particularly good at physical tasks. Excavating and filling in the land is a piece of cake for it, so be sure to put it to work on your Base!",
+      "translated_text": "Một robot cổ đại được phát hiện trong Vực Sâu, đặc biệt giỏi các công việc thể chất. Việc đào đất và lấp đầy địa hình chỉ là chuyện nhỏ với nó, vậy nên hãy chắc chắn đưa nó vào làm việc trong Căn Cứ của bạn!",
+      "language": "english",
+      "position": 81784,
+      "length": 192
+    },
+    {
+      "id": 418,
+      "key": "utf16_entry_418",
+      "original_text": "L'automate découvert dans le gouffre est spécialisé dans les travaux de force. Pour lui, creuser ou remblayer le sol est un jeu d'enfant. Il devrait pouvoir t'aider à développer ta base !",
+      "translated_text": "Cỗ máy tự động được tìm thấy trong vực thẳm này chuyên về các công việc nặng nhọc. Với nó, đào hoặc lấp đất chỉ là chuyện nhỏ. Nó có thể giúp bạn phát triển căn cứ của mình đấy!",
+      "language": "french",
+      "position": 81980,
+      "length": 376
+    },
+    {
+      "id": 419,
+      "key": "utf16_entry_419",
+      "original_text": "L'antico automa trovato nell'abisso è bravo nei lavori manuali, come scavare o ammassare il terreno. Ti aiuterà a migliorare il quartier generale.",
+      "translated_text": "Cỗ máy cổ xưa tìm thấy dưới vực sâu rất giỏi các công việc thủ công, như đào đất hoặc vun đống. Nó sẽ giúp bạn nâng cấp căn cứ.",
+      "language": "italian",
+      "position": 82360,
+      "length": 294
+    },
+    {
+      "id": 420,
+      "key": "utf16_entry_420",
+      "original_text": "Un autómata que aparece en el Gran Hoyo, experto en trabajos pesados como elevar el terreno o excavar. ¡Seguro que puede ayudarte a desarrollar tu base!",
+      "translated_text": "Một cỗ máy tự động xuất hiện ở Đại Hố, chuyên về các công việc nặng nhọc như nâng địa hình hoặc đào đất. Chắc chắn nó có thể giúp bạn xây dựng căn cứ!",
+      "language": "spanish",
+      "position": 83066,
+      "length": 306
+    }
+  ]
+}

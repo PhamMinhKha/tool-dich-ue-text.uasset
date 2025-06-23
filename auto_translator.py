@@ -101,7 +101,7 @@ class AutoTranslator:
             self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
             print(f"🤖 Gemini - Sử dụng API key #{self.current_key_index + 1}/{len(self.api_keys)}")
         elif self.ai_engine == "chatgpt":
-            openai.api_key = current_key
+            # Không cần set openai.api_key global, sẽ dùng client pattern
             self.model_name = "gpt-3.5-turbo"
             print(f"🤖 ChatGPT - Sử dụng API key #{self.current_key_index + 1}/{len(self.api_keys)}")
     
@@ -331,6 +331,15 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
                 if translation.startswith('"') and translation.endswith('"'):
                     translation = translation[1:-1]
                 
+                # Kiểm tra cuối cùng: nếu translation vẫn chứa text gốc, loại bỏ nó
+                if text in translation and translation != text:
+                    # Nếu translation chứa text gốc, tìm và loại bỏ
+                    if translation.startswith(text):
+                        remaining = translation[len(text):].strip()
+                        if remaining.startswith('" -> "') or remaining.startswith(' -> '):
+                            translation = remaining.split('"')[-1] if '"' in remaining else remaining.split(' -> ')[-1]
+                            translation = translation.strip().strip('"')
+                
                 # Validate và khôi phục command tags nếu cần
                 translation = self.validate_command_tags(text, translation)
                 
@@ -377,32 +386,34 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
         
         while total_attempts < max_total_attempts:
             try:
-                prompt = f"""Hãy dịch đoạn text sau sang tiếng Việt một cách tự nhiên và phù hợp với ngữ cảnh game:
+                prompt = f"""Dịch text sau sang tiếng Việt cho game. CHỈ trả về bản dịch, KHÔNG bao gồm text gốc hay ký hiệu "->".
 
-Text: "{text}"
+Text cần dịch: "{text}"
 
-Yêu cầu QUAN TRỌNG:
-- Dịch chính xác và tự nhiên cho game
-- Giữ nguyên ý nghĩa gốc
-- Sử dụng thuật ngữ game phù hợp
-- **TUYỆT ĐỐI KHÔNG ĐƯỢC dịch bất kỳ nội dung nào bên trong:**
-  * Dấu ngoặc vuông [...] - giữ nguyên hoàn toàn
-  * Dấu ngoặc nhọn <...> - giữ nguyên hoàn toàn
-  * Các command tags như <CMD_MENU_ENTER>, <CMD_MENU_BACK>, <CMD_JUMP>, <CMD_BTL_ATTACK>, v.v.
-- Giữ nguyên hoàn toàn các ký hiệu đặc biệt và command tags
-- Chỉ trả về bản dịch, không giải thích
-- Nếu text chứa ký tự Nhật Bản, hãy dịch phần có thể dịch được
+Quy tắc:
+- Dịch tự nhiên cho game
+- Giữ nguyên [...] và <...>
+- Giữ nguyên command tags như <CMD_MENU_ENTER>
+- CHỈ trả về bản dịch tiếng Việt
+- KHÔNG viết dạng "text gốc -> bản dịch"
+- KHÔNG giải thích
 
-Ví dụ CHÍNH XÁC:
-- "Press <CMD_MENU_ENTER> to continue" -> "Nhấn <CMD_MENU_ENTER> để tiếp tục"
-- "<CMD_MENU_BACK>" -> "<CMD_MENU_BACK>" (KHÔNG dịch thành "Trở lại")
-- "[CGUIDE_INVALID]<CMD_MENU_BACK>[C]" -> "[CGUIDE_INVALID]<CMD_MENU_BACK>[C]"
-- "Hello [WORLD]" -> "Xin chào [WORLD]"
-- "Jump with <CMD_JUMP>" -> "Nhảy bằng <CMD_JUMP>"
+Ví dụ đúng:
+Input: "Press <CMD_MENU_ENTER> to continue"
+Output: "Nhấn <CMD_MENU_ENTER> để tiếp tục"
 
-LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy trả về CHÍNH XÁC như vậy, KHÔNG dịch."""
+Input: "<CMD_MENU_BACK>"
+Output: "<CMD_MENU_BACK>"
+
+Input: "Hello [WORLD]"
+Output: "Xin chào [WORLD]"
+
+Bản dịch:"""
                 
-                response = openai.ChatCompletion.create(
+                # Sử dụng OpenAI API v1.0+
+                client = openai.OpenAI(api_key=self.api_keys[self.current_key_index])
+                
+                response = client.chat.completions.create(
                     model=self.model_name,
                     messages=[
                         {"role": "system", "content": "Bạn là một chuyên gia dịch thuật game, chuyên dịch từ tiếng Anh sang tiếng Việt."},
@@ -417,6 +428,26 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
                 # Loại bỏ dấu ngoặc kép nếu có
                 if translation.startswith('"') and translation.endswith('"'):
                     translation = translation[1:-1]
+                
+                # Xử lý nếu ChatGPT trả về format "text gốc -> bản dịch"
+                if ' -> ' in translation:
+                    # Lấy phần sau dấu ->
+                    translation = translation.split(' -> ')[-1].strip()
+                    # Loại bỏ dấu ngoặc kép nếu có
+                    if translation.startswith('"') and translation.endswith('"'):
+                        translation = translation[1:-1]
+                elif '" -> "' in translation:
+                    # Xử lý format "text" -> "dịch"
+                    parts = translation.split('" -> "')
+                    if len(parts) >= 2:
+                        translation = parts[-1].rstrip('"')
+                elif translation.startswith(f'"{text}"'):
+                    # Xử lý nếu bắt đầu bằng text gốc trong ngoặc kép
+                    translation = translation[len(f'"{text}"'):].strip()
+                    if translation.startswith(' -> '):
+                        translation = translation[4:].strip()
+                    if translation.startswith('"') and translation.endswith('"'):
+                        translation = translation[1:-1]
                 
                 # Validate và khôi phục command tags nếu cần
                 translation = self.validate_command_tags(text, translation)
@@ -494,7 +525,7 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
             return
         
         if not output_file:
-            output_file = input_file.replace('.json', '_vietnamese.json')
+            output_file = input_file.replace('.json', '.json')
         
         print(f"\n📁 Đang dịch file: {input_file}")
         print(f"📄 File đầu ra: {output_file}")
@@ -611,7 +642,7 @@ LƯU Ý: Nếu text chỉ chứa command tag (như "<CMD_MENU_ENTER>"), hãy tr�
         # Dịch từng file
         for json_file in json_files:
             input_path = os.path.join(folder_path, json_file)
-            output_path = os.path.join(output_folder, json_file.replace('.json', '_vietnamese.json'))
+            output_path = os.path.join(output_folder, json_file.replace('.json', '.json'))
             
             self.translate_json_file(input_path, output_path)
             print("\n" + "="*80 + "\n")

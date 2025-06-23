@@ -304,6 +304,33 @@ Demo sẽ kiểm tra:
 ```
 **Giải pháp**: Chờ một lúc rồi chạy lại, cache sẽ giúp bỏ qua text đã dịch
 
+### Lỗi OpenAI API version (ChatGPT)
+```
+❌ You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0
+```
+**Giải pháp**: 
+- Cập nhật requirements: `pip install -r requirements.txt`
+- Hoặc downgrade: `pip install openai==0.28` (không khuyến nghị)
+- Code đã được cập nhật để hỗ trợ OpenAI API v1.0+
+
+### Lỗi ChatGPT trả về format sai
+
+**Vấn đề:** ChatGPT trả về kết quả dạng `"text gốc" -> "bản dịch"` thay vì chỉ bản dịch
+
+**Ví dụ lỗi:**
+```json
+"Lingua testo": "Lingua testo\" -> \"Ngôn ngữ thử nghiệm"
+```
+
+**Nguyên nhân:** ChatGPT có xu hướng trả về format giải thích thay vì chỉ kết quả
+
+**Giải pháp:** 
+- Code đã được cập nhật để tự động phát hiện và loại bỏ format sai này
+- Prompt đã được tối ưu để ChatGPT chỉ trả về bản dịch
+- Thêm logic xử lý để làm sạch output
+
+**Lưu ý:** Nếu vẫn gặp vấn đề, hãy xóa cache và dịch lại
+
 ## 📝 Cấu Trúc File JSON
 
 File JSON input có cấu trúc:
